@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.2765625" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.4484375" />
         <entry key="app/src/main/res/layout/calendar_family_window.xml" value="0.25625" />
         <entry key="app/src/main/res/layout/popup_calendar_window.xml" value="0.46875" />
         <entry key="app/src/main/res/layout/popup_sleep_calendar_window.xml" value="0.2546875" />

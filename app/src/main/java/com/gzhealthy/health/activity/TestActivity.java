@@ -44,7 +44,7 @@ import butterknife.ButterKnife;
  */
 public class TestActivity extends BaseAct {
 
-    private boolean islogin;
+//    private boolean islogin;
 
 //    @BindView(R.id.ll_search)
 //    LinearLayout ll_search;
@@ -83,7 +83,7 @@ public class TestActivity extends BaseAct {
     protected void init(Bundle savedInstanceState) {
         ButterKnife.bind(this);
 //        mImmersionBar.statusBarColor(R.color.white).barAlpha(0.5f).statusBarDarkFont(true).init();
-        islogin = SPCache.getBoolean("islogin", false);
+//        islogin = SPCache.getBoolean("islogin", false);
         setstatueColor(R.color.white);
         setBarLeftIcon(R.mipmap.login_back);
         setTitle("测试用例");

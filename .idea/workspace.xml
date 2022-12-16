@@ -46,7 +46,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa89d390-c04c-4951-92f4-08be2865d368" name="Default Changelist" comment="" />
+    <list default="true" id="fa89d390-c04c-4951-92f4-08be2865d368" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gzhealthy/health/activity/TestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gzhealthy/health/activity/TestActivity.java" afterDir="false" />
+    </list>
     <list id="9bfdab47-e53f-490d-b112-a25ccde0f657" name="登录校验调整" comment="" />
     <list id="916f9a6e-4b97-4b1a-bc80-42bdb5787de6" name="资讯H5加载方式调整" comment="资讯H5加载方式调整">
       <changelist_data name="yangyong" email="769856557@qq.com" date="1630468916000" />
@@ -124,7 +127,7 @@
     <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1wTlxUWdKwr1vDwkK4wIpuUNH2b" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
