@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./jiguang/libs/jcore-android-2.7.6.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jiguang/libs/jcore-android-2.7.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gzhealthy.health"
+    android:installLocation="preferExternal">
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission  android:name="android.permission.WRITE_SETTINGS" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"  tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_LOGS" tools:ignore="ProtectedPermissions" />
+<!--    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />-->
+<!--    <uses-permission android:name="android.permission.CALL_PHONE" />-->
+<!--    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />-->
+
+
+    <application
+        android:name="com.gzhealthy.health.base.HealthApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:resizeableActivity="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon,android:allowBackup">
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="e734683c7e08f226ff913449fe97baec" />
+
+        <!--适配刘海屏、水滴屏 Android P -->
+        <meta-data
+            android:name="android.vendor.full_screen"
+            android:value="true" />
+
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+
+        <activity android:name=".activity.WalkAndCalorieActivity" />
+        <activity android:name=".activity.InsertSosContactsActivity" />
+<!--        <activity android:name=".activity.QRCaptureActivity" />-->
+        <activity
+            android:name=".activity.HealthDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:theme="@style/NoActivityFullscreen">
+            <!--        <activity android:name="com.gzhealthy.health.activity.WelcomeActivity">-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="um.61454b7d2a91a03cef4c6b69"/>
+            </intent-filter>
+        </activity> <!-- 主页 -->
+        <activity
+            android:name=".activity.HomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" /> <!-- 登录 -->
+        <!--通用WebView-->
+        <activity
+            android:name=".activity.WebViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".activity.account.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" /> <!-- 地图 -->
+        <activity
+            android:name=".activity.MapActivity"
+            android:screenOrientation="portrait" /> <!-- 二维码扫描 -->
+        <activity
+            android:name=".activity.QrcodeActivity"
+            android:screenOrientation="portrait" /> <!-- 应用设置 -->
+        <activity
+            android:name=".activity.AppSettingActivity"
+            android:screenOrientation="portrait" /> <!-- 密码设置 -->
+        <activity
+            android:name=".activity.account.LoginPwsSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.account.BangDingPhoneActivity"
+            android:screenOrientation="portrait" /> <!-- 注册界面 -->
+        <activity
+            android:name=".activity.account.RegistActivity"
+            android:screenOrientation="portrait" /> <!-- 注册界面2 -->
+        <activity
+            android:name=".activity.account.Regist2Activity"
+            android:screenOrientation="portrait" /> <!-- 忘记密码界面1 -->
+        <activity
+            android:name=".activity.account.ForgetPwd1Activity"
+            android:screenOrientation="portrait" /> <!-- 忘记密码界面2 -->
+        <activity
+            android:name=".activity.account.ForgetPwd2Activity"
+            android:screenOrientation="portrait" /> <!-- 第三方登录界面 -->
+        <activity
+            android:name=".activity.account.ThirdLoginManageActivity"
+            android:screenOrientation="portrait" /> <!-- 关于应用 -->
+        <activity
+            android:name=".activity.AboutHealthActivity"
+            android:screenOrientation="portrait" /> <!-- 意见反馈 -->
+        <activity
+            android:name=".activity.FeedBackActivity"
+            android:screenOrientation="portrait" /> <!-- 报故障 -->
+        <activity
+            android:name=".activity.FeedBackDetailActivity"
+            android:screenOrientation="portrait" /> <!-- 个人资料 -->
+        <activity
+            android:name=".activity.account.PersonInofActivity"
+            android:screenOrientation="portrait" /> <!-- 实名认证 -->
+        <activity
+            android:name=".activity.account.RealNameCheckActivity"
+            android:screenOrientation="portrait" /> <!-- 个人资料修改 -->
+        <activity
+            android:name=".activity.account.UserNickNameChangeActivity"
+            android:screenOrientation="portrait" /> <!-- 修改昵称  -->
+        <activity
+            android:name=".activity.OperationContactsActivity"
+            android:screenOrientation="portrait" /> <!-- 添加编辑联系人 -->
+        <activity
+            android:name=".activity.MyCollectActivity"
+            android:screenOrientation="portrait" /> <!-- 我的收藏 -->
+        <activity
+            android:name=".activity.BindInfoActivity"
+            android:screenOrientation="portrait" /> <!-- 绑定信息 -->
+        <activity
+            android:name=".activity.BindInfo2Activity"
+            android:screenOrientation="portrait" /> <!-- 绑定信息2 -->
+        <activity
+            android:name=".activity.SearchResultsActivity"
+            android:windowSoftInputMode="stateAlwaysVisible"
+            android:screenOrientation="portrait" /> <!-- 资讯搜索界面 -->
+        <activity
+            android:name=".activity.TestActivity"
+            android:screenOrientation="portrait" /> <!-- <activity -->
+        <activity
+            android:name=".activity.SosMessageActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- SOS消息列表 -->
+
+        <activity
+            android:name=".activity.SosMessageDetailsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 紧急消息详情 -->
+
+        <activity
+            android:name=".activity.BodyInfoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 身体信息 -->
+
+        <activity
+            android:name=".activity.SharedMemberMobileActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 共享成员 -->
+
+        <activity
+            android:name=".activity.SharedMemberNicknameActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 共享成员 -->
+
+        <activity
+            android:name=".activity.ModifyRemarkNicknameActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 修改备注昵称 -->
+
+        <activity
+            android:name=".activity.ScanRelationActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 扫码关联 -->
+
+        <activity
+            android:name=".activity.SharedMemberVerifyCodeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 共享成员 -->
+
+        <activity
+            android:name=".activity.HealthArchivesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 健康档案 -->
+
+        <activity
+            android:name=".activity.ChineseMedicineBodyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 中医体质 -->
+
+        <activity
+            android:name=".activity.MedicationRecordActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 用药记录 -->
+        <activity
+            android:name=".activity.MedicationDetailsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 用药记录 -->
+        <activity
+            android:name=".activity.MedicationAddActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 新增用药记录 -->
+        <activity
+            android:name=".activity.MyCardPackageActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /><!-- 我的卡包 -->
+
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true" />
+
+        <activity
+            android:name=".activity.WatchBindOperationActivity"
+            android:screenOrientation="portrait" /><!-- SOS消息列表 -->
+        <activity
+            android:name=".activity.report.HealthyReportActivity"
+            android:screenOrientation="portrait" /><!-- 健康报告 -->
+        <activity
+            android:name=".activity.ECGActivity"
+            android:screenOrientation="portrait" /><!-- 心电原生页面 -->
+        <activity
+            android:name=".activity.ArticleHtmlActivity"
+            android:screenOrientation="portrait" /><!-- 资讯WEB -->
+<!--        <activity-->
+<!--            android:name=".activity.ECGHtmlActivity"-->
+<!--            android:screenOrientation="portrait" />&lt;!&ndash; 心电图WEB &ndash;&gt;-->
+        <activity
+            android:name=".activity.HealthBodyInfoActivity"
+            android:screenOrientation="portrait" /><!-- 健康档案 -->
+        <activity
+            android:name=".activity.HealthFileDiseaseActivity"
+            android:screenOrientation="portrait" /><!-- 健康档案 病史 -->
+        <activity
+            android:name=".activity.AboutHealthContentActivity"
+            android:screenOrientation="portrait" /><!-- 介绍 隐私-->
+        <activity
+            android:name=".activity.CustomerServiceActivity"
+            android:screenOrientation="portrait" /><!-- 客服-->
+
+        <activity
+            android:name=".activity.report.HealthyReportResultActivity"
+            android:screenOrientation="portrait" /><!-- 健康报告结果-->
+
+        <activity
+            android:name=".activity.report.HealthyReportBigDataActivity"
+            android:screenOrientation="portrait" /><!-- 健康大数据-->
+        <activity
+            android:name=".activity.report.HealthyReportQuestionActivity"
+            android:screenOrientation="portrait" /><!-- 健康大数据-->
+        <activity
+            android:name=".activity.report.HealthyReportHistoryActivity"
+            android:screenOrientation="portrait" /><!-- 健康报告历史-->
+        <activity
+            android:name=".activity.report.HealthyReportLoadingActivity"
+            android:screenOrientation="portrait" /><!-- 健康报告loading页面-->
+        <activity
+            android:name=".activity.account.OrgforgetPwd1Activity"
+            android:screenOrientation="portrait" /><!-- 忘记原密码1页面-->
+        <activity
+            android:name=".activity.account.OrgforgetPwd2Activity"
+            android:screenOrientation="portrait" /><!-- 忘记原密码2页面-->
+        <activity
+            android:name=".activity.AccountSafeActivity"
+            android:screenOrientation="portrait" /><!-- 账户安全页面-->
+        <activity
+            android:name=".activity.ChangePhoneActivity"
+            android:screenOrientation="portrait" /><!-- 更换手机页面-->
+        <activity
+            android:name=".activity.WatchOperationDetailActivity"
+            android:screenOrientation="portrait" /><!-- 设备详情页面-->
+        <activity
+            android:name=".activity.WatchBindWaitingActivity"
+            android:screenOrientation="portrait" /><!-- 绑定设备等待页面-->
+        <activity
+            android:name=".activity.VideoConsultationActivity"
+            android:screenOrientation="portrait" /><!-- 视频连线页面-->
+        <activity
+            android:name=".activity.MyMessageActivity"
+            android:screenOrientation="portrait" /><!-- 系统消息页面-->
+        <activity
+            android:name=".activity.MyMessageDetailActivity"
+            android:screenOrientation="portrait" /><!-- 系统消息详情页面-->
+        <activity
+            android:name=".activity.SleepMonitoringActivity"
+            android:screenOrientation="portrait" /><!-- 睡眠监测页面-->
+        <activity
+            android:name=".activity.HealthyClockActivity"
+            android:screenOrientation="portrait" /><!-- 睡眠时钟页面-->
+        <activity
+            android:name=".activity.HealthCardManagerActivity"
+            android:screenOrientation="portrait" /><!-- 管理卡片页面-->
+        <activity
+            android:name=".activity.HealthFileActivity"
+            android:screenOrientation="portrait" /><!-- 无创检测报告-->
+        <activity
+            android:name=".activity.report.HealthyTianReportActivity"
+            android:screenOrientation="portrait" /><!-- 体安报告页面-->
+        <activity
+            android:name=".activity.report.HealthyHRVReportActivity"
+            android:screenOrientation="portrait" /><!-- 体安HRV页面-->
+        <activity
+            android:name=".activity.MyFamilyInviteActivity"
+            android:screenOrientation="portrait" /><!-- 成员邀请页面-->
+        <activity
+            android:name=".activity.MyFamilyPersonActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" /><!-- 家庭成员页面-->
+        <activity
+            android:name=".activity.MyFamilyPersonDetailActivity"
+            android:screenOrientation="portrait" /><!-- 家庭成员详情页面-->
+        <activity
+            android:name=".activity.MyFamilyAuthorityActivity"
+            android:screenOrientation="portrait" /><!-- 成员权限详情页面-->
+        <activity
+            android:name=".activity.BloodSugarRecordAddActivity"
+            android:screenOrientation="portrait" /><!-- 血糖添加页面-->
+        <activity
+            android:name=".activity.BloodPressureRecordAddActivity"
+            android:screenOrientation="portrait" /><!-- 血压添加页面-->
+        <activity
+            android:name=".activity.OperationBindScanActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/><!-- 添加设备扫码页面-->
+        <activity
+            android:name=".activity.SecurityFenceActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/><!-- 安全围栏设置-->
+        <activity
+            android:name=".activity.SecurityFenceEntryIntoforceTimeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/><!-- 安全围栏生效时间-->
+        <activity
+            android:name=".activity.SecurityFenceRangeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/><!-- 安全围栏范围-->
+        <activity
+            android:name=".activity.DiseaseRecordActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/><!-- 病历记录-->
+        <activity
+            android:name=".activity.DiseaseDetailsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/><!-- 病历记录详情-->
+        <activity
+            android:name=".activity.DiseaseAddActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/><!-- 病历记录详情-->
+        <activity
+            android:name=".activity.SafeFenceMapActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/><!-- 安全围栏地图-->
+        <activity
+            android:name=".activity.SecurityFenceContactsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/><!-- 安全围栏提醒人列表-->
+        <activity
+            android:name=".activity.ShowBigPhotoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateAlwaysHidden"/><!--  大图浏览-->
+        <activity
+            android:name=".activity.DesinfectionBlueToothActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <service android:name="com.gzhealthy.health.service.ExitAppService" />
+
+        <!-- 微信 -->
+        <activity
+            android:name="com.gzhealthy.health.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            tools:ignore="DuplicateActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.gzhealthy.health.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <receiver
+            android:name=".push.MyJPushMessageReceiver"
+            android:enabled="true"
+            android:exported="false">
+
+            <intent-filter>
+
+                <!-- Required 用户注册 SDK 的 intent -->
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <!-- Required 用户接收 SDK 消息的 intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!-- Required 用户接收 SDK 通知栏信息的 intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <!-- Required 用户打开自定义通知栏的 intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+
+                <category android:name="com.gzhealthy.health" />
+            </intent-filter>
+        </receiver>
+
+<!--        <receiver android:name=".receiver.PhoneStateReceiver">-->
+<!--            <intent-filter android:priority="1000">-->
+<!--                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />-->
+<!--                <action android:name="android.intent.action.PHONE_STATE" />-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
+
+        <service android:name=".service.ExitAppService" />
+
+
+        <!--   这个是自定义Service，要继承极光JCommonService，可以在更多手机平台上使得推送通道保持的更稳定 &ndash;&gt; &ndash;&gt;&ndash;&gt;-->
+        <service
+            android:name=".service.MyJPushService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":pushcore">
+            <intent-filter>
+                <action android:name="cn.jiguang.user.service.action" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.HealthyBackgroundService"
+            android:enabled="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </service> <!-- 电话拦截 -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+</manifest>

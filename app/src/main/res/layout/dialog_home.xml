@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="53dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:background="@drawable/gradient_fffcef_ffffff_90_8">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            tools:src="@mipmap/dialog_home_blood_sugar" />
+
+        <TextView
+            android:id="@+id/tvHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="28dp"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:textColor="#ff333333"
+            android:textSize="14sp"
+            tools:text="xxxxxxx" />
+
+        <Button
+            android:id="@+id/btTop"
+            android:layout_width="168dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            tools:background="@drawable/shape_ffb72a_36"
+            tools:text="xxxx" />
+
+
+        <Button
+            android:id="@+id/btBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp"
+            android:background="@null"
+            android:gravity="center"
+            android:text="忽略"
+            android:textColor="#ff999999"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</LinearLayout>

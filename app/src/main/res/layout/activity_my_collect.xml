@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/ptr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_msg_list_bottom"
+        android:addStatesFromChildren="true">
+
+<!--        <com.scwang.smartrefresh.layout.header.ClassicsHeader-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:drawablePadding="@dimen/common_margin_10"
+                android:background="#f8f8f8"
+                android:paddingTop="100dp"
+                android:drawableTop="@mipmap/icon_no_data_collection"
+                android:text="暂无收藏记录哟~"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_collect_list"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_msg_list_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ccc" />
+
+        <TextView
+            android:id="@+id/tv_msg_list_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawablePadding="@dimen/common_margin_12"
+            android:paddingLeft="@dimen/common_margin"
+            android:text="全选"
+            android:textColor="@color/text_color_1"
+            android:textSize="@dimen/txt_middle_16" />
+
+
+        <TextView
+            android:id="@+id/tv_msg_list_delete"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:background="@drawable/button_cancle_collect"
+            android:gravity="center"
+            android:text="取消收藏"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+</RelativeLayout>

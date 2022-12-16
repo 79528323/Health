@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rect_radius"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lay_all_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="14dp"
+            android:paddingEnd="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:paddingVertical="@dimen/common_margin_10"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="全天"
+                    android:textColor="@color/global_333333"
+                    android:textSize="15sp" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24小时对监测设备离开安全围栏报警"
+                    android:layout_marginTop="@dimen/common_margin_5"
+                    android:textColor="@color/global_999999"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/select_all_day"
+                style="@style/secrity_hook_style"
+                android:layout_marginEnd="@dimen/common_margin_5"
+                android:button="@null" />
+
+<!--            <Button-->
+<!--                android:id="@+id/select_all_day"-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="25dp"-->
+<!--                android:background="@mipmap/icon_hook_b"-->
+<!--                android:visibility="gone"-->
+<!--                tools:visibility="visible"-->
+<!--                android:layout_marginEnd="@dimen/common_margin_5"-->
+<!--                android:button="@null" />-->
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#EEEEEE"/>
+
+
+        <LinearLayout
+            android:id="@+id/lay_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="14dp"
+            android:paddingEnd="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:paddingVertical="@dimen/common_margin_10"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="白天"
+                    android:textColor="@color/global_333333"
+                    android:textSize="15sp" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8:00-20:00对监测设备离开安全围栏报警"
+                    android:layout_marginTop="@dimen/common_margin_5"
+                    android:textColor="@color/global_999999"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/select_day"
+                style="@style/secrity_hook_style"
+                android:layout_marginEnd="@dimen/common_margin_5"
+                android:button="@null" />
+
+<!--            <Button-->
+<!--                android:id="@+id/select_day"-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="25dp"-->
+<!--                android:visibility="gone"-->
+<!--                android:background="@mipmap/icon_hook_b"-->
+<!--                android:layout_marginEnd="@dimen/common_margin_5"-->
+<!--                android:button="@null" />-->
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="15dp"
+        android:background="@drawable/bg_rect_radiu"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lay_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自定义时间"
+                    android:textColor="@color/global_333333"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tx_custom_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设置自定义时间"
+                    android:layout_marginTop="@dimen/common_margin_5"
+                    android:textColor="@color/global_999999"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/select_custom_day"
+                style="@style/secrity_hook_style"
+                android:layout_marginEnd="@dimen/common_margin_5"
+                android:button="@null" />
+
+
+<!--            <Button-->
+<!--                android:id="@+id/select_custom_day"-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="25dp"-->
+<!--                android:visibility="gone"-->
+<!--                tools:visibility="visible"-->
+<!--                android:background="@mipmap/icon_hook_b"-->
+<!--                android:layout_marginEnd="@dimen/common_margin_5"-->
+<!--                android:button="@null" />-->
+        </LinearLayout>
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#EEEEEE"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/container_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="*"
+                            android:textStyle="bold"
+                            android:textColor="#D83535"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="开始时间"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal_14" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/start_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@mipmap/icon_right"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:textColor="@color/global_999999"
+                        android:textSize="15sp"
+                        android:hint="请选择"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#EEEEEE"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="*"
+                            android:textStyle="bold"
+                            android:textColor="#D83535"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="结束时间"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal_14" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/end_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@mipmap/icon_right"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:textColor="@color/global_999999"
+                        android:textSize="15sp"
+                        android:hint="请选择" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

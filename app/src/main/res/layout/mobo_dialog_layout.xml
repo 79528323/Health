@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/common_dialog_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/common_dialog_top_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dip" />
+
+        <TextView
+            android:id="@+id/common_dialog_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/common_dialog_top_icon"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:textColor="#4c4c4c"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common_dialog_top_layout">
+
+        <LinearLayout
+            android:id="@+id/common_dialog_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/common_dialog_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="10"
+                android:paddingLeft="20dip"
+                android:paddingTop="15dip"
+                android:paddingRight="15dip"
+                android:paddingBottom="20dip"
+                android:scrollbars="vertical"
+                android:text=""
+                android:textColor="#7f7f7f"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/common_dialog_custom_view_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/common_dialog_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/common_dialog_content_layout"
+            android:layout_centerHorizontal="true"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/common_dialog_left_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#7f7f7f"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/common_dialog_right_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#1dcabf"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

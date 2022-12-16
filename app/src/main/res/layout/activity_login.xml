@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <com.gzhealthy.health.widget.ReboundScrollView
+        android:layout_above="@id/bottom_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HELLO\n欢迎加入体安！"
+                    android:textColor="#333333"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <!--    <LinearLayout-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="25dp"-->
+            <!--        android:layout_marginLeft="@dimen/durban_dp_30"-->
+            <!--        android:layout_marginTop="50dp"-->
+            <!--        android:layout_marginRight="@dimen/durban_dp_30"-->
+            <!--        android:gravity="center_vertical"-->
+            <!--        android:orientation="horizontal">-->
+
+            <!--        <View-->
+            <!--            android:layout_width="1dp"-->
+            <!--            android:layout_height="15dp"-->
+            <!--            android:layout_marginStart="15dp"-->
+            <!--            android:layout_marginEnd="15dp"-->
+            <!--            android:background="#EEEEEE"-->
+            <!--            android:gravity="center_vertical" />-->
+
+
+            <!--    </LinearLayout>-->
+
+            <LinearLayout
+                style="@style/ll_style_normal"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="20dp">
+
+                <com.gzhealthy.health.widget.edittext.ClearableEditText
+                    android:id="@+id/et_name"
+                    style="@style/tv_regist_hint"
+                    android:layout_weight="1"
+                    android:hint="@string/login_name_hint"
+                    android:paddingStart="10dp"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textColorHint="#CCCCCC"
+                    android:textColor="@color/text_color_1"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_horizontal_margin_left_right1"
+                android:layout_marginLeft="@dimen/common_margin_30"
+                android:layout_marginRight="@dimen/common_margin_30" />
+
+            <LinearLayout
+                android:id="@+id/ll_password"
+                style="@style/ll_style_normal"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="30dp">
+
+                <com.gzhealthy.health.widget.edittext.ClearableEditText
+                    android:id="@+id/et_psw"
+                    style="@style/tv_regist_hint1"
+                    android:layout_width="350dp"
+                    android:layout_weight="1"
+                    android:hint="请输入密码"
+                    android:inputType="textPassword"
+                    android:maxLength="16"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/global_333333"
+                    android:textColorHint="#CCCCCC"
+                    android:textSize="@dimen/txt_middle_16" />
+
+                <ImageView
+                    android:id="@+id/ic_pws_visiable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ic_login_hide_pressed"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ic_pws_unvisiable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ic_login_hide_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_sms"
+                style="@style/ll_style_normal"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:visibility="gone"
+                android:layout_marginEnd="30dp">
+
+                <com.gzhealthy.health.widget.edittext.ClearableEditText
+                    android:id="@+id/et_phone_psws"
+                    style="@style/tv_regist_hint1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="@string/regist_phone_psw_hint"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/global_333333"
+                    android:textColorHint="#CCCCCC"
+                    android:textSize="@dimen/txt_middle_16" />
+
+                <com.gzhealthy.health.widget.ValidateCodeView
+                    android:id="@+id/tv_sendcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="获取验证码"
+                    android:textSize="@dimen/txt_normal_14" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_horizontal_margin_left_right1"
+                android:layout_marginLeft="@dimen/common_margin_30"
+                android:layout_marginRight="@dimen/common_margin_30" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end">
+
+
+                <TextView
+                    android:id="@+id/tv_login_psw_forget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="忘记密码"
+                    android:layout_marginEnd="30dp"
+                    android:padding="@dimen/common_margin_5"
+                    android:textColor="@color/global_666666"
+                    android:textSize="13sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_sure"
+                style="@style/menu_red"
+                android:layout_height="@dimen/common_margin_50"
+                android:layout_marginLeft="@dimen/common_margin_30"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="@dimen/common_margin_30"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/btn_commit"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/login"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="@dimen/common_margin_30"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:layout_marginRight="@dimen/common_margin_30"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_sms_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="短信登录"
+                        android:padding="@dimen/common_margin_5"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_password_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="密码登录"
+                        android:visibility="gone"
+                        android:padding="@dimen/common_margin_5"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="13sp" />
+
+                </FrameLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="#EEEEEE"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/tv_login_regist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/common_margin_5"
+                    android:text="立即注册"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="25dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/common_margin_20"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="@dimen/common_margin_50"
+                        android:layout_height="0.5dp"
+                        android:background="#CCCCCC"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:layout_marginStart="@dimen/common_margin_20"
+                        android:layout_marginEnd="@dimen/common_margin_20"
+                        android:textColor="@color/global_999999"
+                        android:text="其它登录方式"/>
+
+                    <View
+                        android:layout_width="@dimen/common_margin_50"
+                        android:layout_height="0.5dp"
+                        android:background="#CCCCCC"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/btn_weixin_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_marginBottom="@dimen/common_margin_60"
+                    android:src="@mipmap/icon_reg_wx" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.gzhealthy.health.widget.ReboundScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/common_margin_10"
+        android:paddingBottom="@dimen/common_margin_30"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/agree"
+            style="@style/hook_style"
+            android:layout_marginEnd="@dimen/common_margin_5"
+            android:button="@null" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="我已阅读并同意体安"
+                android:textColor="#CCCCCC"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_user_agreement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="《用户协议》"
+                android:textColor="#13D1AE"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="及"
+                android:textColor="#CCCCCC"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_privacy_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="《隐私政策》"
+                android:textColor="#13D1AE"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

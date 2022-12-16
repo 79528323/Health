@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <View style="@style/div_style">
+
+    </View>
+
+    <com.gzhealthy.health.widget.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:layout_marginTop="@dimen/dp_40"
+                android:src="@mipmap/app_logo" />
+
+            <TextView
+                style="@style/common_16_text_style_202020"
+                android:layout_marginTop="18sp"
+                android:text="体安客户端"
+                android:textSize="18sp"
+                android:textColor="@color/global_333333" />
+
+            <TextView
+                android:id="@+id/tv_code"
+                style="@style/common_16_text_style_202020"
+                android:layout_marginTop="@dimen/common_margin_12"
+                android:text=""
+                android:textColor="#999999"
+                android:textSize="@dimen/sp_12" />
+
+<!--            <View-->
+<!--                style="@style/margin_div"-->
+<!--                android:layout_marginTop="@dimen/album_dp_100">-->
+
+<!--            </View>-->
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/rl_user_phone"-->
+<!--                style="@style/re_userinfo">-->
+
+<!--                <TextView-->
+<!--                    style="@style/tv_userinfo_key"-->
+<!--                    android:ellipsize="end"-->
+<!--                    android:maxLength="12"-->
+<!--                    android:maxLines="1"-->
+<!--                    android:text="检查更新" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_phone"-->
+<!--                    style="@style/tv_userinfo_value"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    tools:text="有可升级版本" />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:src="@mipmap/ic_general_level_bg" />-->
+<!--            </RelativeLayout>-->
+
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/common_margin_80"
+                style="@style/re_userinfo">
+
+                <TextView
+                    android:id="@+id/lv_copany"
+                    style="@style/tv_userinfo_key"
+                    android:ellipsize="end"
+                    android:maxLength="12"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:text="公司介绍" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/ic_general_level_bg" />
+            </RelativeLayout>
+
+<!--            <View style="@style/margin_div"></View>-->
+
+            <RelativeLayout
+                android:visibility="gone"
+                style="@style/re_userinfo">
+
+                <TextView
+                    android:id="@+id/lv_shopph"
+                    style="@style/tv_userinfo_key"
+                    android:ellipsize="end"
+                    android:maxLength="12"
+                    android:maxLines="1"
+                    android:text="营业执照" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/ic_general_level_bg" />
+            </RelativeLayout>
+
+            <View
+                style="@style/margin_div"/>
+
+            <RelativeLayout
+                style="@style/re_userinfo">
+
+                <TextView
+                    android:id="@+id/lv_secrete"
+                    style="@style/tv_userinfo_key"
+                    android:ellipsize="end"
+                    android:maxLength="12"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:text="隐私协议" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/ic_general_level_bg" />
+            </RelativeLayout>
+
+<!--            <View style="@style/margin_div"></View>-->
+        </LinearLayout>
+    </com.gzhealthy.health.widget.ReboundScrollView>
+</LinearLayout>

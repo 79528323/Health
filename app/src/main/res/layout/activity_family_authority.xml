@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/default_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.gzhealthy.health.widget.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_above="@id/save"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:paddingStart="17dp"
+                android:paddingTop="23dp"
+                android:paddingBottom="@dimen/common_margin_24"
+                android:background="@drawable/bg_rect_radius"
+                android:orientation="horizontal">
+
+                <com.gzhealthy.health.widget.CircleImageView
+                    android:id="@+id/user_icon"
+                    android:layout_width="@dimen/common_margin_50"
+                    android:layout_height="@dimen/common_margin_50"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/common_margin_12"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/global_333333"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/txt_middle_16"
+                            tools:text="健康数据"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/uid"
+                        android:layout_marginTop="@dimen/common_margin_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/global_333333"
+                        android:textSize="13sp"
+                        tools:text="健康数据"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingStart="17dp"
+                android:paddingEnd="17dp"
+                android:paddingTop="17dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bg_rect_radius"
+                android:descendantFocusability="blocksDescendants">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/global_333333"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:text="TA可以看我的这些数据"/>
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="@dimen/common_margin_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/icon_member_walk"/>
+
+                        <TextView
+                            android:text="步数"
+                            android:layout_marginStart="@dimen/common_margin_10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal_14"/>
+
+                    </LinearLayout>
+
+
+
+                    <CheckBox
+                        android:id="@+id/walk_agree"
+                        style="@style/check_member_style"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="@dimen/common_margin_5"
+                        android:button="@null" />
+
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#EEEEEE"/>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="@dimen/common_margin_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/icon_member_rate"/>
+
+                        <TextView
+                            android:text="心率"
+                            android:layout_marginStart="@dimen/common_margin_10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal_14"/>
+
+                    </LinearLayout>
+
+
+
+                    <CheckBox
+                        android:id="@+id/rate_agree"
+                        style="@style/check_member_style"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="@dimen/common_margin_5"
+                        android:button="@null" />
+
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#EEEEEE"/>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="@dimen/common_margin_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/icon_member_pressure"/>
+
+                        <TextView
+                            android:text="血压"
+                            android:layout_marginStart="@dimen/common_margin_10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal_14"/>
+
+                    </LinearLayout>
+
+
+
+                    <CheckBox
+                        android:id="@+id/pressure_agree"
+                        style="@style/check_member_style"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="@dimen/common_margin_5"
+                        android:button="@null" />
+
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#EEEEEE"/>
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="@dimen/common_margin_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/icon_member_spo2"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_marginStart="@dimen/common_margin_10"
+                            android:text="血氧"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal_14" />
+
+                    </LinearLayout>
+
+
+
+                    <CheckBox
+                        android:id="@+id/spo2_agree"
+                        style="@style/check_member_style"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="@dimen/common_margin_5"
+                        android:button="@null" />
+
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#EEEEEE"/>
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="@dimen/common_margin_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/icon_member_sugar"/>
+
+                        <TextView
+                            android:text="血糖"
+                            android:layout_marginStart="@dimen/common_margin_10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal_14"/>
+
+                    </LinearLayout>
+
+
+
+                    <CheckBox
+                        android:id="@+id/sugar_agree"
+                        style="@style/check_member_style"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="@dimen/common_margin_5"
+                        android:button="@null" />
+
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#EEEEEE"/>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="@dimen/common_margin_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/icon_member_temperature"/>
+
+                        <TextView
+                            android:text="体温"
+                            android:layout_marginStart="@dimen/common_margin_10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal_14"/>
+
+                    </LinearLayout>
+
+
+
+                    <CheckBox
+                        android:id="@+id/temperature_agree"
+                        style="@style/check_member_style"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="@dimen/common_margin_5"
+                        android:button="@null" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+            <!--        <LinearLayout-->
+            <!--            android:id="@+id/see_my_author"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="@dimen/common_margin_60"-->
+            <!--            android:layout_marginHorizontal="@dimen/album_dp_15"-->
+            <!--            android:background="@mipmap/icon_member_detail_right_bg"-->
+            <!--            android:paddingHorizontal="17dp"-->
+            <!--            android:gravity="center_vertical"-->
+            <!--            android:orientation="horizontal">-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="TA可以看我的这些数据"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:textSize="@dimen/album_sp_16"-->
+            <!--                android:textColor="@color/white"/>-->
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:background="@mipmap/icon_member_detail_right"/>-->
+
+            <!--        </LinearLayout>-->
+
+
+            <!--        <LinearLayout-->
+            <!--            android:id="@+id/delete"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="@dimen/common_margin_60"-->
+            <!--            android:layout_marginTop="@dimen/album_dp_15"-->
+            <!--            android:layout_marginHorizontal="@dimen/album_dp_15"-->
+            <!--            android:background="@drawable/bg_rect_radius"-->
+            <!--            android:paddingHorizontal="17dp"-->
+            <!--            android:gravity="center"-->
+            <!--            android:orientation="horizontal">-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="删除成员"-->
+            <!--                android:textSize="15sp"-->
+            <!--                android:textColor="@color/colorPrimary"/>-->
+
+            <!--        </LinearLayout>-->
+
+        </LinearLayout>
+    </com.gzhealthy.health.widget.ReboundScrollView>
+
+
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:text="确定"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="@dimen/txt_middle_16"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/common_margin_20"
+        android:background="@drawable/button_nomal"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+</RelativeLayout>

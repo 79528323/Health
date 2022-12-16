@@ -1,0 +1,2241 @@
+{
+    "data": [{
+        "areaId": "152900",
+        "areaName": "阿拉善盟",
+        "firstLetter": "A",
+        "pinyin": "alashanmeng"
+    },
+        {
+            "areaId": "210300",
+            "areaName": "鞍山市",
+            "firstLetter": "A",
+            "pinyin": "anshanshi"
+        },
+        {
+            "areaId": "340800",
+            "areaName": "安庆市",
+            "firstLetter": "A",
+            "pinyin": "anqingshi"
+        },
+        {
+            "areaId": "410500",
+            "areaName": "安阳市",
+            "firstLetter": "A",
+            "pinyin": "anyangshi"
+        },
+        {
+            "areaId": "513200",
+            "areaName": "阿坝藏族羌族自治州",
+            "firstLetter": "A",
+            "pinyin": "abazangzuqiangzuzizhizhou"
+        },
+        {
+            "areaId": "520400",
+            "areaName": "安顺市",
+            "firstLetter": "A",
+            "pinyin": "anshunshi"
+        },
+        {
+            "areaId": "542500",
+            "areaName": "阿里地区",
+            "firstLetter": "A",
+            "pinyin": "alidiqu"
+        },
+        {
+            "areaId": "820100",
+            "areaName": "澳门半岛",
+            "firstLetter": "A",
+            "pinyin": "aomenbandao"
+        },
+        {
+            "areaId": "652900",
+            "areaName": "阿克苏地区",
+            "firstLetter": "A",
+            "pinyin": "akesudiqu"
+        },
+        {
+            "areaId": "610900",
+            "areaName": "安康市",
+            "firstLetter": "A",
+            "pinyin": "ankangshi"
+        },
+        {
+            "areaId": "654300",
+            "areaName": "阿勒泰地区",
+            "firstLetter": "A",
+            "pinyin": "aletaidiqu"
+        },
+        {
+            "areaId": "652700",
+            "areaName": "博尔塔拉蒙古自治州",
+            "firstLetter": "B",
+            "pinyin": "boertalamengguzizhizhou"
+        },
+        {
+            "areaId": "652800",
+            "areaName": "巴音郭楞蒙古自治州",
+            "firstLetter": "B",
+            "pinyin": "bayinguolengmengguzizhizhou"
+        },
+        {
+            "areaId": "620400",
+            "areaName": "白银市",
+            "firstLetter": "B",
+            "pinyin": "baiyinshi"
+        },
+        {
+            "areaId": "110100",
+            "areaName": "北京市",
+            "firstLetter": "B",
+            "pinyin": "beijingshi"
+        },
+        {
+            "areaId": "130600",
+            "areaName": "保定市",
+            "firstLetter": "B",
+            "pinyin": "baodingshi"
+        },
+        {
+            "areaId": "150200",
+            "areaName": "包头市",
+            "firstLetter": "B",
+            "pinyin": "baotoushi"
+        },
+        {
+            "areaId": "150800",
+            "areaName": "巴彦淖尔市",
+            "firstLetter": "B",
+            "pinyin": "bayannaoershi"
+        },
+        {
+            "areaId": "210500",
+            "areaName": "本溪市",
+            "firstLetter": "B",
+            "pinyin": "benxishi"
+        },
+        {
+            "areaId": "220600",
+            "areaName": "白山市",
+            "firstLetter": "B",
+            "pinyin": "baishanshi"
+        },
+        {
+            "areaId": "220800",
+            "areaName": "白城市",
+            "firstLetter": "B",
+            "pinyin": "baichengshi"
+        },
+        {
+            "areaId": "340300",
+            "areaName": "蚌埠市",
+            "firstLetter": "B",
+            "pinyin": "bangbushi"
+        },
+        {
+            "areaId": "341600",
+            "areaName": "亳州市",
+            "firstLetter": "B",
+            "pinyin": "bozhoushi"
+        },
+        {
+            "areaId": "371600",
+            "areaName": "滨州市",
+            "firstLetter": "B",
+            "pinyin": "binzhoushi"
+        },
+        {
+            "areaId": "450500",
+            "areaName": "北海市",
+            "firstLetter": "B",
+            "pinyin": "beihaishi"
+        },
+        {
+            "areaId": "451000",
+            "areaName": "百色市",
+            "firstLetter": "B",
+            "pinyin": "baiseshi"
+        },
+        {
+            "areaId": "511900",
+            "areaName": "巴中市",
+            "firstLetter": "B",
+            "pinyin": "bazhongshi"
+        },
+        {
+            "areaId": "520500",
+            "areaName": "毕节市",
+            "firstLetter": "B",
+            "pinyin": "bijieshi"
+        },
+        {
+            "areaId": "530500",
+            "areaName": "保山市",
+            "firstLetter": "B",
+            "pinyin": "baoshanshi"
+        },
+        {
+            "areaId": "610300",
+            "areaName": "宝鸡市",
+            "firstLetter": "B",
+            "pinyin": "baojishi"
+        },
+        {
+            "areaId": "130800",
+            "areaName": "承德市",
+            "firstLetter": "C",
+            "pinyin": "chengdeshi"
+        },
+        {
+            "areaId": "130900",
+            "areaName": "沧州市",
+            "firstLetter": "C",
+            "pinyin": "cangzhoushi"
+        },
+        {
+            "areaId": "150400",
+            "areaName": "赤峰市",
+            "firstLetter": "C",
+            "pinyin": "chifengshi"
+        },
+        {
+            "areaId": "211300",
+            "areaName": "朝阳市",
+            "firstLetter": "C",
+            "pinyin": "chaoyangshi"
+        },
+        {
+            "areaId": "320400",
+            "areaName": "常州市",
+            "firstLetter": "C",
+            "pinyin": "changzhoushi"
+        },
+        {
+            "areaId": "341100",
+            "areaName": "滁州市",
+            "firstLetter": "C",
+            "pinyin": "chuzhoushi"
+        },
+        {
+            "areaId": "341700",
+            "areaName": "池州市",
+            "firstLetter": "C",
+            "pinyin": "chizhoushi"
+        },
+        {
+            "areaId": "430700",
+            "areaName": "常德市",
+            "firstLetter": "C",
+            "pinyin": "changdeshi"
+        },
+        {
+            "areaId": "431000",
+            "areaName": "郴州市",
+            "firstLetter": "C",
+            "pinyin": "chenzhoushi"
+        },
+        {
+            "areaId": "445100",
+            "areaName": "潮州市",
+            "firstLetter": "C",
+            "pinyin": "chaozhoushi"
+        },
+        {
+            "areaId": "451400",
+            "areaName": "崇左市",
+            "firstLetter": "C",
+            "pinyin": "chongzuoshi"
+        },
+        {
+            "areaId": "510100",
+            "areaName": "成都市",
+            "firstLetter": "C",
+            "pinyin": "chengdoushi"
+        },
+        {
+            "areaId": "532300",
+            "areaName": "楚雄彝族自治州",
+            "firstLetter": "C",
+            "pinyin": "chuxiongyizuzizhizhou"
+        },
+        {
+            "areaId": "540300",
+            "areaName": "昌都市",
+            "firstLetter": "C",
+            "pinyin": "changdoushi"
+        },
+        {
+            "areaId": "652300",
+            "areaName": "昌吉回族自治州",
+            "firstLetter": "C",
+            "pinyin": "changjihuizuzizhizhou"
+        },
+        {
+            "areaId": "621100",
+            "areaName": "定西市",
+            "firstLetter": "D",
+            "pinyin": "dingxishi"
+        },
+        {
+            "areaId": "820200",
+            "areaName": "氹仔岛",
+            "firstLetter": "D",
+            "pinyin": "dangzidao"
+        },
+        {
+            "areaId": "140200",
+            "areaName": "大同市",
+            "firstLetter": "D",
+            "pinyin": "datongshi"
+        },
+        {
+            "areaId": "210200",
+            "areaName": "大连市",
+            "firstLetter": "D",
+            "pinyin": "dalianshi"
+        },
+        {
+            "areaId": "210600",
+            "areaName": "丹东市",
+            "firstLetter": "D",
+            "pinyin": "dandongshi"
+        },
+        {
+            "areaId": "230600",
+            "areaName": "大庆市",
+            "firstLetter": "D",
+            "pinyin": "daqingshi"
+        },
+        {
+            "areaId": "232700",
+            "areaName": "大兴安岭地区",
+            "firstLetter": "D",
+            "pinyin": "daxinganlingdiqu"
+        },
+        {
+            "areaId": "370500",
+            "areaName": "东营市",
+            "firstLetter": "D",
+            "pinyin": "dongyingshi"
+        },
+        {
+            "areaId": "371400",
+            "areaName": "德州市",
+            "firstLetter": "D",
+            "pinyin": "dezhoushi"
+        },
+        {
+            "areaId": "441900",
+            "areaName": "东莞市",
+            "firstLetter": "D",
+            "pinyin": "dongguanshi"
+        },
+        {
+            "areaId": "510600",
+            "areaName": "德阳市",
+            "firstLetter": "D",
+            "pinyin": "deyangshi"
+        },
+        {
+            "areaId": "511700",
+            "areaName": "达州市",
+            "firstLetter": "D",
+            "pinyin": "dazhoushi"
+        },
+        {
+            "areaId": "532900",
+            "areaName": "大理白族自治州",
+            "firstLetter": "D",
+            "pinyin": "dalibaizuzizhizhou"
+        },
+        {
+            "areaId": "533100",
+            "areaName": "德宏傣族景颇族自治州",
+            "firstLetter": "D",
+            "pinyin": "dehongdaizujingpozuzizhizhou"
+        },
+        {
+            "areaId": "533400",
+            "areaName": "迪庆藏族自治州",
+            "firstLetter": "D",
+            "pinyin": "diqingzangzuzizhizhou"
+        },
+        {
+            "areaId": "150600",
+            "areaName": "鄂尔多斯市",
+            "firstLetter": "E",
+            "pinyin": "eerduosishi"
+        },
+        {
+            "areaId": "420700",
+            "areaName": "鄂州市",
+            "firstLetter": "E",
+            "pinyin": "ezhoushi"
+        },
+        {
+            "areaId": "422800",
+            "areaName": "恩施土家族苗族自治州",
+            "firstLetter": "E",
+            "pinyin": "enshitujiazumiaozuzizhizhou"
+        },
+        {
+            "areaId": "210400",
+            "areaName": "抚顺市",
+            "firstLetter": "F",
+            "pinyin": "fushunshi"
+        },
+        {
+            "areaId": "210900",
+            "areaName": "阜新市",
+            "firstLetter": "F",
+            "pinyin": "fuxinshi"
+        },
+        {
+            "areaId": "341200",
+            "areaName": "阜阳市",
+            "firstLetter": "F",
+            "pinyin": "fuyangshi"
+        },
+        {
+            "areaId": "350100",
+            "areaName": "福州市",
+            "firstLetter": "F",
+            "pinyin": "fuzhoushi"
+        },
+        {
+            "areaId": "361000",
+            "areaName": "抚州市",
+            "firstLetter": "F",
+            "pinyin": "fuzhoushi"
+        },
+        {
+            "areaId": "440600",
+            "areaName": "佛山市",
+            "firstLetter": "F",
+            "pinyin": "foshanshi"
+        },
+        {
+            "areaId": "450600",
+            "areaName": "防城港市",
+            "firstLetter": "F",
+            "pinyin": "fangchenggangshi"
+        },
+        {
+            "areaId": "360700",
+            "areaName": "赣州市",
+            "firstLetter": "G",
+            "pinyin": "ganzhoushi"
+        },
+        {
+            "areaId": "440100",
+            "areaName": "广州市",
+            "firstLetter": "G",
+            "pinyin": "guangzhoushi"
+        },
+        {
+            "areaId": "450300",
+            "areaName": "桂林市",
+            "firstLetter": "G",
+            "pinyin": "guilinshi"
+        },
+        {
+            "areaId": "450800",
+            "areaName": "贵港市",
+            "firstLetter": "G",
+            "pinyin": "guigangshi"
+        },
+        {
+            "areaId": "510800",
+            "areaName": "广元市",
+            "firstLetter": "G",
+            "pinyin": "guangyuanshi"
+        },
+        {
+            "areaId": "511600",
+            "areaName": "广安市",
+            "firstLetter": "G",
+            "pinyin": "guanganshi"
+        },
+        {
+            "areaId": "513300",
+            "areaName": "甘孜藏族自治州",
+            "firstLetter": "G",
+            "pinyin": "ganzizangzuzizhizhou"
+        },
+        {
+            "areaId": "520100",
+            "areaName": "贵阳市",
+            "firstLetter": "G",
+            "pinyin": "guiyangshi"
+        },
+        {
+            "areaId": "640400",
+            "areaName": "固原市",
+            "firstLetter": "G",
+            "pinyin": "guyuanshi"
+        },
+        {
+            "areaId": "632600",
+            "areaName": "果洛藏族自治州",
+            "firstLetter": "G",
+            "pinyin": "guoluozangzuzizhizhou"
+        },
+        {
+            "areaId": "623000",
+            "areaName": "甘南藏族自治州",
+            "firstLetter": "G",
+            "pinyin": "gannanzangzuzizhizhou"
+        },
+        {
+            "areaId": "710200",
+            "areaName": "高雄市",
+            "firstLetter": "G",
+            "pinyin": "gaoxiongshi"
+        },
+        {
+            "areaId": "632500",
+            "areaName": "海南藏族自治州",
+            "firstLetter": "H",
+            "pinyin": "hainanzangzuzizhizhou"
+        },
+        {
+            "areaId": "630200",
+            "areaName": "海东市",
+            "firstLetter": "H",
+            "pinyin": "haidongshi"
+        },
+        {
+            "areaId": "632300",
+            "areaName": "黄南藏族自治州",
+            "firstLetter": "H",
+            "pinyin": "huangnanzangzuzizhizhou"
+        },
+        {
+            "areaId": "632200",
+            "areaName": "海北藏族自治州",
+            "firstLetter": "H",
+            "pinyin": "haibeizangzuzizhizhou"
+        },
+        {
+            "areaId": "652200",
+            "areaName": "哈密地区",
+            "firstLetter": "H",
+            "pinyin": "hamidiqu"
+        },
+        {
+            "areaId": "632800",
+            "areaName": "海西蒙古族藏族自治州",
+            "firstLetter": "H",
+            "pinyin": "haiximengguzuzangzuzizhizhou"
+        },
+        {
+            "areaId": "653200",
+            "areaName": "和田地区",
+            "firstLetter": "H",
+            "pinyin": "hetiandiqu"
+        },
+        {
+            "areaId": "610700",
+            "areaName": "汉中市",
+            "firstLetter": "H",
+            "pinyin": "hanzhongshi"
+        },
+        {
+            "areaId": "713500",
+            "areaName": "花莲县",
+            "firstLetter": "H",
+            "pinyin": "hualianxian"
+        },
+        {
+            "areaId": "130400",
+            "areaName": "邯郸市",
+            "firstLetter": "H",
+            "pinyin": "handanshi"
+        },
+        {
+            "areaId": "131100",
+            "areaName": "衡水市",
+            "firstLetter": "H",
+            "pinyin": "hengshuishi"
+        },
+        {
+            "areaId": "150100",
+            "areaName": "呼和浩特市",
+            "firstLetter": "H",
+            "pinyin": "huhehaoteshi"
+        },
+        {
+            "areaId": "150700",
+            "areaName": "呼伦贝尔市",
+            "firstLetter": "H",
+            "pinyin": "hulunbeiershi"
+        },
+        {
+            "areaId": "211400",
+            "areaName": "葫芦岛市",
+            "firstLetter": "H",
+            "pinyin": "huludaoshi"
+        },
+        {
+            "areaId": "230100",
+            "areaName": "哈尔滨市",
+            "firstLetter": "H",
+            "pinyin": "haerbinshi"
+        },
+        {
+            "areaId": "230400",
+            "areaName": "鹤岗市",
+            "firstLetter": "H",
+            "pinyin": "hegangshi"
+        },
+        {
+            "areaId": "231100",
+            "areaName": "黑河市",
+            "firstLetter": "H",
+            "pinyin": "heiheshi"
+        },
+        {
+            "areaId": "320800",
+            "areaName": "淮安市",
+            "firstLetter": "H",
+            "pinyin": "huaianshi"
+        },
+        {
+            "areaId": "330100",
+            "areaName": "杭州市",
+            "firstLetter": "H",
+            "pinyin": "hangzhoushi"
+        },
+        {
+            "areaId": "330500",
+            "areaName": "湖州市",
+            "firstLetter": "H",
+            "pinyin": "huzhoushi"
+        },
+        {
+            "areaId": "340100",
+            "areaName": "合肥市",
+            "firstLetter": "H",
+            "pinyin": "hefeishi"
+        },
+        {
+            "areaId": "340400",
+            "areaName": "淮南市",
+            "firstLetter": "H",
+            "pinyin": "huainanshi"
+        },
+        {
+            "areaId": "340600",
+            "areaName": "淮北市",
+            "firstLetter": "H",
+            "pinyin": "huaibeishi"
+        },
+        {
+            "areaId": "341000",
+            "areaName": "黄山市",
+            "firstLetter": "H",
+            "pinyin": "huangshanshi"
+        },
+        {
+            "areaId": "371700",
+            "areaName": "菏泽市",
+            "firstLetter": "H",
+            "pinyin": "hezeshi"
+        },
+        {
+            "areaId": "410600",
+            "areaName": "鹤壁市",
+            "firstLetter": "H",
+            "pinyin": "hebishi"
+        },
+        {
+            "areaId": "420200",
+            "areaName": "黄石市",
+            "firstLetter": "H",
+            "pinyin": "huangshishi"
+        },
+        {
+            "areaId": "421100",
+            "areaName": "黄冈市",
+            "firstLetter": "H",
+            "pinyin": "huanggangshi"
+        },
+        {
+            "areaId": "430400",
+            "areaName": "衡阳市",
+            "firstLetter": "H",
+            "pinyin": "hengyangshi"
+        },
+        {
+            "areaId": "431200",
+            "areaName": "怀化市",
+            "firstLetter": "H",
+            "pinyin": "huaihuashi"
+        },
+        {
+            "areaId": "441300",
+            "areaName": "惠州市",
+            "firstLetter": "H",
+            "pinyin": "huizhoushi"
+        },
+        {
+            "areaId": "441600",
+            "areaName": "河源市",
+            "firstLetter": "H",
+            "pinyin": "heyuanshi"
+        },
+        {
+            "areaId": "451100",
+            "areaName": "贺州市",
+            "firstLetter": "H",
+            "pinyin": "hezhoushi"
+        },
+        {
+            "areaId": "451200",
+            "areaName": "河池市",
+            "firstLetter": "H",
+            "pinyin": "hechishi"
+        },
+        {
+            "areaId": "460100",
+            "areaName": "海口市",
+            "firstLetter": "H",
+            "pinyin": "haikoushi"
+        },
+        {
+            "areaId": "532500",
+            "areaName": "红河哈尼族彝族自治州",
+            "firstLetter": "H",
+            "pinyin": "honghehanizuyizuzizhizhou"
+        },
+        {
+            "areaId": "140500",
+            "areaName": "晋城市",
+            "firstLetter": "J",
+            "pinyin": "jinchengshi"
+        },
+        {
+            "areaId": "140700",
+            "areaName": "晋中市",
+            "firstLetter": "J",
+            "pinyin": "jinzhongshi"
+        },
+        {
+            "areaId": "210700",
+            "areaName": "锦州市",
+            "firstLetter": "J",
+            "pinyin": "jinzhoushi"
+        },
+        {
+            "areaId": "211500",
+            "areaName": "金普新区",
+            "firstLetter": "J",
+            "pinyin": "jinpuxinqu"
+        },
+        {
+            "areaId": "220200",
+            "areaName": "吉林市",
+            "firstLetter": "J",
+            "pinyin": "jilinshi"
+        },
+        {
+            "areaId": "230300",
+            "areaName": "鸡西市",
+            "firstLetter": "J",
+            "pinyin": "jixishi"
+        },
+        {
+            "areaId": "230800",
+            "areaName": "佳木斯市",
+            "firstLetter": "J",
+            "pinyin": "jiamusishi"
+        },
+        {
+            "areaId": "330400",
+            "areaName": "嘉兴市",
+            "firstLetter": "J",
+            "pinyin": "jiaxingshi"
+        },
+        {
+            "areaId": "330700",
+            "areaName": "金华市",
+            "firstLetter": "J",
+            "pinyin": "jinhuashi"
+        },
+        {
+            "areaId": "360200",
+            "areaName": "景德镇市",
+            "firstLetter": "J",
+            "pinyin": "jingdezhenshi"
+        },
+        {
+            "areaId": "360400",
+            "areaName": "九江市",
+            "firstLetter": "J",
+            "pinyin": "jiujiangshi"
+        },
+        {
+            "areaId": "360800",
+            "areaName": "吉安市",
+            "firstLetter": "J",
+            "pinyin": "jianshi"
+        },
+        {
+            "areaId": "370100",
+            "areaName": "济南市",
+            "firstLetter": "J",
+            "pinyin": "jinanshi"
+        },
+        {
+            "areaId": "370800",
+            "areaName": "济宁市",
+            "firstLetter": "J",
+            "pinyin": "jiningshi"
+        },
+        {
+            "areaId": "410800",
+            "areaName": "焦作市",
+            "firstLetter": "J",
+            "pinyin": "jiaozuoshi"
+        },
+        {
+            "areaId": "420800",
+            "areaName": "荆门市",
+            "firstLetter": "J",
+            "pinyin": "jingmenshi"
+        },
+        {
+            "areaId": "421000",
+            "areaName": "荆州市",
+            "firstLetter": "J",
+            "pinyin": "jingzhoushi"
+        },
+        {
+            "areaId": "440700",
+            "areaName": "江门市",
+            "firstLetter": "J",
+            "pinyin": "jiangmenshi"
+        },
+        {
+            "areaId": "445200",
+            "areaName": "揭阳市",
+            "firstLetter": "J",
+            "pinyin": "jieyangshi"
+        },
+        {
+            "areaId": "810200",
+            "areaName": "九龙",
+            "firstLetter": "J",
+            "pinyin": "jiulong"
+        },
+        {
+            "areaId": "713700",
+            "areaName": "金门县",
+            "firstLetter": "J",
+            "pinyin": "jinmenxian"
+        },
+        {
+            "areaId": "713000",
+            "areaName": "嘉义县",
+            "firstLetter": "J",
+            "pinyin": "jiayixian"
+        },
+        {
+            "areaId": "710700",
+            "areaName": "嘉义市",
+            "firstLetter": "J",
+            "pinyin": "jiayishi"
+        },
+        {
+            "areaId": "710300",
+            "areaName": "基隆市",
+            "firstLetter": "J",
+            "pinyin": "jilongshi"
+        },
+        {
+            "areaId": "620200",
+            "areaName": "嘉峪关市",
+            "firstLetter": "J",
+            "pinyin": "jiayuguanshi"
+        },
+        {
+            "areaId": "620900",
+            "areaName": "酒泉市",
+            "firstLetter": "J",
+            "pinyin": "jiuquanshi"
+        },
+        {
+            "areaId": "620300",
+            "areaName": "金昌市",
+            "firstLetter": "J",
+            "pinyin": "jinchangshi"
+        },
+        {
+            "areaId": "653100",
+            "areaName": "喀什地区",
+            "firstLetter": "K",
+            "pinyin": "kashendiqu"
+        },
+        {
+            "areaId": "650200",
+            "areaName": "克拉玛依市",
+            "firstLetter": "K",
+            "pinyin": "kelamayishi"
+        },
+        {
+            "areaId": "653000",
+            "areaName": "克孜勒苏柯尔克孜自治州",
+            "firstLetter": "K",
+            "pinyin": "kezilesukeerkezizizhizhou"
+        },
+        {
+            "areaId": "410200",
+            "areaName": "开封市",
+            "firstLetter": "K",
+            "pinyin": "kaifengshi"
+        },
+        {
+            "areaId": "530100",
+            "areaName": "昆明市",
+            "firstLetter": "K",
+            "pinyin": "kunmingshi"
+        },
+        {
+            "areaId": "131000",
+            "areaName": "廊坊市",
+            "firstLetter": "L",
+            "pinyin": "langfangshi"
+        },
+        {
+            "areaId": "141000",
+            "areaName": "临汾市",
+            "firstLetter": "L",
+            "pinyin": "linfenshi"
+        },
+        {
+            "areaId": "141100",
+            "areaName": "吕梁市",
+            "firstLetter": "L",
+            "pinyin": "lu:liangshi"
+        },
+        {
+            "areaId": "211000",
+            "areaName": "辽阳市",
+            "firstLetter": "L",
+            "pinyin": "liaoyangshi"
+        },
+        {
+            "areaId": "220400",
+            "areaName": "辽源市",
+            "firstLetter": "L",
+            "pinyin": "liaoyuanshi"
+        },
+        {
+            "areaId": "320700",
+            "areaName": "连云港市",
+            "firstLetter": "L",
+            "pinyin": "lianyungangshi"
+        },
+        {
+            "areaId": "331100",
+            "areaName": "丽水市",
+            "firstLetter": "L",
+            "pinyin": "lishuishi"
+        },
+        {
+            "areaId": "341500",
+            "areaName": "六安市",
+            "firstLetter": "L",
+            "pinyin": "liuanshi"
+        },
+        {
+            "areaId": "350800",
+            "areaName": "龙岩市",
+            "firstLetter": "L",
+            "pinyin": "longyanshi"
+        },
+        {
+            "areaId": "371200",
+            "areaName": "莱芜市",
+            "firstLetter": "L",
+            "pinyin": "laiwushi"
+        },
+        {
+            "areaId": "371300",
+            "areaName": "临沂市",
+            "firstLetter": "L",
+            "pinyin": "linyishi"
+        },
+        {
+            "areaId": "371500",
+            "areaName": "聊城市",
+            "firstLetter": "L",
+            "pinyin": "liaochengshi"
+        },
+        {
+            "areaId": "410300",
+            "areaName": "洛阳市",
+            "firstLetter": "L",
+            "pinyin": "luoyangshi"
+        },
+        {
+            "areaId": "411100",
+            "areaName": "漯河市",
+            "firstLetter": "L",
+            "pinyin": "luoheshi"
+        },
+        {
+            "areaId": "431300",
+            "areaName": "娄底市",
+            "firstLetter": "L",
+            "pinyin": "loudishi"
+        },
+        {
+            "areaId": "450200",
+            "areaName": "柳州市",
+            "firstLetter": "L",
+            "pinyin": "liuzhoushi"
+        },
+        {
+            "areaId": "451300",
+            "areaName": "来宾市",
+            "firstLetter": "L",
+            "pinyin": "laibinshi"
+        },
+        {
+            "areaId": "500300",
+            "areaName": "两江新区",
+            "firstLetter": "L",
+            "pinyin": "liangjiangxinqu"
+        },
+        {
+            "areaId": "510500",
+            "areaName": "泸州市",
+            "firstLetter": "L",
+            "pinyin": "luzhoushi"
+        },
+        {
+            "areaId": "511100",
+            "areaName": "乐山市",
+            "firstLetter": "L",
+            "pinyin": "leshanshi"
+        },
+        {
+            "areaId": "513400",
+            "areaName": "凉山彝族自治州",
+            "firstLetter": "L",
+            "pinyin": "liangshanyizuzizhizhou"
+        },
+        {
+            "areaId": "520200",
+            "areaName": "六盘水市",
+            "firstLetter": "L",
+            "pinyin": "liupanshuishi"
+        },
+        {
+            "areaId": "530700",
+            "areaName": "丽江市",
+            "firstLetter": "L",
+            "pinyin": "lijiangshi"
+        },
+        {
+            "areaId": "530900",
+            "areaName": "临沧市",
+            "firstLetter": "L",
+            "pinyin": "lincangshi"
+        },
+        {
+            "areaId": "540100",
+            "areaName": "拉萨市",
+            "firstLetter": "L",
+            "pinyin": "lasashi"
+        },
+        {
+            "areaId": "542600",
+            "areaName": "林芝地区",
+            "firstLetter": "L",
+            "pinyin": "linzhidiqu"
+        },
+        {
+            "areaId": "620100",
+            "areaName": "兰州市",
+            "firstLetter": "L",
+            "pinyin": "lanzhoushi"
+        },
+        {
+            "areaId": "713800",
+            "areaName": "连江县",
+            "firstLetter": "L",
+            "pinyin": "lianjiangxian"
+        },
+        {
+            "areaId": "621200",
+            "areaName": "陇南市",
+            "firstLetter": "L",
+            "pinyin": "longnanshi"
+        },
+        {
+            "areaId": "820300",
+            "areaName": "路环岛",
+            "firstLetter": "L",
+            "pinyin": "luhuandao"
+        },
+        {
+            "areaId": "622900",
+            "areaName": "临夏回族自治州",
+            "firstLetter": "L",
+            "pinyin": "linxiahuizuzizhizhou"
+        },
+        {
+            "areaId": "712500",
+            "areaName": "苗栗县",
+            "firstLetter": "M",
+            "pinyin": "miaolixian"
+        },
+        {
+            "areaId": "231000",
+            "areaName": "牡丹江市",
+            "firstLetter": "M",
+            "pinyin": "mudanjiangshi"
+        },
+        {
+            "areaId": "340500",
+            "areaName": "马鞍山市",
+            "firstLetter": "M",
+            "pinyin": "maanshanshi"
+        },
+        {
+            "areaId": "440900",
+            "areaName": "茂名市",
+            "firstLetter": "M",
+            "pinyin": "maomingshi"
+        },
+        {
+            "areaId": "441400",
+            "areaName": "梅州市",
+            "firstLetter": "M",
+            "pinyin": "meizhoushi"
+        },
+        {
+            "areaId": "510700",
+            "areaName": "绵阳市",
+            "firstLetter": "M",
+            "pinyin": "mianyangshi"
+        },
+        {
+            "areaId": "511400",
+            "areaName": "眉山市",
+            "firstLetter": "M",
+            "pinyin": "meishanshi"
+        },
+        {
+            "areaId": "320100",
+            "areaName": "南京市",
+            "firstLetter": "N",
+            "pinyin": "nanjingshi"
+        },
+        {
+            "areaId": "320600",
+            "areaName": "南通市",
+            "firstLetter": "N",
+            "pinyin": "nantongshi"
+        },
+        {
+            "areaId": "330200",
+            "areaName": "宁波市",
+            "firstLetter": "N",
+            "pinyin": "ningboshi"
+        },
+        {
+            "areaId": "350700",
+            "areaName": "南平市",
+            "firstLetter": "N",
+            "pinyin": "nanpingshi"
+        },
+        {
+            "areaId": "350900",
+            "areaName": "宁德市",
+            "firstLetter": "N",
+            "pinyin": "ningdeshi"
+        },
+        {
+            "areaId": "360100",
+            "areaName": "南昌市",
+            "firstLetter": "N",
+            "pinyin": "nanchangshi"
+        },
+        {
+            "areaId": "411300",
+            "areaName": "南阳市",
+            "firstLetter": "N",
+            "pinyin": "nanyangshi"
+        },
+        {
+            "areaId": "450100",
+            "areaName": "南宁市",
+            "firstLetter": "N",
+            "pinyin": "nanningshi"
+        },
+        {
+            "areaId": "511000",
+            "areaName": "内江市",
+            "firstLetter": "N",
+            "pinyin": "neijiangshi"
+        },
+        {
+            "areaId": "511300",
+            "areaName": "南充市",
+            "firstLetter": "N",
+            "pinyin": "nanchongshi"
+        },
+        {
+            "areaId": "533300",
+            "areaName": "怒江傈僳族自治州",
+            "firstLetter": "N",
+            "pinyin": "nujianglisuzuzizhizhou"
+        },
+        {
+            "areaId": "542400",
+            "areaName": "那曲地区",
+            "firstLetter": "N",
+            "pinyin": "neiqudiqu"
+        },
+        {
+            "areaId": "712800",
+            "areaName": "南投县",
+            "firstLetter": "N",
+            "pinyin": "nantouxian"
+        },
+        {
+            "areaId": "713300",
+            "areaName": "屏东县",
+            "firstLetter": "P",
+            "pinyin": "pingdongxian"
+        },
+        {
+            "areaId": "713600",
+            "areaName": "澎湖县",
+            "firstLetter": "P",
+            "pinyin": "penghuxian"
+        },
+        {
+            "areaId": "620800",
+            "areaName": "平凉市",
+            "firstLetter": "P",
+            "pinyin": "pingliangshi"
+        },
+        {
+            "areaId": "211100",
+            "areaName": "盘锦市",
+            "firstLetter": "P",
+            "pinyin": "panjinshi"
+        },
+        {
+            "areaId": "350300",
+            "areaName": "莆田市",
+            "firstLetter": "P",
+            "pinyin": "putianshi"
+        },
+        {
+            "areaId": "360300",
+            "areaName": "萍乡市",
+            "firstLetter": "P",
+            "pinyin": "pingxiangshi"
+        },
+        {
+            "areaId": "410400",
+            "areaName": "平顶山市",
+            "firstLetter": "P",
+            "pinyin": "pingdingshanshi"
+        },
+        {
+            "areaId": "410900",
+            "areaName": "濮阳市",
+            "firstLetter": "P",
+            "pinyin": "puyangshi"
+        },
+        {
+            "areaId": "510400",
+            "areaName": "攀枝花市",
+            "firstLetter": "P",
+            "pinyin": "panzhihuashi"
+        },
+        {
+            "areaId": "530800",
+            "areaName": "普洱市",
+            "firstLetter": "P",
+            "pinyin": "puershi"
+        },
+        {
+            "areaId": "130300",
+            "areaName": "秦皇岛市",
+            "firstLetter": "Q",
+            "pinyin": "qinhuangdaoshi"
+        },
+        {
+            "areaId": "230200",
+            "areaName": "齐齐哈尔市",
+            "firstLetter": "Q",
+            "pinyin": "qiqihaershi"
+        },
+        {
+            "areaId": "230900",
+            "areaName": "七台河市",
+            "firstLetter": "Q",
+            "pinyin": "qitaiheshi"
+        },
+        {
+            "areaId": "330800",
+            "areaName": "衢州市",
+            "firstLetter": "Q",
+            "pinyin": "quzhoushi"
+        },
+        {
+            "areaId": "350500",
+            "areaName": "泉州市",
+            "firstLetter": "Q",
+            "pinyin": "quanzhoushi"
+        },
+        {
+            "areaId": "370200",
+            "areaName": "青岛市",
+            "firstLetter": "Q",
+            "pinyin": "qingdaoshi"
+        },
+        {
+            "areaId": "441800",
+            "areaName": "清远市",
+            "firstLetter": "Q",
+            "pinyin": "qingyuanshi"
+        },
+        {
+            "areaId": "450700",
+            "areaName": "钦州市",
+            "firstLetter": "Q",
+            "pinyin": "qinzhoushi"
+        },
+        {
+            "areaId": "522300",
+            "areaName": "黔西南布依族苗族自治州",
+            "firstLetter": "Q",
+            "pinyin": "qianxinanbuyizumiaozuzizhizhou"
+        },
+        {
+            "areaId": "522600",
+            "areaName": "黔东南苗族侗族自治州",
+            "firstLetter": "Q",
+            "pinyin": "qiandongnanmiaozudongzuzizhizhou"
+        },
+        {
+            "areaId": "522700",
+            "areaName": "黔南布依族苗族自治州",
+            "firstLetter": "Q",
+            "pinyin": "qiannanbuyizumiaozuzizhizhou"
+        },
+        {
+            "areaId": "530300",
+            "areaName": "曲靖市",
+            "firstLetter": "Q",
+            "pinyin": "qujingshi"
+        },
+        {
+            "areaId": "621000",
+            "areaName": "庆阳市",
+            "firstLetter": "Q",
+            "pinyin": "qingyangshi"
+        },
+        {
+            "areaId": "371100",
+            "areaName": "日照市",
+            "firstLetter": "R",
+            "pinyin": "rizhaoshi"
+        },
+        {
+            "areaId": "540200",
+            "areaName": "日喀则市",
+            "firstLetter": "R",
+            "pinyin": "rikazeshi"
+        },
+        {
+            "areaId": "130100",
+            "areaName": "石家庄市",
+            "firstLetter": "S",
+            "pinyin": "shijiazhuangshi"
+        },
+        {
+            "areaId": "140600",
+            "areaName": "朔州市",
+            "firstLetter": "S",
+            "pinyin": "shuozhoushi"
+        },
+        {
+            "areaId": "210100",
+            "areaName": "沈阳市",
+            "firstLetter": "S",
+            "pinyin": "shenyangshi"
+        },
+        {
+            "areaId": "220300",
+            "areaName": "四平市",
+            "firstLetter": "S",
+            "pinyin": "sipingshi"
+        },
+        {
+            "areaId": "220700",
+            "areaName": "松原市",
+            "firstLetter": "S",
+            "pinyin": "songyuanshi"
+        },
+        {
+            "areaId": "230500",
+            "areaName": "双鸭山市",
+            "firstLetter": "S",
+            "pinyin": "shuangyashanshi"
+        },
+        {
+            "areaId": "231200",
+            "areaName": "绥化市",
+            "firstLetter": "S",
+            "pinyin": "suihuashi"
+        },
+        {
+            "areaId": "310100",
+            "areaName": "上海市",
+            "firstLetter": "S",
+            "pinyin": "shanghaishi"
+        },
+        {
+            "areaId": "320500",
+            "areaName": "苏州市",
+            "firstLetter": "S",
+            "pinyin": "suzhoushi"
+        },
+        {
+            "areaId": "321300",
+            "areaName": "宿迁市",
+            "firstLetter": "S",
+            "pinyin": "suqianshi"
+        },
+        {
+            "areaId": "330600",
+            "areaName": "绍兴市",
+            "firstLetter": "S",
+            "pinyin": "shaoxingshi"
+        },
+        {
+            "areaId": "341300",
+            "areaName": "宿州市",
+            "firstLetter": "S",
+            "pinyin": "suzhoushi"
+        },
+        {
+            "areaId": "350200",
+            "areaName": "厦门市",
+            "firstLetter": "S",
+            "pinyin": "shamenshi"
+        },
+        {
+            "areaId": "350400",
+            "areaName": "三明市",
+            "firstLetter": "S",
+            "pinyin": "sanmingshi"
+        },
+        {
+            "areaId": "361100",
+            "areaName": "上饶市",
+            "firstLetter": "S",
+            "pinyin": "shangraoshi"
+        },
+        {
+            "areaId": "411200",
+            "areaName": "三门峡市",
+            "firstLetter": "S",
+            "pinyin": "sanmenxiashi"
+        },
+        {
+            "areaId": "411400",
+            "areaName": "商丘市",
+            "firstLetter": "S",
+            "pinyin": "shangqiushi"
+        },
+        {
+            "areaId": "420300",
+            "areaName": "十堰市",
+            "firstLetter": "S",
+            "pinyin": "shiyanshi"
+        },
+        {
+            "areaId": "421300",
+            "areaName": "随州市",
+            "firstLetter": "S",
+            "pinyin": "suizhoushi"
+        },
+        {
+            "areaId": "430500",
+            "areaName": "邵阳市",
+            "firstLetter": "S",
+            "pinyin": "shaoyangshi"
+        },
+        {
+            "areaId": "440200",
+            "areaName": "韶关市",
+            "firstLetter": "S",
+            "pinyin": "shaoguanshi"
+        },
+        {
+            "areaId": "440300",
+            "areaName": "深圳市",
+            "firstLetter": "S",
+            "pinyin": "shenzhenshi"
+        },
+        {
+            "areaId": "440500",
+            "areaName": "汕头市",
+            "firstLetter": "S",
+            "pinyin": "shantoushi"
+        },
+        {
+            "areaId": "441500",
+            "areaName": "汕尾市",
+            "firstLetter": "S",
+            "pinyin": "shanweishi"
+        },
+        {
+            "areaId": "460200",
+            "areaName": "三亚市",
+            "firstLetter": "S",
+            "pinyin": "sanyashi"
+        },
+        {
+            "areaId": "460300",
+            "areaName": "三沙市",
+            "firstLetter": "S",
+            "pinyin": "sanshashi"
+        },
+        {
+            "areaId": "510900",
+            "areaName": "遂宁市",
+            "firstLetter": "S",
+            "pinyin": "suiningshi"
+        },
+        {
+            "areaId": "542200",
+            "areaName": "山南地区",
+            "firstLetter": "S",
+            "pinyin": "shannandiqu"
+        },
+        {
+            "areaId": "640200",
+            "areaName": "石嘴山市",
+            "firstLetter": "S",
+            "pinyin": "shizuishanshi"
+        },
+        {
+            "areaId": "611000",
+            "areaName": "商洛市",
+            "firstLetter": "S",
+            "pinyin": "shangluoshi"
+        },
+        {
+            "areaId": "713400",
+            "areaName": "台东县",
+            "firstLetter": "T",
+            "pinyin": "taidongxian"
+        },
+        {
+            "areaId": "654200",
+            "areaName": "塔城地区",
+            "firstLetter": "T",
+            "pinyin": "tachengdiqu"
+        },
+        {
+            "areaId": "710500",
+            "areaName": "台南市",
+            "firstLetter": "T",
+            "pinyin": "tainanshi"
+        },
+        {
+            "areaId": "710400",
+            "areaName": "台中市",
+            "firstLetter": "T",
+            "pinyin": "taizhongshi"
+        },
+        {
+            "areaId": "620500",
+            "areaName": "天水市",
+            "firstLetter": "T",
+            "pinyin": "tianshuishi"
+        },
+        {
+            "areaId": "710100",
+            "areaName": "台北市",
+            "firstLetter": "T",
+            "pinyin": "taibeishi"
+        },
+        {
+            "areaId": "652100",
+            "areaName": "吐鲁番地区",
+            "firstLetter": "T",
+            "pinyin": "tulufandiqu"
+        },
+        {
+            "areaId": "712300",
+            "areaName": "桃园县",
+            "firstLetter": "T",
+            "pinyin": "taoyuanxian"
+        },
+        {
+            "areaId": "120100",
+            "areaName": "天津市",
+            "firstLetter": "T",
+            "pinyin": "tianjinshi"
+        },
+        {
+            "areaId": "130200",
+            "areaName": "唐山市",
+            "firstLetter": "T",
+            "pinyin": "tangshanshi"
+        },
+        {
+            "areaId": "140100",
+            "areaName": "太原市",
+            "firstLetter": "T",
+            "pinyin": "taiyuanshi"
+        },
+        {
+            "areaId": "150500",
+            "areaName": "通辽市",
+            "firstLetter": "T",
+            "pinyin": "tongliaoshi"
+        },
+        {
+            "areaId": "211200",
+            "areaName": "铁岭市",
+            "firstLetter": "T",
+            "pinyin": "tielingshi"
+        },
+        {
+            "areaId": "220500",
+            "areaName": "通化市",
+            "firstLetter": "T",
+            "pinyin": "tonghuashi"
+        },
+        {
+            "areaId": "321200",
+            "areaName": "泰州市",
+            "firstLetter": "T",
+            "pinyin": "taizhoushi"
+        },
+        {
+            "areaId": "331000",
+            "areaName": "台州市",
+            "firstLetter": "T",
+            "pinyin": "taizhoushi"
+        },
+        {
+            "areaId": "340700",
+            "areaName": "铜陵市",
+            "firstLetter": "T",
+            "pinyin": "tonglingshi"
+        },
+        {
+            "areaId": "370900",
+            "areaName": "泰安市",
+            "firstLetter": "T",
+            "pinyin": "taianshi"
+        },
+        {
+            "areaId": "520600",
+            "areaName": "铜仁市",
+            "firstLetter": "T",
+            "pinyin": "tongrenshi"
+        },
+        {
+            "areaId": "610200",
+            "areaName": "铜川市",
+            "firstLetter": "T",
+            "pinyin": "tongchuanshi"
+        },
+        {
+            "areaId": "150300",
+            "areaName": "乌海市",
+            "firstLetter": "W",
+            "pinyin": "wuhaishi"
+        },
+        {
+            "areaId": "150900",
+            "areaName": "乌兰察布市",
+            "firstLetter": "W",
+            "pinyin": "wulanchabushi"
+        },
+        {
+            "areaId": "320200",
+            "areaName": "无锡市",
+            "firstLetter": "W",
+            "pinyin": "wuxishi"
+        },
+        {
+            "areaId": "330300",
+            "areaName": "温州市",
+            "firstLetter": "W",
+            "pinyin": "wenzhoushi"
+        },
+        {
+            "areaId": "340200",
+            "areaName": "芜湖市",
+            "firstLetter": "W",
+            "pinyin": "wuhushi"
+        },
+        {
+            "areaId": "370700",
+            "areaName": "潍坊市",
+            "firstLetter": "W",
+            "pinyin": "weifangshi"
+        },
+        {
+            "areaId": "371000",
+            "areaName": "威海市",
+            "firstLetter": "W",
+            "pinyin": "weihaishi"
+        },
+        {
+            "areaId": "420100",
+            "areaName": "武汉市",
+            "firstLetter": "W",
+            "pinyin": "wuhanshi"
+        },
+        {
+            "areaId": "450400",
+            "areaName": "梧州市",
+            "firstLetter": "W",
+            "pinyin": "wuzhoushi"
+        },
+        {
+            "areaId": "532600",
+            "areaName": "文山壮族苗族自治州",
+            "firstLetter": "W",
+            "pinyin": "wenshanzhuangzumiaozuzizhizhou"
+        },
+        {
+            "areaId": "620600",
+            "areaName": "武威市",
+            "firstLetter": "W",
+            "pinyin": "wuweishi"
+        },
+        {
+            "areaId": "640300",
+            "areaName": "吴忠市",
+            "firstLetter": "W",
+            "pinyin": "wuzhongshi"
+        },
+        {
+            "areaId": "650100",
+            "areaName": "乌鲁木齐市",
+            "firstLetter": "W",
+            "pinyin": "wulumuqishi"
+        },
+        {
+            "areaId": "610500",
+            "areaName": "渭南市",
+            "firstLetter": "W",
+            "pinyin": "weinanshi"
+        },
+        {
+            "areaId": "630100",
+            "areaName": "西宁市",
+            "firstLetter": "X",
+            "pinyin": "xiningshi"
+        },
+        {
+            "areaId": "810100",
+            "areaName": "香港岛",
+            "firstLetter": "X",
+            "pinyin": "xianggangdao"
+        },
+        {
+            "areaId": "810300",
+            "areaName": "新界",
+            "firstLetter": "X",
+            "pinyin": "xinjie"
+        },
+        {
+            "areaId": "610400",
+            "areaName": "咸阳市",
+            "firstLetter": "X",
+            "pinyin": "xianyangshi"
+        },
+        {
+            "areaId": "611100",
+            "areaName": "西咸新区",
+            "firstLetter": "X",
+            "pinyin": "xixianxinqu"
+        },
+        {
+            "areaId": "710600",
+            "areaName": "新竹市",
+            "firstLetter": "X",
+            "pinyin": "xinzhushi"
+        },
+        {
+            "areaId": "712400",
+            "areaName": "新竹县",
+            "firstLetter": "X",
+            "pinyin": "xinzhuxian"
+        },
+        {
+            "areaId": "710800",
+            "areaName": "新北市",
+            "firstLetter": "X",
+            "pinyin": "xinbeishi"
+        },
+        {
+            "areaId": "130500",
+            "areaName": "邢台市",
+            "firstLetter": "X",
+            "pinyin": "xingtaishi"
+        },
+        {
+            "areaId": "140900",
+            "areaName": "忻州市",
+            "firstLetter": "X",
+            "pinyin": "xinzhoushi"
+        },
+        {
+            "areaId": "152200",
+            "areaName": "兴安盟",
+            "firstLetter": "X",
+            "pinyin": "xinganmeng"
+        },
+        {
+            "areaId": "152500",
+            "areaName": "锡林郭勒盟",
+            "firstLetter": "X",
+            "pinyin": "xilinguolemeng"
+        },
+        {
+            "areaId": "320300",
+            "areaName": "徐州市",
+            "firstLetter": "X",
+            "pinyin": "xuzhoushi"
+        },
+        {
+            "areaId": "341800",
+            "areaName": "宣城市",
+            "firstLetter": "X",
+            "pinyin": "xuanchengshi"
+        },
+        {
+            "areaId": "360500",
+            "areaName": "新余市",
+            "firstLetter": "X",
+            "pinyin": "xinyushi"
+        },
+        {
+            "areaId": "410700",
+            "areaName": "新乡市",
+            "firstLetter": "X",
+            "pinyin": "xinxiangshi"
+        },
+        {
+            "areaId": "411000",
+            "areaName": "许昌市",
+            "firstLetter": "X",
+            "pinyin": "xuchangshi"
+        },
+        {
+            "areaId": "411500",
+            "areaName": "信阳市",
+            "firstLetter": "X",
+            "pinyin": "xinyangshi"
+        },
+        {
+            "areaId": "420600",
+            "areaName": "襄阳市",
+            "firstLetter": "X",
+            "pinyin": "xiangyangshi"
+        },
+        {
+            "areaId": "420900",
+            "areaName": "孝感市",
+            "firstLetter": "X",
+            "pinyin": "xiaoganshi"
+        },
+        {
+            "areaId": "421200",
+            "areaName": "咸宁市",
+            "firstLetter": "X",
+            "pinyin": "xianningshi"
+        },
+        {
+            "areaId": "430300",
+            "areaName": "湘潭市",
+            "firstLetter": "X",
+            "pinyin": "xiangtanshi"
+        },
+        {
+            "areaId": "433100",
+            "areaName": "湘西土家族苗族自治州",
+            "firstLetter": "X",
+            "pinyin": "xiangxitujiazumiaozuzizhizhou"
+        },
+        {
+            "areaId": "532800",
+            "areaName": "西双版纳傣族自治州",
+            "firstLetter": "X",
+            "pinyin": "xishuangbannadaizuzizhizhou"
+        },
+        {
+            "areaId": "610100",
+            "areaName": "西安市",
+            "firstLetter": "X",
+            "pinyin": "xianshi"
+        },
+        {
+            "areaId": "140300",
+            "areaName": "阳泉市",
+            "firstLetter": "Y",
+            "pinyin": "yangquanshi"
+        },
+        {
+            "areaId": "140800",
+            "areaName": "运城市",
+            "firstLetter": "Y",
+            "pinyin": "yunchengshi"
+        },
+        {
+            "areaId": "210800",
+            "areaName": "营口市",
+            "firstLetter": "Y",
+            "pinyin": "yingkoushi"
+        },
+        {
+            "areaId": "222400",
+            "areaName": "延边朝鲜族自治州",
+            "firstLetter": "Y",
+            "pinyin": "yanbianchaoxianzuzizhizhou"
+        },
+        {
+            "areaId": "230700",
+            "areaName": "伊春市",
+            "firstLetter": "Y",
+            "pinyin": "yichunshi"
+        },
+        {
+            "areaId": "320900",
+            "areaName": "盐城市",
+            "firstLetter": "Y",
+            "pinyin": "yanchengshi"
+        },
+        {
+            "areaId": "321000",
+            "areaName": "扬州市",
+            "firstLetter": "Y",
+            "pinyin": "yangzhoushi"
+        },
+        {
+            "areaId": "360600",
+            "areaName": "鹰潭市",
+            "firstLetter": "Y",
+            "pinyin": "yingtanshi"
+        },
+        {
+            "areaId": "360900",
+            "areaName": "宜春市",
+            "firstLetter": "Y",
+            "pinyin": "yichunshi"
+        },
+        {
+            "areaId": "370600",
+            "areaName": "烟台市",
+            "firstLetter": "Y",
+            "pinyin": "yantaishi"
+        },
+        {
+            "areaId": "420500",
+            "areaName": "宜昌市",
+            "firstLetter": "Y",
+            "pinyin": "yichangshi"
+        },
+        {
+            "areaId": "430600",
+            "areaName": "岳阳市",
+            "firstLetter": "Y",
+            "pinyin": "yueyangshi"
+        },
+        {
+            "areaId": "430900",
+            "areaName": "益阳市",
+            "firstLetter": "Y",
+            "pinyin": "yiyangshi"
+        },
+        {
+            "areaId": "431100",
+            "areaName": "永州市",
+            "firstLetter": "Y",
+            "pinyin": "yongzhoushi"
+        },
+        {
+            "areaId": "441700",
+            "areaName": "阳江市",
+            "firstLetter": "Y",
+            "pinyin": "yangjiangshi"
+        },
+        {
+            "areaId": "445300",
+            "areaName": "云浮市",
+            "firstLetter": "Y",
+            "pinyin": "yunfushi"
+        },
+        {
+            "areaId": "450900",
+            "areaName": "玉林市",
+            "firstLetter": "Y",
+            "pinyin": "yulinshi"
+        },
+        {
+            "areaId": "511500",
+            "areaName": "宜宾市",
+            "firstLetter": "Y",
+            "pinyin": "yibinshi"
+        },
+        {
+            "areaId": "511800",
+            "areaName": "雅安市",
+            "firstLetter": "Y",
+            "pinyin": "yaanshi"
+        },
+        {
+            "areaId": "530400",
+            "areaName": "玉溪市",
+            "firstLetter": "Y",
+            "pinyin": "yuxishi"
+        },
+        {
+            "areaId": "610600",
+            "areaName": "延安市",
+            "firstLetter": "Y",
+            "pinyin": "yananshi"
+        },
+        {
+            "areaId": "610800",
+            "areaName": "榆林市",
+            "firstLetter": "Y",
+            "pinyin": "yulinshi"
+        },
+        {
+            "areaId": "640100",
+            "areaName": "银川市",
+            "firstLetter": "Y",
+            "pinyin": "yinchuanshi"
+        },
+        {
+            "areaId": "712200",
+            "areaName": "宜兰县",
+            "firstLetter": "Y",
+            "pinyin": "yilanxian"
+        },
+        {
+            "areaId": "654000",
+            "areaName": "伊犁哈萨克自治州",
+            "firstLetter": "Y",
+            "pinyin": "yilihasakezizhizhou"
+        },
+        {
+            "areaId": "712900",
+            "areaName": "云林县",
+            "firstLetter": "Y",
+            "pinyin": "yunlinxian"
+        },
+        {
+            "areaId": "632700",
+            "areaName": "玉树藏族自治州",
+            "firstLetter": "Y",
+            "pinyin": "yushuzangzuzizhizhou"
+        },
+        {
+            "areaId": "640500",
+            "areaName": "中卫市",
+            "firstLetter": "Z",
+            "pinyin": "zhongweishi"
+        },
+        {
+            "areaId": "620700",
+            "areaName": "张掖市",
+            "firstLetter": "Z",
+            "pinyin": "zhangyeshi"
+        },
+        {
+            "areaId": "712700",
+            "areaName": "彰化县",
+            "firstLetter": "Z",
+            "pinyin": "zhanghuaxian"
+        },
+        {
+            "areaId": "659000",
+            "areaName": "新疆直辖县级",
+            "firstLetter": "Z",
+            "pinyin": "zhixiaxianji"
+        },
+        {
+            "areaId": "130700",
+            "areaName": "张家口市",
+            "firstLetter": "Z",
+            "pinyin": "zhangjiakoushi"
+        },
+        {
+            "areaId": "140400",
+            "areaName": "长治市",
+            "firstLetter": "Z",
+            "pinyin": "zhangzhishi"
+        },
+        {
+            "areaId": "220100",
+            "areaName": "长春市",
+            "firstLetter": "Z",
+            "pinyin": "zhangchunshi"
+        },
+        {
+            "areaId": "321100",
+            "areaName": "镇江市",
+            "firstLetter": "Z",
+            "pinyin": "zhenjiangshi"
+        },
+        {
+            "areaId": "330900",
+            "areaName": "舟山市",
+            "firstLetter": "Z",
+            "pinyin": "zhoushanshi"
+        },
+        {
+            "areaId": "331200",
+            "areaName": "舟山群岛新区",
+            "firstLetter": "Z",
+            "pinyin": "zhoushanqundaoxinqu"
+        },
+        {
+            "areaId": "350600",
+            "areaName": "漳州市",
+            "firstLetter": "Z",
+            "pinyin": "zhangzhoushi"
+        },
+        {
+            "areaId": "370300",
+            "areaName": "淄博市",
+            "firstLetter": "Z",
+            "pinyin": "ziboshi"
+        },
+        {
+            "areaId": "370400",
+            "areaName": "枣庄市",
+            "firstLetter": "Z",
+            "pinyin": "zaozhuangshi"
+        },
+        {
+            "areaId": "410100",
+            "areaName": "郑州市",
+            "firstLetter": "Z",
+            "pinyin": "zhengzhoushi"
+        },
+        {
+            "areaId": "411600",
+            "areaName": "周口市",
+            "firstLetter": "Z",
+            "pinyin": "zhoukoushi"
+        },
+        {
+            "areaId": "411700",
+            "areaName": "驻马店市",
+            "firstLetter": "Z",
+            "pinyin": "zhumadianshi"
+        },
+        {
+            "areaId": "419000",
+            "areaName": "河南省直辖县级",
+            "firstLetter": "Z",
+            "pinyin": "zhixiaxianji"
+        },
+        {
+            "areaId": "429000",
+            "areaName": "湖北省直辖县级",
+            "firstLetter": "Z",
+            "pinyin": "zhixiaxianji"
+        },
+        {
+            "areaId": "430100",
+            "areaName": "长沙市",
+            "firstLetter": "Z",
+            "pinyin": "zhangshashi"
+        },
+        {
+            "areaId": "430200",
+            "areaName": "株洲市",
+            "firstLetter": "Z",
+            "pinyin": "zhuzhoushi"
+        },
+        {
+            "areaId": "430800",
+            "areaName": "张家界市",
+            "firstLetter": "Z",
+            "pinyin": "zhangjiajieshi"
+        },
+        {
+            "areaId": "440400",
+            "areaName": "珠海市",
+            "firstLetter": "Z",
+            "pinyin": "zhuhaishi"
+        },
+        {
+            "areaId": "440800",
+            "areaName": "湛江市",
+            "firstLetter": "Z",
+            "pinyin": "zhanjiangshi"
+        },
+        {
+            "areaId": "441200",
+            "areaName": "肇庆市",
+            "firstLetter": "Z",
+            "pinyin": "zhaoqingshi"
+        },
+        {
+            "areaId": "442000",
+            "areaName": "中山市",
+            "firstLetter": "Z",
+            "pinyin": "zhongshanshi"
+        },
+        {
+            "areaId": "469000",
+            "areaName": "海南省直辖县级",
+            "firstLetter": "Z",
+            "pinyin": "zhixiaxianji"
+        },
+        {
+            "areaId": "500100",
+            "areaName": "重庆市",
+            "firstLetter": "Z",
+            "pinyin": "zhongqingshi"
+        },
+        {
+            "areaId": "510300",
+            "areaName": "自贡市",
+            "firstLetter": "Z",
+            "pinyin": "zigongshi"
+        },
+        {
+            "areaId": "512000",
+            "areaName": "资阳市",
+            "firstLetter": "Z",
+            "pinyin": "ziyangshi"
+        },
+        {
+            "areaId": "520300",
+            "areaName": "遵义市",
+            "firstLetter": "Z",
+            "pinyin": "zunyishi"
+        },
+        {
+            "areaId": "530600",
+            "areaName": "昭通市",
+            "firstLetter": "Z",
+            "pinyin": "zhaotongshi"
+        }
+    ]
+}

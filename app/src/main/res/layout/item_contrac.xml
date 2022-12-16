@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:id="@+id/edit"
+    android:background="@drawable/bg_rect_radius"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_marginStart="20sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            tools:text="刘德华"
+            android:textStyle="bold"
+            android:textColor="@color/global_333333"
+            android:textSize="@dimen/txt_middle_16" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_marginTop="@dimen/common_margin_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            tools:text="1380909090"
+            android:textColor="#999999"
+            android:textSize="@dimen/txt_normal_14" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20sp"
+        android:background="@mipmap/icon_contract_edit" />
+</LinearLayout>

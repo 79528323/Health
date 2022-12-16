@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="Nexus 5X" />
+        <device id="pixel_xl" />
+        <device id="pixel_3a" />
+        <device id="pixel_4_xl" />
+        <device id="pixel" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:developer_v1.7.1" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa89d390-c04c-4951-92f4-08be2865d368" name="Default Changelist" comment="" />
+    <list id="9bfdab47-e53f-490d-b112-a25ccde0f657" name="登录校验调整" comment="" />
+    <list id="916f9a6e-4b97-4b1a-bc80-42bdb5787de6" name="资讯H5加载方式调整" comment="资讯H5加载方式调整">
+      <changelist_data name="yangyong" email="769856557@qq.com" date="1630468916000" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[45b7513c0804]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Health" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="valueResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/file/key.jks" />
+    <option name="KEY_ALIAS" value="health" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="repair_qrview" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1wTlxUWdKwr1vDwkK4wIpuUNH2b" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="Health.app" />
+    <property name="BundleExportedModule" value="Health.app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_4_XL_API_26" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2022-02-19T06:28:51.952Z" />
+    <property name="ExportApk.ApkPath" value="$USER_HOME$/Downloads/体安APK/test" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.2.0/3e159bfab49c7e6495fe374e6e5e1e989ee21dcf/recyclerview-1.2.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/cn.bingoogolapple/bga-qrcode-zxing/1.3.7/161571f892c7e9ab15dfa2d548b09bba348e52c5/bga-qrcode-zxing-1.3.7-sources.jar!/cn/bingoogolapple/qrcode/zxing/ZXingView.java_SELECTED" value="ZXingView" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.contrarywind/Android-PickerView/3.2.7/d1e37bd153c02f0de14cf84b70854ed306c0bab2/Android-PickerView-3.2.7-sources.jar!/com/bigkoo/pickerview/lib/WheelView.java_SELECTED" value="WheelView" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.github.chrisbanes/PhotoView/2.3.0/b14c949b5aab64ffeaf699a67a71a8bf89a12c8/PhotoView-2.3.0-sources.jar!/com/github/chrisbanes/photoview/PhotoView.java_SELECTED" value="PhotoView" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.haibin/calendarview/3.6.4/917c0a99adc166c262182478854b58dfe35f1d44/calendarview-3.6.4-sources.jar!/com/haibin/calendarview/BaseView.java_SELECTED" value="BaseView" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.journeyapps/zxing-android-embedded/4.0.0/b5823819546e2d6cca92f4e46b3b9f2780a48fd0/zxing-android-embedded-4.0.0-sources.jar!/com/journeyapps/barcodescanner/DecoratedBarcodeView.java_SELECTED" value="DecoratedBarcodeView" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.journeyapps/zxing-android-embedded/4.0.0/b5823819546e2d6cca92f4e46b3b9f2780a48fd0/zxing-android-embedded-4.0.0-sources.jar!/com/journeyapps/barcodescanner/ViewfinderView.java_SELECTED" value="ViewfinderView" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshLayout/1.0.5.1/366fe7957621c8c0a665d202137b38c7696ad219/SmartRefreshLayout-1.0.5.1-sources.jar!/com/scwang/smartrefresh/layout/footer/ClassicsFooter.java_SELECTED" value="ClassicsFooter" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshLayout/1.0.5.1/366fe7957621c8c0a665d202137b38c7696ad219/SmartRefreshLayout-1.0.5.1-sources.jar!/com/scwang/smartrefresh/layout/header/ClassicsHeader.java_SELECTED" value="ClassicsHeader" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.yanzhenjie/loading/1.0.2/51d13557109460b8c95eb200c087e6e9f4307a06/loading-1.0.2-sources.jar!/com/yanzhenjie/loading/LoadingView.java_SELECTED" value="LoadingView" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.youth.banner/banner/2.1.0/204e178426b5e694e1c85be7cbb09c7bccf18a49/banner-2.1.0-sources.jar!/com/youth/banner/Banner.java_SELECTED" value="Banner" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.youth.banner/banner/2.1.0/204e178426b5e694e1c85be7cbb09c7bccf18a49/banner-2.1.0-sources.jar!/com/youth/banner/indicator/BaseIndicator.java_SELECTED" value="BaseIndicator" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.youth.banner/banner/2.1.0/204e178426b5e694e1c85be7cbb09c7bccf18a49/banner-2.1.0-sources.jar!/com/youth/banner/indicator/CircleIndicator.java_SELECTED" value="CircleIndicator" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.youth.banner/banner/2.1.0/204e178426b5e694e1c85be7cbb09c7bccf18a49/banner-2.1.0-sources.jar!/com/youth/banner/indicator/RectangleIndicator.java_SELECTED" value="RectangleIndicator" />
+    <property name="android-custom-view/Users/admins/.gradle/caches/modules-2/files-2.1/com.youth.banner/banner/2.1.0/204e178426b5e694e1c85be7cbb09c7bccf18a49/banner-2.1.0-sources.jar!/com/youth/banner/indicator/RoundLinesIndicator.java_SELECTED" value="RoundLinesIndicator" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarChart.java_SELECTED" value="BarChart" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarLineChartBase.java_SELECTED" value="BarLineChartBase" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java_SELECTED" value="Chart" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/HorizontalBarChart.java_SELECTED" value="HorizontalBarChart" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/LineChart.java_SELECTED" value="LineChart" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/PieRadarChartBase.java_SELECTED" value="PieRadarChartBase" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/RadarChart.java_SELECTED" value="RadarChart" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/videoplayer/LandLayoutVideo.java_SELECTED" value="LandLayoutVideo" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/BatteryView.java_SELECTED" value="BatteryView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/CalorieView.java_SELECTED" value="CircleSmallView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/CircleImageView.java_SELECTED" value="CircleImageView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/CircleSmallView.java_SELECTED" value="CircleSmallView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/CustomTypefaceTextView.java_SELECTED" value="CustomTypefaceTextView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/HealthTabPager.java_SELECTED" value="HealthTabPager" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/HealthyCalendarView.java_SELECTED" value="HealthyCalendarView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/HealthyReportScoreView.java_SELECTED" value="HealthyReportScoreView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/LauchIndicator.java_SELECTED" value="LauchIndicator" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/LoadingPageView.java_SELECTED" value="LoadingPageView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/MoreTextView.java_SELECTED" value="MoreTextView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/MyQRViewfinderView.java_SELECTED" value="MyQRViewfinderView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/RingView.java_RingView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/RingView.java_SELECTED" value="RingView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/ScrollRulerView.java_SELECTED" value="ScrollRulerView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/SleepDateChoiceView.java_SELECTED" value="SleepDateChoiceView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/TravelTextView.java_SELECTED" value="TravelTextView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/ValidateCodeView.java_SELECTED" value="ValidateCodeView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/WalkerView.java_SELECTED" value="WalkerView" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/WheelViewSex.java_SELECTED" value="WheelViewSex" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/autoflowlayout/AutoFlowLayout.java_SELECTED" value="AutoFlowLayout" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/edittext/ClearableEditText.java_SELECTED" value="ClearableEditText" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/header/MySmartLoadMoreFooter.java_SELECTED" value="MySmartLoadMoreFooter" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/header/MySmartRefreshFooter.java_SELECTED" value="MySmartRefreshFooter" />
+    <property name="android-custom-view/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/header/MySmartRefreshHeader.java_SELECTED" value="MySmartRefreshHeader" />
+    <property name="android-custom-view/Users/admins/Library/Android/sdk/sources/android-29/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-view/Users/admins/Library/Android/sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-view/Users/admins/Library/Android/sdk/sources/android-30/android/widget/LinearLayout.java_SELECTED" value="LinearLayout" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.2.0/3e159bfab49c7e6495fe374e6e5e1e989ee21dcf/recyclerview-1.2.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/cn.bingoogolapple/bga-qrcode-zxing/1.3.7/161571f892c7e9ab15dfa2d548b09bba348e52c5/bga-qrcode-zxing-1.3.7-sources.jar!/cn/bingoogolapple/qrcode/zxing/ZXingView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.contrarywind/Android-PickerView/3.2.7/d1e37bd153c02f0de14cf84b70854ed306c0bab2/Android-PickerView-3.2.7-sources.jar!/com/bigkoo/pickerview/lib/WheelView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.github.chrisbanes/PhotoView/2.3.0/b14c949b5aab64ffeaf699a67a71a8bf89a12c8/PhotoView-2.3.0-sources.jar!/com/github/chrisbanes/photoview/PhotoView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.journeyapps/zxing-android-embedded/4.0.0/b5823819546e2d6cca92f4e46b3b9f2780a48fd0/zxing-android-embedded-4.0.0-sources.jar!/com/journeyapps/barcodescanner/DecoratedBarcodeView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.journeyapps/zxing-android-embedded/4.0.0/b5823819546e2d6cca92f4e46b3b9f2780a48fd0/zxing-android-embedded-4.0.0-sources.jar!/com/journeyapps/barcodescanner/ViewfinderView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshLayout/1.0.5.1/366fe7957621c8c0a665d202137b38c7696ad219/SmartRefreshLayout-1.0.5.1-sources.jar!/com/scwang/smartrefresh/layout/footer/ClassicsFooter.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshLayout/1.0.5.1/366fe7957621c8c0a665d202137b38c7696ad219/SmartRefreshLayout-1.0.5.1-sources.jar!/com/scwang/smartrefresh/layout/header/ClassicsHeader.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.yanzhenjie/loading/1.0.2/51d13557109460b8c95eb200c087e6e9f4307a06/loading-1.0.2-sources.jar!/com/yanzhenjie/loading/LoadingView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.youth.banner/banner/2.1.0/204e178426b5e694e1c85be7cbb09c7bccf18a49/banner-2.1.0-sources.jar!/com/youth/banner/Banner.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.youth.banner/banner/2.1.0/204e178426b5e694e1c85be7cbb09c7bccf18a49/banner-2.1.0-sources.jar!/com/youth/banner/indicator/BaseIndicator.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.youth.banner/banner/2.1.0/204e178426b5e694e1c85be7cbb09c7bccf18a49/banner-2.1.0-sources.jar!/com/youth/banner/indicator/CircleIndicator.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.youth.banner/banner/2.1.0/204e178426b5e694e1c85be7cbb09c7bccf18a49/banner-2.1.0-sources.jar!/com/youth/banner/indicator/RectangleIndicator.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/.gradle/caches/modules-2/files-2.1/com.youth.banner/banner/2.1.0/204e178426b5e694e1c85be7cbb09c7bccf18a49/banner-2.1.0-sources.jar!/com/youth/banner/indicator/RoundLinesIndicator.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarChart.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/BarLineChartBase.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/HorizontalBarChart.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/LineChart.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/PieRadarChartBase.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/MPChartLib/src/main/java/com/github/mikephil/charting/charts/RadarChart.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/videoplayer/LandLayoutVideo.java_selected" value="" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/BatteryView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/CalorieView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/CircleImageView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/CircleSmallView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/CustomTypefaceTextView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/HealthTabPager.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/HealthyReportScoreView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/LauchIndicator.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/LoadingPageView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/MoreTextView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/MyQRViewfinderView.java_selected" value="" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/RingView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/ScrollRulerView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/TravelTextView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/ValidateCodeView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/WalkerView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/WheelViewSex.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/autoflowlayout/AutoFlowLayout.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/edittext/ClearableEditText.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/header/MySmartLoadMoreFooter.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/header/MySmartRefreshFooter.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/AndroidStudioProjects/ta-app-android/app/src/main/java/com/gzhealthy/health/widget/header/MySmartRefreshHeader.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/Library/Android/sdk/sources/android-29/android/view/View.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/Library/Android/sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/admins/Library/Android/sdk/sources/android-30/android/widget/LinearLayout.java_selected" value="Custom views" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gzhealthy.health.adapter" />
+      <recent name="com.gzhealthy.health.healthfragment" />
+      <recent name="com.gzhealthy.health.activity" />
+      <recent name="com.gzhealthy.health.widget" />
+      <recent name="com.gzhealthy.health.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
+      <recent name="$PROJECT_DIR$/updateapp/src/main/res" />
+      <recent name="$PROJECT_DIR$/updateapp/src/main/res/drawable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Health.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa89d390-c04c-4951-92f4-08be2865d368" name="Default Changelist" comment="" />
+      <changelist id="9bfdab47-e53f-490d-b112-a25ccde0f657" name="登录校验调整" comment="" />
+      <created>1628490705345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628490705345</updated>
+    </task>
+    <task id="LOCAL-00045" summary="1.修复删除成员窗口按钮重叠">
+      <created>1631174162156</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1631174162156</updated>
+    </task>
+    <task id="LOCAL-00046" summary="1.修改邀请页面  家庭成员  成员详情 等逻辑Bug&#10;2.优化界面">
+      <created>1631272101932</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1631272101932</updated>
+    </task>
+    <task id="LOCAL-00047" summary="1.调整健康模块页面UI">
+      <created>1631501763675</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1631501763675</updated>
+    </task>
+    <task id="LOCAL-00048" summary="1.优化页面&#10;2.修复bug">
+      <created>1631528845330</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1631528845330</updated>
+    </task>
+    <task id="LOCAL-00049" summary="1.修改日期弹窗">
+      <created>1631584874512</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1631584874512</updated>
+    </task>
+    <task id="LOCAL-00050" summary="1.调整家庭详情日期弹窗&#10;2.修复调整页面UI&#10;3.合并杨勇代码">
+      <created>1631589273975</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1631589273977</updated>
+    </task>
+    <task id="LOCAL-00051" summary="优化细节，调整UI">
+      <created>1631599649119</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1631599649120</updated>
+    </task>
+    <task id="LOCAL-00052" summary="1.修改更新弹窗UI样式&#10;2.调整家庭模块我的二维码图片缓存逻辑&#10;3.调整细节">
+      <created>1631610126922</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1631610126922</updated>
+    </task>
+    <task id="LOCAL-00053" summary="健康数据详情页面修改优化&#10;调整UI">
+      <created>1631615275829</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1631615275829</updated>
+    </task>
+    <task id="LOCAL-00054" summary="1.调整健康数据详情页面无数据状态&#10;2.调整首页卡片字体&#10;3.配置App版本号">
+      <created>1631701782278</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1631701782279</updated>
+    </task>
+    <task id="LOCAL-00055" summary="调整首页卡片UI，修复邀请列表弹窗下拉刷新Bug">
+      <created>1631708144336</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1631708144337</updated>
+    </task>
+    <task id="LOCAL-00056" summary="优化登录失效和其它细节">
+      <created>1632276001826</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1632276001827</updated>
+    </task>
+    <task id="LOCAL-00057" summary="1.血糖、血压添加记录&#10;2.增加设备提醒功能">
+      <created>1632392178459</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1632392178459</updated>
+    </task>
+    <task id="LOCAL-00058" summary="添加本地提醒功能">
+      <created>1632467288054</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1632467288054</updated>
+    </task>
+    <task id="LOCAL-00059" summary="优化细节">
+      <created>1632652028048</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1632652028048</updated>
+    </task>
+    <task id="LOCAL-00060" summary="删除本地提醒功能">
+      <created>1632727317340</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1632727317340</updated>
+    </task>
+    <task id="LOCAL-00061" summary="去掉原有手动每周添加血糖值功能">
+      <created>1632814936175</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1632814936176</updated>
+    </task>
+    <task id="LOCAL-00062" summary="修改血糖纪录选择初始值">
+      <created>1632883421327</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1632883421328</updated>
+    </task>
+    <task id="LOCAL-00063" summary="1.修复血糖血压纪录添加时间限制&#10;2.修改个人信息昵称显示&#10;3.修复首页昵称修改后不更新问题">
+      <created>1632909023478</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1632909023478</updated>
+    </task>
+    <task id="LOCAL-00064" summary="1.修复用药记录缺少缺省页">
+      <created>1633683395258</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1633683395259</updated>
+    </task>
+    <task id="LOCAL-00065" summary="1.调整卡包UI">
+      <created>1633685424311</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1633685424311</updated>
+    </task>
+    <task id="LOCAL-00066" summary="1.调整血糖记录UI">
+      <created>1633746686120</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1633746686121</updated>
+    </task>
+    <task id="LOCAL-00067" summary="1.调整血糖拆线图弹窗显示数值">
+      <created>1633774748299</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1633774748301</updated>
+    </task>
+    <task id="LOCAL-00068" summary="1.统一血压纪录时间界面样式">
+      <created>1633922335976</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1633922335976</updated>
+    </task>
+    <task id="LOCAL-00069" summary="1.修复极光推送设置别名">
+      <created>1633931534951</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1633931534951</updated>
+    </task>
+    <task id="LOCAL-00070" summary="1.调整健康页面时辰卡片样式">
+      <created>1633935336986</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1633935336986</updated>
+    </task>
+    <task id="LOCAL-00071" summary="1.调整我的页面VIP背景图">
+      <created>1633937163650</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1633937163650</updated>
+    </task>
+    <task id="LOCAL-00072" summary="1.调整WebView会员中心样式">
+      <created>1633942335822</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1633942335822</updated>
+    </task>
+    <task id="LOCAL-00073" summary="血压加入个数">
+      <created>1633946149395</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1633946149396</updated>
+    </task>
+    <task id="LOCAL-00074" summary="1.增加友盟统计SDK">
+      <created>1634106746364</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1634106746364</updated>
+    </task>
+    <task id="LOCAL-00075" summary="1.清除buildgradle多余组件和asset文件无用资源，优化重构部分页面代码">
+      <created>1634199114156</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1634199114156</updated>
+    </task>
+    <task id="LOCAL-00076" summary="1.清除无引用多余图片资源">
+      <created>1634203870525</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1634203870527</updated>
+    </task>
+    <task id="LOCAL-00077" summary="1.清除无用图片资源">
+      <created>1634204304106</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1634204304106</updated>
+    </task>
+    <task id="LOCAL-00078" summary="1.接入友盟统计 2.优化部份逻辑细节">
+      <created>1634524233139</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1634524233140</updated>
+    </task>
+    <task id="LOCAL-00079" summary="1.整理清单文件 2.移除查看心电报告旧WebView">
+      <created>1634540673251</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1634540673252</updated>
+    </task>
+    <task id="LOCAL-00080" summary="移除查看心电报告旧WebView">
+      <created>1634541077543</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1634541077543</updated>
+    </task>
+    <task id="LOCAL-00081" summary="优化资讯页面界面逻辑">
+      <created>1634549829695</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1634549829695</updated>
+    </task>
+    <task id="LOCAL-00082" summary="修复隐私弹窗在低分辨率屏幕上显示遮挡问题">
+      <created>1634613726496</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1634613726496</updated>
+    </task>
+    <task id="LOCAL-00083" summary="接入友盟页面采集功能">
+      <created>1634805872441</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1634805872441</updated>
+    </task>
+    <task id="LOCAL-00084" summary="蓝牙框架接入">
+      <created>1635298272168</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1635298272169</updated>
+    </task>
+    <task id="LOCAL-00085" summary="血糖血压数据以及健康报告列表加一些文案提醒">
+      <created>1635474830818</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1635474830819</updated>
+    </task>
+    <task id="LOCAL-00086" summary="1.增加编辑用药功能&#10;2.增加病历功能&#10;3.增加安全围栏部份页面&#10;4.蓝牙调试Demo页面&#10;5.增加健康时钟H5页面">
+      <created>1636616540587</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1636616540588</updated>
+    </task>
+    <task id="LOCAL-00087" summary="1.修改体质分析H5页面和交互逻辑">
+      <created>1636622447253</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1636622447253</updated>
+    </task>
+    <task id="LOCAL-00088" summary="1.增加安全围栏提醒人&#10;2.修改安全围栏模块">
+      <created>1636940422898</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1636940422898</updated>
+    </task>
+    <task id="LOCAL-00089" summary="1.增加蓝牙消毒机模块">
+      <created>1637236754361</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1637236754362</updated>
+    </task>
+    <task id="LOCAL-00090" summary="修复bug">
+      <created>1637317851825</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1637317851825</updated>
+    </task>
+    <task id="LOCAL-00091" summary="1.修复Bug&#10;2.完善蓝牙设备连接">
+      <created>1637662477631</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1637662477635</updated>
+    </task>
+    <task id="LOCAL-00092" summary="1.修复bug">
+      <created>1637832009316</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1637832009316</updated>
+    </task>
+    <task id="LOCAL-00093" summary="1.修复bug">
+      <created>1671123858370</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1671123858371</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="developer_v1.7.1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.统一血压纪录时间界面样式" />
+    <MESSAGE value="1.修复极光推送设置别名" />
+    <MESSAGE value="1.调整健康页面时辰卡片样式" />
+    <MESSAGE value="1.调整我的页面VIP背景图" />
+    <MESSAGE value="1.调整WebView会员中心样式" />
+    <MESSAGE value="血压加入个数" />
+    <MESSAGE value="1.增加友盟统计SDK" />
+    <MESSAGE value="1.清除buildgradle多余组件和asset文件无用资源，优化重构部分页面代码" />
+    <MESSAGE value="1.清除无引用多余图片资源" />
+    <MESSAGE value="1.清除无用图片资源" />
+    <MESSAGE value="1.接入友盟统计 2.优化部份逻辑细节" />
+    <MESSAGE value="1.整理清单文件 2.移除查看心电报告旧WebView" />
+    <MESSAGE value="移除查看心电报告旧WebView" />
+    <MESSAGE value="优化资讯页面界面逻辑" />
+    <MESSAGE value="修复隐私弹窗在低分辨率屏幕上显示遮挡问题" />
+    <MESSAGE value="接入友盟页面采集功能" />
+    <MESSAGE value="蓝牙框架接入" />
+    <MESSAGE value="血糖血压数据以及健康报告列表加一些文案提醒" />
+    <MESSAGE value="1.增加编辑用药功能&#10;2.增加病历功能&#10;3.增加安全围栏部份页面&#10;4.蓝牙调试Demo页面&#10;5.增加健康时钟H5页面" />
+    <MESSAGE value="1.修改体质分析H5页面和交互逻辑" />
+    <MESSAGE value="1.增加安全围栏提醒人&#10;2.修改安全围栏模块" />
+    <MESSAGE value="1.增加蓝牙消毒机模块" />
+    <MESSAGE value="修复bug" />
+    <MESSAGE value="1.修复Bug&#10;2.完善蓝牙设备连接" />
+    <MESSAGE value="1.修复bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.修复bug" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/gzhealthy/health/push/MyJPushMessageReceiver.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/gzhealthy/health/push/MyJPushMessageReceiver.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

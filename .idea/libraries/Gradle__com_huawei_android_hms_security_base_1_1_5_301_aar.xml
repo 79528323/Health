@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.android.hms:security-base:1.1.5.301@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06f3e5bfa6599b4eeabc908ff1a803ea/jetified-security-base-1.1.5.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06f3e5bfa6599b4eeabc908ff1a803ea/jetified-security-base-1.1.5.301/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06f3e5bfa6599b4eeabc908ff1a803ea/jetified-security-base-1.1.5.301/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/641d20e3b8919543705c2219188a40b3/jetified-security-base-1.1.5.301/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/641d20e3b8919543705c2219188a40b3/jetified-security-base-1.1.5.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/641d20e3b8919543705c2219188a40b3/jetified-security-base-1.1.5.301/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e45102043b100ae734013ddfe225c6ef/jetified-security-base-1.1.5.301/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e45102043b100ae734013ddfe225c6ef/jetified-security-base-1.1.5.301/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e45102043b100ae734013ddfe225c6ef/jetified-security-base-1.1.5.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50a9db34abf9f884a68c885ce740837d/jetified-security-base-1.1.5.301/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50a9db34abf9f884a68c885ce740837d/jetified-security-base-1.1.5.301/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50a9db34abf9f884a68c885ce740837d/jetified-security-base-1.1.5.301/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/837822c92019da295fd4075a4fd3652d/jetified-security-base-1.1.5.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/837822c92019da295fd4075a4fd3652d/jetified-security-base-1.1.5.301/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/837822c92019da295fd4075a4fd3652d/jetified-security-base-1.1.5.301/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c79011179277d69e77af0c7c77a7d811/jetified-security-base-1.1.5.301/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c79011179277d69e77af0c7c77a7d811/jetified-security-base-1.1.5.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c79011179277d69e77af0c7c77a7d811/jetified-security-base-1.1.5.301/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9835a941268a42cdc45551d254b45461/jetified-security-base-1.1.5.301/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9835a941268a42cdc45551d254b45461/jetified-security-base-1.1.5.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9835a941268a42cdc45551d254b45461/jetified-security-base-1.1.5.301/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.android.hms/security-base/1.1.5.301/da39a3ee5e6b4b0d3255bfef95601890afd80709/security-base-1.1.5.301-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.android.hms/security-base/1.1.5.301/da39a3ee5e6b4b0d3255bfef95601890afd80709/security-base-1.1.5.301-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

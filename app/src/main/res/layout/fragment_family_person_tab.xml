@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gzhealthy.health.widget.ReboundScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/default_background"
+    android:gravity="center"
+    android:overScrollMode="never"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="17dp"
+            android:paddingTop="17dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_rect_radius"
+            android:descendantFocusability="blocksDescendants">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/common_margin_20"
+                        android:layout_centerVertical="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/global_333333"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:singleLine="true"
+                            android:textSize="18sp"
+                            tools:text="刘德华刘德华123123123123"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/global_333333"
+                            android:textStyle="bold"
+                            android:singleLine="true"
+                            android:textSize="18sp"
+                            android:text="的健康数据"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical|end"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:textColor="@color/global_999999"
+                        android:drawableRight="@mipmap/icon_right"
+                        android:textSize="@dimen/txt_normal_14"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:text="详情"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/mRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:overScrollMode="never"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</com.gzhealthy.health.widget.ReboundScrollView>

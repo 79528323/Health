@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hmf:tasks:1.4.1.300@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c59f6a43b1e1cef28486d4be19f0c0df/jetified-tasks-1.4.1.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c59f6a43b1e1cef28486d4be19f0c0df/jetified-tasks-1.4.1.300/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c59f6a43b1e1cef28486d4be19f0c0df/jetified-tasks-1.4.1.300/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

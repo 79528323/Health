@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#eeeeee" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="14dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_vertical">
+
+
+        <EditText
+            android:id="@+id/etRemark"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请输入备注昵称"
+            android:inputType="text"
+            android:lines="1"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/ivClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foreground="?attr/actionBarItemBackground"
+            android:padding="8dp"
+            android:src="@mipmap/ic_login_delete_bg" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="14dp"
+        android:background="#eeeeee" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRemark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:nestedScrollingEnabled="false"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="4" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btOk"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/shape_00d0b9_36"
+        android:text="确定邀请"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</LinearLayout>

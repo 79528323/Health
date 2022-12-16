@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <View style="@style/div_style" />
+
+    <com.gzhealthy.health.widget.edittext.ClearableEditText
+        android:id="@+id/tv_content"
+        style="@style/nomal_edit"
+        android:hint="原手机号码" />
+
+    <View
+        style="@style/div_style"
+        android:layout_marginLeft="@dimen/common_margin_30"
+        android:layout_marginRight="@dimen/common_margin_30" />
+
+    <TextView
+        android:id="@+id/tv_sure"
+        style="@style/menu_red"
+        android:layout_marginLeft="@dimen/common_margin_30"
+        android:layout_marginTop="@dimen/common_margin_25"
+        android:layout_marginRight="@dimen/common_margin_30"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_commit"
+        android:enabled="true"
+        android:text="确定" />
+
+</LinearLayout>

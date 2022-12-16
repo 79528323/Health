@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gyf.barlibrary:barlibrary:2.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5bd8d8ec3324afc90ff8e601a590ffb4/jetified-barlibrary-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5bd8d8ec3324afc90ff8e601a590ffb4/jetified-barlibrary-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5bd8d8ec3324afc90ff8e601a590ffb4/jetified-barlibrary-2.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da786a5f4874c7622f907b77ecf0a4b5/jetified-barlibrary-2.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da786a5f4874c7622f907b77ecf0a4b5/jetified-barlibrary-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da786a5f4874c7622f907b77ecf0a4b5/jetified-barlibrary-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/daf2106dabe51585850dc20d26808d97/jetified-barlibrary-2.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/daf2106dabe51585850dc20d26808d97/jetified-barlibrary-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/daf2106dabe51585850dc20d26808d97/jetified-barlibrary-2.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/efcbd0a08b5c1d7980b7acddf316deec/jetified-barlibrary-2.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/efcbd0a08b5c1d7980b7acddf316deec/jetified-barlibrary-2.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/efcbd0a08b5c1d7980b7acddf316deec/jetified-barlibrary-2.3.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/633377360e25223a3baffb8aa1d23d26/jetified-barlibrary-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/633377360e25223a3baffb8aa1d23d26/jetified-barlibrary-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/633377360e25223a3baffb8aa1d23d26/jetified-barlibrary-2.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e1a38d8979719907cfe5ca32596eaefb/jetified-barlibrary-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e1a38d8979719907cfe5ca32596eaefb/jetified-barlibrary-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e1a38d8979719907cfe5ca32596eaefb/jetified-barlibrary-2.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d97cf7f3117e5a01a873d12571e1ee83/jetified-barlibrary-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d97cf7f3117e5a01a873d12571e1ee83/jetified-barlibrary-2.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d97cf7f3117e5a01a873d12571e1ee83/jetified-barlibrary-2.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gyf.barlibrary/barlibrary/2.3.0/46b26a5ed00e93704f63a3def9499ac5497e1bb1/barlibrary-2.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gyf.barlibrary/barlibrary/2.3.0/f4345c7e2f9d22bd75b3fd0d632587f81049e596/barlibrary-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

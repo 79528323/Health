@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View style="@style/margin_div">
+
+    </View>
+
+    <TextView
+        android:id="@+id/tv_group_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f3f4f5"
+        android:paddingLeft="12dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="12dp"
+        android:text="2020_12_19"
+        android:textColor="@color/text_color_2"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2dp"
+                    android:maxLines="10"
+                    android:text="18666666666"
+                    android:textColor="@color/text_color_1"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="2020_12_19 12:12:12"
+                    android:textColor="@color/text_color_3"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="明细"
+                android:textColor="@color/text_color_1"
+                android:textSize="@dimen/sp_16" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/top_title_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <TextView
+            android:id="@+id/bottomDialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="取消"
+            android:textColor="@color/global_666666"
+            android:textSize="@dimen/txt_middle_16" />
+
+        <TextView
+            android:id="@+id/bottomDialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="这是标题"
+            android:textColor="@color/title"
+            android:textSize="@dimen/txt_large" />
+
+        <TextView
+            android:id="@+id/bottomDialog_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="确定"
+            android:textColor="@color/global_666666"
+            android:textSize="@dimen/txt_middle_16" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#eeeeee" />
+
+    <TextView
+        android:id="@+id/bottomDialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/txt_middle_16"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/bottomDialog_custom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp" />
+
+</LinearLayout>

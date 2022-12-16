@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/img_gif"
+        android:layout_width="@dimen/common_margin_30"
+        android:layout_height="@dimen/common_margin_30"
+        android:visibility="gone"
+        tools:background="@drawable/icon_gif_loading"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/blueTooth_recyler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginHorizontal="14dp"
+        android:layout_marginVertical="18dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/shape_00d0b9_36"
+        android:text="扫描设备"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</FrameLayout>

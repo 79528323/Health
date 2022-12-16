@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gzhealthy.health.widget.ReboundScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/img_family_head" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-65dp"
+            android:paddingTop="@dimen/common_margin_30"
+            android:background="@drawable/bg_rect_family_invite_radius"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@color/global_999999"
+                android:text="选择邀请共享方式"/>
+
+
+            <LinearLayout
+                android:id="@+id/sms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/common_margin_18"
+                android:padding="35dp"
+                android:layout_marginHorizontal="15dp"
+                android:background="@drawable/bg_rect_family_invite_sms"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="验证码邀请"
+                    android:textSize="@dimen/txt_middle_16"
+                    android:drawablePadding="@dimen/common_margin_5"
+                    android:drawableLeft="@mipmap/icon_family_sms"
+                    android:textColor="#FFB045"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/qr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/common_margin_18"
+                android:padding="35dp"
+                android:layout_marginHorizontal="15dp"
+                android:background="@drawable/bg_rect_family_invite_qr"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="扫码邀请"
+                    android:textSize="@dimen/txt_middle_16"
+                    android:drawablePadding="@dimen/common_margin_5"
+                    android:drawableLeft="@mipmap/icon_family_qr"
+                    android:textColor="#4D6AD7"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/my_qr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看我的二维码"
+                android:layout_marginTop="19dp"
+                android:layout_marginBottom="22dp"
+                android:textSize="@dimen/sp_12"
+                android:drawablePadding="@dimen/common_margin_5"
+                android:padding="@dimen/common_margin_10"
+                android:drawableRight="@mipmap/icon_family_my_qrcode"
+                android:textColor="@color/global_333333"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/understand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="了解家人互联"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="22dp"
+            android:textSize="@dimen/sp_12"
+            android:drawableRight="@mipmap/icon_right"
+            android:drawablePadding="@dimen/common_margin_5"
+            android:padding="@dimen/common_margin_10"
+            android:textColor="@color/global_999999"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</com.gzhealthy.health.widget.ReboundScrollView>

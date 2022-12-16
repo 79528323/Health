@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.agconnect:agconnect-core:1.5.1.300@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/095cc9e64065583c45ce82fd63143431/jetified-agconnect-core-1.5.1.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/095cc9e64065583c45ce82fd63143431/jetified-agconnect-core-1.5.1.300/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/095cc9e64065583c45ce82fd63143431/jetified-agconnect-core-1.5.1.300/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3dbe6f63c79d1bee82ac4d1ee71ca09/jetified-agconnect-core-1.5.1.300/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3dbe6f63c79d1bee82ac4d1ee71ca09/jetified-agconnect-core-1.5.1.300/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3dbe6f63c79d1bee82ac4d1ee71ca09/jetified-agconnect-core-1.5.1.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c186fb01dfe06b0d5fdb770ee80cb9a5/jetified-agconnect-core-1.5.1.300/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c186fb01dfe06b0d5fdb770ee80cb9a5/jetified-agconnect-core-1.5.1.300/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c186fb01dfe06b0d5fdb770ee80cb9a5/jetified-agconnect-core-1.5.1.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45d34851c9f00e2be8195f13de92cc2e/jetified-agconnect-core-1.5.1.300/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45d34851c9f00e2be8195f13de92cc2e/jetified-agconnect-core-1.5.1.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45d34851c9f00e2be8195f13de92cc2e/jetified-agconnect-core-1.5.1.300/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/33ee594d9b82a30c8e52829fe7b154b2/jetified-agconnect-core-1.5.1.300/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/33ee594d9b82a30c8e52829fe7b154b2/jetified-agconnect-core-1.5.1.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/33ee594d9b82a30c8e52829fe7b154b2/jetified-agconnect-core-1.5.1.300/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8335c724ef21f6838644f20d3335ae81/jetified-agconnect-core-1.5.1.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8335c724ef21f6838644f20d3335ae81/jetified-agconnect-core-1.5.1.300/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8335c724ef21f6838644f20d3335ae81/jetified-agconnect-core-1.5.1.300/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6c9bed1736730378cc16e6d974edc63f/jetified-agconnect-core-1.5.1.300/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6c9bed1736730378cc16e6d974edc63f/jetified-agconnect-core-1.5.1.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6c9bed1736730378cc16e6d974edc63f/jetified-agconnect-core-1.5.1.300/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

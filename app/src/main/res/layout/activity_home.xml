@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--   <include
+           layout="@layout/custom_toolbar"/>-->
+    <FrameLayout
+        android:id="@+id/home_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View style="@style/line_horizontal" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tb_main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        app:tabBackground="?attr/selectableItemBackground"
+        app:tabIndicatorHeight="0dp"
+        app:tabSelectedTextColor="@color/tabSelected"
+        app:tabTextAppearance="@style/TextAppearance.AppCompat.Small"
+        app:tabTextColor="@color/txt_third_color" />
+
+</LinearLayout>

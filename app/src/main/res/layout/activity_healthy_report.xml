@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F8F8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/app_btn_parimary"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/common_margin_10"
+                android:paddingBottom="@dimen/common_margin_10"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:text="体安为你的健康持续护航"/>
+
+
+
+                <TextView
+                    android:visibility="gone"
+                    android:paddingStart="@dimen/common_margin_10"
+                    android:paddingEnd="@dimen/common_margin_10"
+                    android:paddingTop="@dimen/common_margin_5"
+                    android:paddingBottom="@dimen/common_margin_5"
+                    android:background="@drawable/btn_report_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="历史报告"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:padding="15dp"
+                android:background="@drawable/bg_mine_white">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/global_666666"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/common_margin_10"
+                    android:text="获取健康报告，请完善以下信息"/>
+
+
+
+                <LinearLayout
+                    android:id="@+id/btn_file"
+                    android:layout_marginTop="@dimen/common_margin_30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/report_file"/>
+
+                    <LinearLayout
+                        android:layout_marginStart="@dimen/common_margin_10"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_middle_16"
+                            android:text="健康档案"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="11sp"
+                            android:textColor="@color/global_999999"
+                            android:text="快捷、精确、便捷"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|end"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical|end"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/report_file_process"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="11sp"
+                                android:textColor="@color/app_btn_parimary"
+                                android:text="未完成"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@mipmap/icon_mine_arrow"/>
+                        </LinearLayout>
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/common_margin_20"
+                                android:background="@mipmap/icon_mine_arrow"/>
+
+<!--                        <TextView-->
+<!--                            android:visibility="visible"-->
+<!--                            android:layout_width="@dimen/album_dp_80"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="@dimen/album_sp_14"-->
+<!--                            android:text="填写"-->
+<!--                            android:gravity="center"-->
+<!--                            android:paddingStart="@dimen/album_dp_10"-->
+<!--                            android:paddingEnd="@dimen/album_dp_10"-->
+<!--                            android:paddingTop="@dimen/common_margin_5"-->
+<!--                            android:paddingBottom="@dimen/common_margin_5"-->
+<!--                            android:textColor="@color/app_btn_parimary"-->
+<!--                            android:background="@drawable/btn_report_select"/>-->
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <View
+                    android:layout_marginTop="@dimen/common_margin_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="@dimen/common_margin_10"
+                    android:layout_marginEnd="@dimen/common_margin_10"
+                    android:background="#EEEEEE"/>
+
+
+
+                <LinearLayout
+                    android:id="@+id/btn_data"
+                    android:layout_marginTop="@dimen/common_margin_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/report_healthy_data"/>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_marginStart="@dimen/common_margin_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_middle_16"
+                            android:text="健康大数据"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="11sp"
+                            android:textColor="@color/global_999999"
+                            android:text="心率、血压精确获取"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|end"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical|end"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/report_data_process"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="11sp"
+                                android:textColor="@color/app_btn_parimary"
+                                android:text="未完成"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@mipmap/icon_mine_arrow"/>
+                        </LinearLayout>
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/btn_data"-->
+<!--                            android:layout_width="@dimen/album_dp_80"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/btn_report_select"-->
+<!--                            android:gravity="center"-->
+<!--                            android:paddingStart="@dimen/album_dp_10"-->
+<!--                            android:paddingTop="@dimen/common_margin_5"-->
+<!--                            android:paddingEnd="@dimen/album_dp_10"-->
+<!--                            android:paddingBottom="@dimen/common_margin_5"-->
+<!--                            android:text="采集"-->
+<!--                            android:textColor="@color/app_btn_parimary"-->
+<!--                            android:textSize="@dimen/album_sp_14"-->
+<!--                            android:visibility="visible" />-->
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/common_margin_20"
+                            android:background="@mipmap/icon_mine_arrow"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+                <View
+                    android:layout_marginTop="@dimen/common_margin_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="@dimen/common_margin_10"
+                    android:layout_marginEnd="@dimen/common_margin_10"
+                    android:background="#EEEEEE"/>
+
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/common_margin_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/report_question"/>
+
+                    <LinearLayout
+                        android:id="@+id/linear_question"
+                        android:layout_weight="1"
+                        android:layout_marginStart="@dimen/common_margin_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_middle_16"
+                            android:text="中医体质问卷"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="11sp"
+                            android:textColor="@color/global_999999"
+                            android:text="权威、全面、细致"/>
+
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|end"
+                        android:orientation="vertical">
+
+<!--                        <LinearLayout-->
+<!--                            android:visibility="gone"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:gravity="center_vertical|end"-->
+<!--                            android:orientation="vertical">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/report_question_process"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textSize="11sp"-->
+<!--                                android:textColor="@color/app_btn_parimary"-->
+<!--                                android:text="未完成"/>-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@mipmap/icon_mine_arrow"/>-->
+<!--                        </LinearLayout>-->
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginEnd="@dimen/common_margin_20"
+                            android:background="@mipmap/icon_mine_arrow"/>
+
+
+                        <TextView
+                            android:id="@+id/btn_question"
+                            android:visibility="gone"
+                            android:layout_width="@dimen/common_margin_80"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/txt_normal_14"
+                            android:text="填写"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:paddingStart="@dimen/common_margin_10"
+                            android:paddingEnd="@dimen/common_margin_10"
+                            android:paddingTop="@dimen/common_margin_5"
+                            android:paddingBottom="@dimen/common_margin_5"
+                            android:textColor="@color/app_btn_parimary"
+                            android:background="@drawable/btn_report_select"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+                <View
+                    android:layout_marginTop="@dimen/common_margin_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginStart="@dimen/common_margin_10"
+                    android:layout_marginEnd="@dimen/common_margin_10"
+                    android:background="#EEEEEE"/>
+
+
+
+
+
+
+<!--                <TextView-->
+<!--                    style="@style/menu_red"-->
+<!--                    android:layout_height="44dp"-->
+<!--                    android:layout_marginLeft="@dimen/common_margin_5"-->
+<!--                    android:layout_marginTop="@dimen/common_margin_25"-->
+<!--                    android:layout_marginRight="@dimen/common_margin_5"-->
+<!--                    android:layout_marginBottom="0dp"-->
+<!--                    android:background="@drawable/btn_commit"-->
+<!--                    android:enabled="false"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="我的中医体质分析"-->
+<!--                    android:textSize="16sp" />-->
+                <TextView
+                    android:layout_marginTop="@dimen/common_margin_20"
+                    android:id="@+id/report_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@drawable/button_custom_bg"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="健康周报"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

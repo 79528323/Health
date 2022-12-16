@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/default_background"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/default_background"/>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingBottom="39dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvdevice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="未连接设备"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:drawablePadding="@dimen/common_margin_10"
+                    android:drawableTop="@mipmap/icon_bluetooth_not_connect" />
+
+
+
+                <TextView
+                    android:id="@+id/btn_connect"
+                    android:layout_width="166dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="32dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_normal_14"
+                    android:gravity="center"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:background="@drawable/btn_commit"
+                    app:layout_constraintTop_toBottomOf="@id/tvdevice"
+                    android:text="连接设备" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:paddingTop="20dp"
+                android:paddingHorizontal="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_middle_16"
+                    android:text="功能清单"
+                    android:textStyle="bold"
+                    android:textColor="@color/global_333333"/>
+
+                <LinearLayout
+                    android:layout_marginTop="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/btn_switch"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:drawableTop="@mipmap/icon_bluetooth_switch"
+                            android:drawablePadding="@dimen/common_margin_5"
+                            android:textColor="@color/global_333333"
+                            android:text="开关"/>
+
+
+                        <TextView
+                            android:id="@+id/btn_min_3"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:drawableTop="@mipmap/icon_bluetooth_tableware"
+                            android:drawablePadding="@dimen/common_margin_5"
+                            android:textColor="@color/global_333333"
+                            android:text="餐具"/>
+
+                        <TextView
+                            android:id="@+id/btn_min_5"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:drawableTop="@mipmap/icon_bluetooth_fruit_vegetables"
+                            android:drawablePadding="@dimen/common_margin_5"
+                            android:textColor="@color/global_333333"
+                            android:text="果类蔬菜"/>
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/btn_min_3"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="14sp"-->
+<!--                            android:textColor="@color/global_666666"-->
+<!--                            android:text="3分钟"/>-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/btn_min_5"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="14sp"-->
+<!--                            android:textColor="@color/global_666666"-->
+<!--                            android:text="5分钟"/>-->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="22dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/btn_min_6"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:drawableTop="@mipmap/icon_bluetooth_switch"
+                            android:drawablePadding="@dimen/common_margin_5"
+                            android:textColor="@color/global_333333"
+                            android:text="开关"/>
+
+
+                        <TextView
+                            android:id="@+id/btn_min_10"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:drawableTop="@mipmap/icon_bluetooth_tableware"
+                            android:drawablePadding="@dimen/common_margin_5"
+                            android:textColor="@color/global_333333"
+                            android:text="餐具"/>
+
+                        <TextView
+                            android:id="@+id/btn_min_15"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:gravity="center_horizontal"
+                            android:drawableTop="@mipmap/icon_bluetooth_fruit_vegetables"
+                            android:drawablePadding="@dimen/common_margin_5"
+                            android:textColor="@color/global_333333"
+                            android:text="果类蔬菜"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

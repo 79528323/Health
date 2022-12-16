@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.limuyang2.LDialog:custom_ldialog:1.0.2_androidx@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e3dddd1d1fc66d84bdd319916507b7c/jetified-custom_ldialog-1.0.2_androidx/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e3dddd1d1fc66d84bdd319916507b7c/jetified-custom_ldialog-1.0.2_androidx/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e3dddd1d1fc66d84bdd319916507b7c/jetified-custom_ldialog-1.0.2_androidx/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.limuyang2.LDialog/custom_ldialog/1.0.2_androidx/50dd488b73de1d90b026bfb287f421aa004f76a5/custom_ldialog-1.0.2_androidx-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

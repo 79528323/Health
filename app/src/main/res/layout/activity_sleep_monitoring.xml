@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_gray"
+    tools:context=".activity.WalkAndCalorieActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"/>
+
+    <com.gzhealthy.health.widget.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_rect_radius"
+                    android:orientation="vertical">
+
+                    <com.gzhealthy.health.widget.SleepDateChoiceView
+                        android:id="@+id/sleep_date_choice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </com.gzhealthy.health.widget.SleepDateChoiceView>
+
+
+                    <LinearLayout
+                        android:id="@+id/top_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="14dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:background="@mipmap/icon_monitor_sleep"
+                                android:layout_width="@dimen/common_margin_30"
+                                android:layout_height="@dimen/common_margin_30"/>
+
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/common_margin_5"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/sleep_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="13sp"
+                                    android:textColor="@color/global_333333"
+                                    tools:text="8小时20分"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/sp_12"
+                                    android:textColor="@color/global_999999"
+                                    android:text="睡眠时长"/>
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/select_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/sp_14"
+                                    android:paddingStart="@dimen/common_margin_10"
+                                    android:paddingEnd="@dimen/common_margin_10"
+                                    android:paddingTop="@dimen/common_margin_5"
+                                    android:paddingBottom="@dimen/common_margin_5"
+                                    android:gravity="center"
+                                    android:background="@drawable/btn_sleep"
+                                    android:textColor="#5294FF"
+                                    android:text="睡眠习惯"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:paddingStart="14dp"
+                            android:paddingTop="14dp"
+                            android:paddingEnd="14dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/sleep_container"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/white"
+                                android:orientation="horizontal">
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/no_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:visibility="gone"
+                            android:background="@mipmap/icon_nodata_sleep"/>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/sleep_hour_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginEnd="14dp"
+                        android:orientation="horizontal">
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/common_margin_10"
+                        android:layout_marginBottom="13dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/txt_normal_14"
+                            android:textColor="@color/global_666666"
+                            android:drawableStart="@drawable/circle_sleep_deep"
+                            android:drawablePadding="@dimen/common_margin_5"
+                            android:text="深睡"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/txt_normal_14"
+                            android:textColor="@color/global_666666"
+                            android:layout_marginStart="@dimen/common_margin_20"
+                            android:layout_marginEnd="@dimen/common_margin_20"
+                            android:drawableStart="@drawable/circle_sleep_light"
+                            android:drawablePadding="@dimen/common_margin_5"
+                            android:text="浅睡"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/txt_normal_14"
+                            android:textColor="@color/global_666666"
+                            android:drawableStart="@drawable/circle_sleep_sober"
+                            android:drawablePadding="@dimen/common_margin_5"
+                            android:text="清醒"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:layout_marginTop="@dimen/dp_12"
+                    android:background="@drawable/bg_rect_radius"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/global_333333"
+                        android:text="睡眠质量"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:drawableStart="@drawable/bg_sleep_draw"
+                        android:textSize="18sp"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+
+                        <com.gzhealthy.health.widget.SleepRatioView
+                            android:id="@+id/sleep_view"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/txt_normal_14"
+                                    android:textColor="@color/global_666666"
+                                    android:drawableStart="@drawable/circle_sleep_deep"
+                                    android:drawablePadding="@dimen/common_margin_5"
+                                    android:text="深睡"/>
+
+                                <TextView
+                                    android:id="@+id/deep"
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/txt_middle_16"
+                                    android:textStyle="bold"
+                                    android:paddingStart="@dimen/common_margin_3"
+                                    android:textColor="@color/global_666666"
+                                    android:text="%"/>
+
+
+                                <TextView
+                                    android:id="@+id/deep_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="22dp"
+                                    android:textColor="@color/global_333333"
+                                    android:textSize="13sp"
+                                    tools:text="8小时20分" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:layout_marginTop="@dimen/common_margin_30"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/txt_normal_14"
+                                    android:textColor="@color/global_666666"
+                                    android:drawableStart="@drawable/circle_sleep_light"
+                                    android:drawablePadding="@dimen/common_margin_5"
+                                    android:text="浅睡"/>
+
+                                <TextView
+                                    android:id="@+id/light"
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/txt_middle_16"
+                                    android:textStyle="bold"
+                                    android:paddingStart="@dimen/common_margin_3"
+                                    android:textColor="@color/global_666666"
+                                    android:text="%"/>
+
+
+                                <TextView
+                                    android:id="@+id/light_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="13sp"
+                                    android:textColor="@color/global_333333"
+                                    tools:text="8小时20分"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="@dimen/common_margin_20"
+                        android:background="@color/gray_line"/>
+
+
+                    <TextView
+                        android:id="@+id/paraphrase"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        tools:text="在你厅欠在你厅欠在你厅欠在你厅欠在你厅欠在你厅欠在你厅欠在你厅欠在你厅欠在你厅欠在你厅欠在你厅欠在你厅欠"
+                        android:lineSpacingExtra="2.5dp"
+                        android:textColor="@color/global_666666"/>
+
+
+
+                    <TextView
+                        android:id="@+id/paraphrase_desc"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:lineSpacingExtra="2.5dp"
+                        android:textColor="@color/global_666666"/>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_rect_radius"
+                    android:padding="14dp"
+                    android:layout_marginBottom="@dimen/common_margin_20"
+                    android:layout_marginTop="@dimen/dp_12"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/global_333333"
+                        android:text="改善睡眠"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:drawableStart="@drawable/bg_sleep_draw"
+                        android:textSize="18sp"/>
+
+
+
+                    <TextView
+                        android:id="@+id/suggest"
+                        android:layout_marginTop="@dimen/common_margin_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:lineSpacingExtra="2.5dp"
+                        android:textColor="@color/global_666666"/>
+
+                    <TextView
+                        android:id="@+id/suggest_desc"
+                        android:layout_marginTop="@dimen/common_margin_10"
+                        android:layout_marginBottom="@dimen/common_margin_25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:lineSpacingExtra="2.5dp"
+                        android:textColor="@color/global_666666"/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.gzhealthy.health.widget.ReboundScrollView>
+</LinearLayout>

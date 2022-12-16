@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aitsuki.swipe.SwipeItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/unbind"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/shape_item_right_menu"
+        android:gravity="center"
+        android:text="解绑"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/device_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_device_white_bg"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/img_watch"
+            android:layout_width="@dimen/common_margin_80"
+            android:layout_height="@dimen/common_margin_80"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/common_margin_20"
+            android:background="@drawable/img_watch" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/common_margin_20"
+            android:layout_toRightOf="@id/img_watch"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="体安TIAN WATCH"
+                android:textColor="@color/global_333333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/dev_imei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin_5"
+                android:text="设备ID："
+                android:textColor="@color/global_999999"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <com.gzhealthy.health.widget.BatteryView
+            android:id="@+id/batteryView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+
+</com.aitsuki.swipe.SwipeItemLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F8F8F8"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_weight="1"
+        app:srlEnableScrollContentWhenLoaded="true"
+        app:srlEnableFooterFollowWhenLoadFinished="true"
+        app:srlEnableLoadMore="true"
+        app:srlEnableRefresh="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/common_margin_20"
+        android:layout_marginTop="@dimen/common_margin_5"
+        android:paddingStart="15dp"
+        android:paddingBottom="@dimen/common_margin_10"
+        android:paddingEnd="@dimen/common_margin_10"
+        android:background="@drawable/bg_rect_top_half_radius"
+        android:elevation="@dimen/common_margin_3"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/btn_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@mipmap/img_health_quetion"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/global_333333"
+                android:text="做这些，报告更精准哦"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/common_margin_10"
+                    android:textSize="@dimen/txt_normal_14"
+                    android:textColor="@color/global_333333"
+                    android:text="1.每月做一遍中医体质答题"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_normal_14"
+                    android:layout_marginTop="@dimen/common_margin_10"
+                    android:textColor="@color/global_333333"
+                    android:text="2.每天使用体安手表测量心率，血压等"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_normal_14"
+                    android:layout_marginTop="@dimen/common_margin_10"
+                    android:textColor="@color/global_333333"
+                    android:text="3.每天用体安手表做3次以上一键检测"/>
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

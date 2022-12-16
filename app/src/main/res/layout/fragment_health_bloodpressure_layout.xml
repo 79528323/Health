@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/viewline"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F8F8F8"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/common_margin_10"
+                    android:background="@drawable/bg_rect_radius">
+
+
+<!--                    <com.gzhealthy.health.widget.HealthDateChoiceView-->
+<!--                        android:id="@+id/healthChoiceView"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                    </com.gzhealthy.health.widget.HealthDateChoiceView>-->
+
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/common_margin_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="@dimen/common_margin_25"
+                            android:layout_height="@dimen/common_margin_25"
+                            android:background="@mipmap/icon_pressure1"/>
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="血压 mmHg"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_title_et"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="血压(mmHg)"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:textColor="@color/global_999999"
+                            android:textSize="@dimen/txt_normal"/>
+
+                        <TextView
+                            android:id="@+id/tx_high"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="最高0/0"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:textColor="@color/global_999999"
+                            android:textSize="@dimen/txt_normal"/>
+
+
+                        <TextView
+                            android:id="@+id/tx_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="最低0/0"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:textColor="@color/global_999999"
+                            android:textSize="@dimen/txt_normal"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/common_margin_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="mmHg"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:textColor="@color/global_999999"
+                            android:textSize="@dimen/sp_12"/>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingEnd="@dimen/common_margin_10"
+                            android:gravity="center_vertical|end"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="收缩压"
+                                android:drawablePadding="@dimen/common_margin_5"
+                                android:layout_marginEnd="15dp"
+                                android:textColor="@color/global_999999"
+                                android:drawableLeft="@drawable/pressure_high_legend"
+                                android:textSize="@dimen/sp_12"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="舒张压"
+                                android:textColor="@color/global_999999"
+                                android:drawablePadding="@dimen/common_margin_5"
+                                android:drawableLeft="@drawable/pressure_low_legend"
+                                android:textSize="@dimen/sp_12"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/linechart"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                    </com.github.mikephil.charting.charts.LineChart>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin_10"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="@dimen/common_margin_10"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_margin_2"
+                            android:background="@drawable/icon_attention"/>
+
+                        <TextView
+                            android:text="@string/pressure_attention"
+                            android:gravity="top"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/global_999999"
+                            android:lineSpacingExtra="1.3dp"
+                            android:layout_marginBottom="@dimen/common_margin_20"
+                            android:textSize="@dimen/sp_12"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingVertical="22dp"
+                    android:layout_marginVertical="@dimen/common_margin_10"
+                    android:background="@drawable/bg_rect_radius"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/rercord_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/icon_pressure_rec_add"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/common_margin_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="建议每周手动上传一次血压记录"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="118dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp"
+                    android:background="@drawable/bg_rect_radius">
+
+                    <TextView
+                        android:drawableStart="@drawable/icon_rate2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="今日概览"
+                        android:textStyle="bold"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+
+
+                    <TextView
+                        android:id="@+id/check_pressure_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="测量血压"
+                        android:visibility="gone"
+                        android:layout_marginTop="15dp"
+                        android:textSize="@dimen/txt_normal"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="当前145/60 mmHg"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:visibility="gone"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="@dimen/txt_normal"/>-->
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_margin_20"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="最高血压"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"/>
+
+                            <TextView
+                                android:id="@+id/highest"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0mmHg"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"/>
+
+
+                        </LinearLayout>
+
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="@dimen/common_margin_20"
+                            android:layout_marginBottom="@dimen/common_margin_20"
+                            android:background="#EEEEEE"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="最低血压"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"/>
+
+                            <TextView
+                                android:id="@+id/lowest"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0mmHg"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"/>
+
+
+                        </LinearLayout>
+
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="@dimen/common_margin_20"
+                            android:layout_marginBottom="@dimen/common_margin_20"
+                            android:background="#EEEEEE"/>
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="血压"
+                        android:drawableStart="@drawable/circle_high_legend"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:textSize="@dimen/txt_middle_16"
+                        android:textColor="@color/global_333333"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin_10"
+                        android:layout_marginStart="15dp"
+                        android:text="是指血液在血管内流动时作用于单位面积血管壁的侧压力，它是推动血液在血管内流动的动力。"
+                        android:textSize="@dimen/txt_normal_14"
+                        android:lineSpacingExtra="2.5dp"
+                        android:textColor="@color/global_666666"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="一般正常血压范围："
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="@dimen/common_margin_20"
+                        android:textSize="@dimen/txt_middle_16"
+                        android:textColor="@color/global_333333"/>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="90mmHg&lt;收缩压&lt;140mmHg"
+                        android:background="@drawable/bg_rect_health"
+                        android:textSize="@dimen/sp_12"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="@dimen/common_margin_10"
+                        android:padding="@dimen/common_margin_10"
+                        android:textColor="#449FFA"/>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="60mmHg&lt;舒张压&lt;90mmHg"
+                        android:background="@drawable/bg_rect_health1"
+                        android:textSize="@dimen/sp_12"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="@dimen/common_margin_10"
+                        android:padding="@dimen/common_margin_10"
+                        android:textColor="#00D0B9"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="15dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/dp_12"
+                            android:layout_height="@dimen/dp_12"
+                            android:layout_marginTop="@dimen/common_margin_2"
+                            android:background="@mipmap/icon_report_ecg_tips"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/common_margin_10"
+                            android:lineSpacingExtra="2.5dp"
+                            android:text="完善身体信息的血压，我们将更好为你提供血压趋势管理。"
+                            android:drawablePadding="@dimen/common_margin_5"
+                            android:textSize="@dimen/txt_small"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
+

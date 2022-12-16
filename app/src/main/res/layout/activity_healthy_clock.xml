@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <com.gzhealthy.health.widget.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/img_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:background="@drawable/img_sleep_time_1"/>
+
+
+        </LinearLayout>
+
+
+    </com.gzhealthy.health.widget.ReboundScrollView>
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/pop_window"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/btn_healthy_clock_bg"-->
+<!--        android:layout_margin="@dimen/common_margin_20"-->
+<!--        android:textColor="@color/colorPrimary"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:paddingStart="@dimen/dp_10"-->
+<!--        android:paddingEnd="@dimen/dp_10"-->
+<!--        android:layout_marginEnd="@dimen/album_dp_15"-->
+<!--        android:gravity="center"-->
+<!--        android:drawableEnd="@mipmap/icon_healthy_clock"-->
+<!--        android:text="十二时辰"-->
+<!--        android:textSize="16sp" />-->
+</RelativeLayout>

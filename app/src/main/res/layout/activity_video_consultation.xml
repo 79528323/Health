@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gzhealthy.health.widget.ReboundScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/connect"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/button_custom_bg"
+            android:layout_margin="@dimen/common_margin_40"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="马上连线视频医生"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</com.gzhealthy.health.widget.ReboundScrollView>

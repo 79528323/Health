@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/default_background">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:drawableTop="@mipmap/icon_file_nodata"
+        android:gravity="center_horizontal"
+        android:text="该功能即将开放"
+        android:textColor="@color/global_999999"
+        android:textSize="@dimen/txt_normal_14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="敬请期待..."
+        android:textColor="#00C9B4"
+        android:layout_marginTop="@dimen/common_margin_5"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_normal_14" />
+
+</LinearLayout>

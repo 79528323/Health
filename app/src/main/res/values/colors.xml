@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00D0B9</color>
+    <color name="colorPrimaryDark">#157C57</color>
+    <color name="colorAccent">#22D393</color>
+
+    <color name="colorAccent_dark">#0D4A34</color>
+    <color name="alert_red_color">#f44336</color>
+    <color name="alert_orange_color">#ff5722</color>
+    <color name="yellow_color">#ffeb3b</color>
+    <color name="green_color">#cddc39</color>
+
+    <color name="tabSelected">#673ab7</color>
+
+    <color name="holo_gray_light">#33999999</color>
+    <color name="color_626566">#626566</color>
+    <color name="btn_normal_bg_color">#2196f3</color>
+    <color name="gray_line">#ebebeb</color>
+    <color name="gray_bg">#f0eff5</color>
+    <color name="btn_select_bg_color">#1e88ef</color>
+    <color name="btn_disable_bg_color">#e3f2fd</color>
+    <color name="btn_txt_normal_color">#ffffff</color>
+    <color name="btn_txt_select_color">#1565c0</color>
+    <color name="btn_txt_disable_color">#90caf9</color>
+    <color name="black_text">#212121</color>
+    <color name="gray_btn">#EBEBEB</color>
+    <color name="color_8BE7D2">#8BE7D2</color>
+
+    <color name="btn_red_normal_bg_color">#f44336</color>
+    <color name="btn_red_select_bg_color">#d32f2f</color>
+    <color name="btn_red_disable_bg_color">#cccccc</color>
+    <color name="btn_red_txt_normal_color">#ffffff</color>
+    <color name="btn_red_txt_select_color">#520101</color>
+    <color name="btn_red_txt_disable_color">#ffffff</color>
+
+
+    <color name="btn_border_normal_bg_color">#ffffff</color>
+    <color name="btn_border_select_bg_color">#e3f2fd</color>
+    <color name="btn_border_txt_color">#2196f3</color>
+
+    <color name="window_background_color">#f5f5f5</color>
+    <color name="txt_normal_color">#333333</color>
+    <color name="txt_second_color">#666666</color>
+    <color name="txt_third_color">#999999</color>
+    <color name="divider_color">#eeeeee</color>
+
+    <color name="toast_success_color">#43A047</color>
+    <color name="toast_error_color">#E53935</color>
+
+    <color name="rippelColor">#ffffff</color>
+    <color name="back_gray2">#f4f4f4</color>
+    <color name="text1">#a2a2a2</color>
+    <color name="global_x_my">#f4f5f9</color>
+    <color name="global_x_login">#e7e7e7</color>
+    <color name="title_222222">#222222</color>
+    <color name="title">#333333</color>
+    <color name="global_x">#eeeeee</color>
+    <color name="global_view_gray">#dadfdd</color>
+    <color name="white">#ffffff</color><!--白色 -->
+    <color name="color_F2F3F5">#F2F3F5</color>
+    <color name="color_FF3F12">#FF3F12</color>
+    <color name="color_E0E0E0">#E0E0E0</color>
+    <color name="color_FE5252">#FE5252</color>
+    <color name="color_F3F4F5">#F3F4F5</color>
+    <color name="global_9a9a9a">#9a9a9a</color><!--灰色 -->
+    <color name="black">#000000</color>
+    <color name="half_black">#7f000000</color>
+    <color name="global_bg_title_blue">#3498fc</color>
+    <color name="global_bg">#f5f4f9</color>
+    <color name="small_global">#ffffff</color>
+    <color name="global_333333">#333333</color>
+    <color name="global_bg_title">#c82226</color>
+    <color name="global_bg_list">#eeeeee</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent_pop">#3000</color>
+    <color name="global_tr_wilte">#99ffffff</color>
+    <color name="global_bg_title_light">#b2ead8</color>
+    <color name="reveal_color">#10000000</color>
+    <color name="global_787878">#787878</color>
+    <color name="global_777777">#777777</color>
+    <color name="global_666666">#666666</color>
+    <color name="global_444444">#444444</color>
+    <color name="global_999999">#999999</color>
+    <color name="global_888888">#888888</color>
+    <color name="global_a4a4a4">#a4a4a4</color><!--灰色 -->
+    <color name="global_d5e6df">#D5E6DF</color>
+    <color name="global_eeeeee">#eeeeee</color><!--灰色 -->
+    <color name="global_f6faf9">#f6faf9</color><!--灰色 -->
+    <color name="all_transparent_while">#0000</color>
+    <color name="light_coral">#f08080</color><!--亮珊瑚色 -->
+    <color name="big_global">#f5f4f9</color>
+    <color name="global_yellow">#f2e443</color>
+    <color name="yellow">#EBBB15</color>
+    <color name="label_normal">#F5F5F5</color>
+    <color name="red">#FF3C55</color><!--红色 -->
+
+
+    <color name="global_txt_gray">#232323</color>
+    <color name="global_txt_blue_link">#0780f8</color>
+    <color name="global_txt_blue">#478dfe</color>
+    <color name="global_dialog_txt">#3498fc</color>
+    <color name="global_ee0144">#15b380</color>
+    <color name="global_c82226">#15b380</color>
+    <color name="global_fd8b2f">#fd8b2f</color>
+    <color name="global_aaaaaa">#AAAAAA</color>
+    <color name="global_cir_blue_gray">#5e6d91</color>
+    <color name="global_30a6e7">#30a6e7</color>
+    <color name="global_text_white">#fffafa</color>
+    <color name="theme_newfun">#478dfe</color>
+    <color name="theme_grade_gray">#848f99</color>
+    <color name="theme_dedede">#dedede</color>
+    <color name="color_fff9f4">#fff9f4</color>
+    <color name="common_dialog_bg">#7A000000</color>
+    <color name="text_color_1">#202020</color>
+    <color name="text_color_2">#666</color>
+    <color name="text_color_3">#999</color>
+    <color name="text_color_03B68F">#f39700</color>
+    <color name="text_color_626566">#626566</color>
+    <color name="text_color_fb8b2f">#fb8b2f</color>
+    <color name="text_color_dddddd">#dddddd</color>
+    <color name="color_03B68F">#f39700</color>
+    <color name="flowlayout_checked_color">#57609e</color>
+    <color name="flow_check_color">#FF4081</color>
+    <color name="flow_uncheck_color">#22b3de</color>
+    <color name="flow_unenable_color">#5e75d8</color>
+    <color name="flow_biankuang_color">#f55451</color>
+    <color name="flow_unbiankuang_color">#22b3de</color>
+    <color name="flowlayout_unchecked_color">#f2f5f9</color>
+    <color name="flowlayout_unenable_color">#999999</color>
+    <color name="color_d8d8d8">#d8d8d8</color>
+    <color name="divider_liner">#dddddd</color>
+    <color name="color_1EB598">#1EB598</color>
+    <color name="color_2793DC">#2793DC</color>
+    <color name="color_F6F6F6">#F6F6F6</color>
+
+    <!-- 日历定义的一些颜色 -->
+    <color name="normal_day">#1EB598</color>
+    <color name="selected_day_background">#1EB598</color>
+    <color name="selected_day_text">#FFFFFF</color>
+    <color name="invalid_day_background">#c0c0c0</color>
+    <color name="mSelectedDayCenter_background">#E3FAF5</color>
+    <color name="search_text_color">#B6B6B6</color>
+    <color name="text_b_while">#ddf2eb</color>
+
+    <color name="color_FFFDE5">#fffde5</color>
+
+    <!-- RecyclerView分割线 -->
+    <color name="divide_gray_color">#EEEEEE</color>
+
+    <!--半透明-->
+    <color name="colorBanTransparent">#11000000</color>
+    <color name="colorBanTransparent1">#33000000</color>
+    <color name="colorBanTransparent2">#99000000</color>
+
+    <color name="login_tab_selected">#333333</color>
+    <color name="login_tab">#999999</color>
+
+    <color name="color_13D1AE">#ff13D1AE</color>
+    <color name="color_999999">#999999</color>
+
+
+
+    <color name="linechart_line_color">#00DDCB</color><!--红色 -->
+
+    <color name="ring_bg">#E0FFFB</color>
+    <color name="ring_shader_s">#6CE5B6</color>
+    <color name="ring_shader_e">#13D1AE</color>
+
+
+
+    <color name="walk_shader_s">#FF00EDC3</color>
+    <color name="walk_shader_e">#FF00C9B4</color>
+
+
+    <color name="score_shader_e">#BEFFF6</color>
+    <color name="score_shader_s">#FFFFFF</color>
+    <color name="score_shader_c1">#80A0FFF3</color>
+    <color name="score_shader_c2">#A0FFF3</color>
+    <color name="score_shader_c3">#A0FFF3</color>
+
+    <color name="app_btn_parimary">#00D0B9</color>
+
+
+    <color name="bg_gray">#F8F8F8</color>
+
+
+    <color name="health_card_status_exp">#FFC12B</color>
+
+
+    <color name="start_qr_line">#0800D0B9</color>
+
+    <color name="end_qr_line">#0800D0B9</color>
+
+
+    <color name="glu_hunger">#1CD3B4</color>
+    <color name="glu_meal">#5294FF</color>
+    <color name="glu_sugar">#FFB220</color>
+
+    <color name="default_background">#F8F8F8</color>
+    <color name="color_mask">#60000000</color>
+</resources>

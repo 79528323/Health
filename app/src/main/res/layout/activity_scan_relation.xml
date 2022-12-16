@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <cn.bingoogolapple.qrcode.zxing.ZXingView
+        android:id="@+id/zXingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:qrcv_cornerColor="#3de8d0"
+        app:qrcv_cornerSize="4dp"
+        app:qrcv_maskColor="@color/color_mask"
+        app:qrcv_isOnlyDecodeScanBoxArea="true"
+        app:qrcv_rectWidth="220dp"
+        app:qrcv_scanLineColor="#00C9B4"
+        app:qrcv_topOffset="150dp" />
+
+
+    <TextView
+        android:id="@+id/ivAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:drawableTop="@mipmap/scan_relation_album"
+        android:drawablePadding="8dp"
+        android:foreground="?attr/actionBarItemBackground"
+        android:gravity="center"
+        android:paddingHorizontal="12dp"
+        android:text="相册"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PacketRecyclerView</string>
+    <string name="noData">No Data</string>
+    <string name="err_network">error for network</string>
+    <string name="more_loading">Loading Data</string>
+    <string name="no_more">No More Data</string>
+</resources>

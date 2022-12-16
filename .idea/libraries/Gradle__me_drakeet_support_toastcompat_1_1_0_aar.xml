@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="Gradle: me.drakeet.support:toastcompat:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4a098c67263ef1193d4081906a214a4/jetified-toastcompat-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4a098c67263ef1193d4081906a214a4/jetified-toastcompat-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4a098c67263ef1193d4081906a214a4/jetified-toastcompat-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8354f8e31567a6250ada920951fa86c/jetified-toastcompat-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8354f8e31567a6250ada920951fa86c/jetified-toastcompat-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8354f8e31567a6250ada920951fa86c/jetified-toastcompat-1.1.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f3b3381297c01496929bce21698b9c6/jetified-toastcompat-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f3b3381297c01496929bce21698b9c6/jetified-toastcompat-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f3b3381297c01496929bce21698b9c6/jetified-toastcompat-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a61131fdb183b42703aa5f6968c20ce8/jetified-toastcompat-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a61131fdb183b42703aa5f6968c20ce8/jetified-toastcompat-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a61131fdb183b42703aa5f6968c20ce8/jetified-toastcompat-1.1.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c48a43737582b42e9612511c2656c3d2/jetified-toastcompat-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c48a43737582b42e9612511c2656c3d2/jetified-toastcompat-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c48a43737582b42e9612511c2656c3d2/jetified-toastcompat-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/877a0ed9f40ec5f05d8af20ad48e3b43/jetified-toastcompat-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/877a0ed9f40ec5f05d8af20ad48e3b43/jetified-toastcompat-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/877a0ed9f40ec5f05d8af20ad48e3b43/jetified-toastcompat-1.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/344c6ca9cbc367dd77aa4ed269437352/jetified-toastcompat-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/344c6ca9cbc367dd77aa4ed269437352/jetified-toastcompat-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/344c6ca9cbc367dd77aa4ed269437352/jetified-toastcompat-1.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.drakeet.support/toastcompat/1.1.0/c05cf5184050e592f449cd424be5c34731ac4fe7/toastcompat-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.drakeet.support/toastcompat/1.1.0/6b143e29ca4a4219541b547085c5fb2e4870a7f2/toastcompat-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

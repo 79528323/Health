@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="42dp"
+        android:background="@drawable/shape_ffffffff_8"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="32dp"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:textColor="#ff333333"
+            android:textSize="16sp"
+            tools:text="体安客服将马上拨通你的绑定手机请保持电话13522223333畅通" />
+
+        <TextView
+            android:id="@+id/tvKnow"
+            android:layout_width="160dp"
+            android:layout_height="36dp"
+            android:layout_marginVertical="18dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/shape_ff00d0b9_20"
+            android:gravity="center"
+            android:text="知道了"
+            android:textColor="#ffffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

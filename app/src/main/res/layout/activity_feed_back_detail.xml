@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="22dp"
+            android:text="类型"
+            android:textColor="#ff333333"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:id="@+id/tvFunctionAbnormal"
+                android:layout_width="80dp"
+                android:layout_height="26dp"
+                android:background="@drawable/selector_feed_back_detail_type"
+                android:gravity="center"
+                android:text="功能异常"
+                android:textColor="@color/selector_feed_back_detail_type"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvOptimizationSuggestions"
+                android:layout_width="80dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/selector_feed_back_detail_type"
+                android:gravity="center"
+                android:text="优化建议"
+                android:textColor="@color/selector_feed_back_detail_type"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvOhter"
+                android:layout_width="80dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/selector_feed_back_detail_type"
+                android:gravity="center"
+                android:text="其他"
+                android:textColor="@color/selector_feed_back_detail_type"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="26dp"
+            android:text="问题和建议"
+            android:textColor="#ff333333"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_feedback_gray"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/etContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="left"
+                android:hint="请至少用10个字描述问题，有助于问题快速解决"
+                android:lines="5"
+                android:maxLength="500"
+                android:maxLines="5"
+                android:textColor="@color/global_333333"
+                android:textColorHint="@color/global_999999"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tvContentLimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="16dp"
+                android:textColor="#FFCCCCCC"
+                android:textSize="12sp"
+                tools:text="xxx/xxx" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="28dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片补充"
+                android:textColor="#ff333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="（上传问题截图最多4张）"
+                android:textColor="#ff999999"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_custom_bg"
+            android:gravity="center"
+            android:text="提交"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

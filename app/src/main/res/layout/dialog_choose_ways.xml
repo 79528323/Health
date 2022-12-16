@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_myinfo_changeaddress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ly_myinfo_changeaddress_child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="450px"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_pic_sourse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="图片来源"
+                android:visibility="gone"
+                android:textColor="@color/title"
+                android:textSize="48px" />
+
+            <View style="@style/line_horizontal" />
+
+            <TextView
+                android:id="@+id/tv_select_photos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="相册选择"
+                android:textColor="@color/title"
+                android:textSize="48px" />
+
+            <View style="@style/line_horizontal" />
+
+            <TextView
+                android:id="@+id/tv_take_camera"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="拍照"
+                android:textColor="@color/title"
+                android:textSize="48px" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:background="@color/global_bg_list" />
+
+        <TextView
+            android:id="@+id/tv_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/title"
+            android:textSize="48px" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

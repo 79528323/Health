@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="142dp"
+        android:drawableTop="@mipmap/icon_my_cardpackage_no_data"
+        android:drawablePadding="14dp"
+        android:gravity="center"
+        android:text="你的卡包暂无卡券~"
+        android:textColor="#ff999999"
+        android:textSize="14sp" />
+</LinearLayout>

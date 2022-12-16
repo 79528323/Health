@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="Health"></dbname>
+    <version value="4"></version>
+    <list>
+        <mapping class="com.gzhealthy.health.model.UserInfo$DataBean"></mapping>
+        <mapping class="com.gzhealthy.health.model.SelectCityModel"></mapping>
+        <mapping class="com.gzhealthy.health.model.SearchHisModel"></mapping>
+        <mapping class="com.gzhealthy.health.model.DestinationSelectCityModel"></mapping>
+        <mapping class="com.gzhealthy.health.model.LetterModel"></mapping>
+    </list>
+</litepal>

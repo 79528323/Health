@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background"
+    android:orientation="vertical">
+
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:gravity="top"-->
+    <!--        android:minHeight="?attr/actionBarSize"-->
+    <!--        android:translationY="-30dp"-->
+    <!--        app:contentInsetEnd="0dp"-->
+    <!--        app:contentInsetLeft="0dp"-->
+    <!--        app:contentInsetStart="0dp"-->
+    <!--        app:layout_collapseMode="pin"-->
+    <!--        app:maxButtonHeight="20dp"-->
+    <!--        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+    <!--        app:titleMargin="0dp">-->
+
+    <!--        -->
+
+    <!--    </androidx.appcompat.widget.Toolbar>-->
+
+    <LinearLayout
+        android:id="@+id/index_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/common_margin_10"
+        android:paddingBottom="@dimen/common_margin_6"
+        android:paddingHorizontal="12dp">
+
+        <LinearLayout
+            android:id="@+id/ll_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_search_title2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/common_margin_6"
+                android:src="@mipmap/ic_home_search_bg" />
+
+            <TextView
+                android:id="@+id/tv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="搜索动态、话题、资讯"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_marginTop="1.5dp"
+        app:srlEnableFooterFollowWhenLoadFinished="true"
+        app:srlEnableScrollContentWhenLoaded="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:id="@+id/toolbar_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:contentScrim="#FFFFFF"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                    app:statusBarScrim="@android:color/transparent"
+                    app:titleEnabled="false">
+
+                    <com.youth.banner.Banner xmlns:banner="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/mBanner"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_marginHorizontal="@dimen/common_margin_10"
+                        android:layout_marginVertical="@dimen/common_margin_10"
+                        android:focusable="true"
+                        banner:banner_indicator_normal_color="@color/colorPrimary"
+                        banner:banner_indicator_selected_color="@color/white"
+                        banner:banner_loop_time="5000"
+                        banner:banner_radius="5dp" />
+
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/mTabLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:tabBackground="@null"
+                    app:tabGravity="fill"
+                    app:tabIndicator="@drawable/shape_tab_indicator"
+                    app:tabIndicatorColor="#00C9B4"
+                    app:tabIndicatorFullWidth="false"
+                    app:tabMode="fixed"
+                    app:tabSelectedTextColor="#3D3E3D"
+                    app:tabTextAppearance="@style/TabLayoutNormalTextSize"
+                    app:tabTextColor="#535151" />
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/mViewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/white" />
+
+            </LinearLayout>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

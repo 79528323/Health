@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--圆形iv-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <!-- 滑动返回style声明 -->
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="edge_size" format="dimension" />
+        <attr name="edge_flag">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+        <attr name="shadow_left" format="reference" />
+        <attr name="shadow_right" format="reference" />
+        <attr name="shadow_bottom" format="reference" />
+    </declare-styleable>
+    <attr name="SwipeBackLayoutStyle" format="reference" />
+    <!--左滑删除-->
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+        <attr name="leftEdgeSwipeOffset" format="dimension" />
+        <attr name="rightEdgeSwipeOffset" format="dimension" />
+        <attr name="topEdgeSwipeOffset" format="dimension" />
+        <attr name="bottomEdgeSwipeOffset" format="dimension" />
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0" />
+            <enum name="pull_out" value="1" />
+        </attr>
+        <attr name="clickToClose" format="boolean" />
+    </declare-styleable>
+    <!--刷新 加载更多-->
+    <declare-styleable name="SwipeToLoadLayout">
+        <attr name="refresh_enabled" format="boolean" />
+        <attr name="load_more_enabled" format="boolean" />
+        <attr name="swipe_style" format="enum">
+            <enum name="classic" value="0" />
+            <enum name="above" value="1" />
+            <enum name="blew" value="2" />
+            <enum name="scale" value="3" />
+        </attr>
+        <attr name="refresh_trigger_offset" format="dimension" />
+        <attr name="load_more_trigger_offset" format="dimension" />
+        <attr name="refresh_final_drag_offset" format="dimension" />
+        <attr name="load_more_final_drag_offset" format="dimension" />
+        <attr name="release_to_refreshing_scrolling_duration" format="integer" />
+        <attr name="refresh_complete_delay_duration" format="integer" />
+        <attr name="refresh_complete_to_default_scrolling_duration" format="integer" />
+        <attr name="default_to_refreshing_scrolling_duration" format="integer" />
+        <attr name="release_to_loading_more_scrolling_duration" format="integer" />
+        <attr name="load_more_complete_delay_duration" format="integer" />
+        <attr name="load_more_complete_to_default_scrolling_duration" format="integer" />
+        <attr name="default_to_loading_more_scrolling_duration" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="swipeEnable" format="boolean" />
+        <attr name="ios" format="boolean" />
+        <attr name="leftSwipe" format="boolean" />
+    </declare-styleable>
+    <!--轮播图-->
+    <declare-styleable name="Banner">
+        <attr name="delay_time" format="integer" />
+        <attr name="scroll_time" format="integer" />
+        <attr name="is_auto_play" format="boolean" />
+        <attr name="title_background" format="color|reference" />
+        <attr name="title_textcolor" format="color" />
+        <attr name="title_textsize" format="dimension" />
+        <attr name="title_height" format="dimension" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_height" format="dimension" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_drawable_selected" format="reference" />
+        <attr name="indicator_drawable_unselected" format="reference" />
+        <attr name="banner_layout" format="reference" />
+        <attr name="banner_default_image" format="reference" />
+        <attr name="image_scale_type" format="enum">
+            <enum name="center" value="0" />
+            <enum name="center_crop" value="1" />
+            <enum name="center_inside" value="2" />
+            <enum name="fit_center" value="3" />
+            <enum name="fit_end" value="4" />
+            <enum name="fit_start" value="5" />
+            <enum name="fit_xy" value="6" />
+            <enum name="matrix" value="7" />
+        </attr>
+    </declare-styleable>
+    <!--手势验证-->
+    <declare-styleable name="lockview">
+        <attr name="normalColor" format="color" />
+        <attr name="wrongColor" format="color" />
+    </declare-styleable>
+    <!--身份，银行卡，电话验证-->
+    <declare-styleable name="ContentWithSpaceEditText">
+        <attr name="input_type" format="enum">
+            <enum name="phone" value="0" />
+            <enum name="bank_card_no" value="1" />
+            <enum name="identify_card_no" value="2" />
+        </attr>
+    </declare-styleable>
+    <!--recycleView 轮播-->
+    <declare-styleable name="BannerIndicator">
+        <!-- 圆点的颜色 -->
+        <attr name="selectColor" format="color" />
+        <!-- 未选中圆点的颜色 -->
+        <attr name="unselectedColor" format="color" />
+        <!-- 圆点的大小 -->
+        <attr name="radius" format="dimension" />
+        <!-- 圆点间间距的大小 -->
+        <attr name="space" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageShowPickerView">
+        <!-- 单张图片大小（宽高一样） -->
+        <attr name="pic_size" format="dimension" />
+        <!-- 最大数量 -->
+        <attr name="max_num" format="integer" />
+        <!-- 添加图片 -->
+        <attr name="add_label" format="reference" />
+        <!-- 删除图片 -->
+        <attr name="del_label" format="reference" />
+        <!-- 是否显示删除按钮-->
+        <attr name="is_show_del" format="boolean" />
+        <!-- 是否展示动画-->
+        <attr name="is_show_anim" format="boolean" />
+        <!-- 单行显示数量-->
+        <attr name="one_line_show_num" format="integer" />
+
+    </declare-styleable>
+
+    <!-- 飞机票日历 -->
+    <declare-styleable name="DayPickerView">
+        <attr name="colorCurrentDay" format="color" />               <!-- 今天字体颜色 -->
+        <attr name="colorSelectedDayBackground" format="color" />    <!-- 被选中的日期背景颜色 -->
+        <attr name="colorSelectedDayText" format="color" />          <!-- 被选中的日期字体颜色 -->
+        <attr name="colorPreviousDayText" format="color" />          <!-- 已过去的日期字体颜色 -->
+        <attr name="colorNormalDayText" format="color" />           <!-- 正常日期颜色 -->
+        <attr name="colorYearMonthText" format="color" />           <!-- 头部年份月份字体颜色 -->
+        <attr name="colorWeekText" format="color" />                <!-- 头部星期几字体颜色 -->
+        <attr name="colorBusyDaysBg" format="color" />              <!-- 被占用的日期背景颜色 -->
+        <attr name="colorInValidDaysBg" format="color" />           <!-- 禁用的日期背景颜色 -->
+        <attr name="colorBusyDaysText" format="color" />            <!-- 被占用的日期字体颜色 -->
+        <attr name="colorInValidDaysText" format="color" />         <!-- 禁用的日期字体颜色 -->
+
+        <attr name="textSizeDay" format="dimension" />               <!-- 正常日期字体大小 -->
+        <attr name="textSizeTag" format="dimension" />               <!-- 标签字体大小 -->
+        <attr name="textSizeYearMonth" format="dimension" />        <!-- 头部年份月份字体大小 -->
+        <attr name="textSizeWeek" format="dimension" />             <!-- 头部星期几字体大小 -->
+        <attr name="headerMonthHeight" format="dimension" />        <!-- 头部高度 -->
+        <attr name="selectedDayRadius" format="dimension" />        <!-- 日期半径 -->
+        <attr name="calendarHeight" format="dimension" />           <!-- 行高 -->
+        <attr name="enablePreviousDay" format="boolean" />          <!-- 已过去的日期是否能被操作 -->
+
+    </declare-styleable>
+
+    <declare-styleable name="XlHRatingBar"><!--星级控件-->
+        <attr name="starCount" format="integer" /><!--总的星星数-->
+        <attr name="canEdit" format="boolean" /><!--是否可以点击选择，有时候纯展示用不需要选择-->
+        <attr name="widthAndHeight" format="dimension" /><!--单个星星的宽度-->
+        <attr name="dividerWidth" format="dimension" /><!--星星左右间距-->
+        <attr name="countSelected" format="integer" /><!--当前已选中的星星个数-->
+        <attr name="stateResId" format="reference" /><!--单个星星不同状态下对应的图标-->
+        <attr name="differentSize" format="boolean" /><!--是否支持大小不等星星样式-->
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightRecyclerView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <!--    <declare-styleable name="NoticeView">-->
+    <!--        <attr name="textSize" format="dimension" />-->
+    <!--        <attr name="textColor" format="color|reference" />-->
+    <!--    </declare-styleable>-->
+
+    <declare-styleable name="AutoFlowLayout">
+        <attr name="singleLine" format="boolean"></attr>
+        <attr name="maxLines" format="integer"></attr>
+        <attr name="multiChecked" format="boolean"></attr>
+        <attr name="horizontalSpace" format="dimension"></attr>
+        <attr name="verticalSpace" format="dimension"></attr>
+        <attr name="columnNumbers" format="integer"></attr>
+        <attr name="rowNumbers" format="integer"></attr>
+        <attr name="cutLineWidth" format="dimension"></attr>
+        <attr name="cutLineColor" format="color"></attr>
+        <attr name="cutLine" format="boolean"></attr>
+        <attr name="lineCenter" format="boolean"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleSmallView">
+        <attr name="circle_bg" format="color"/>
+        <attr name="circle_fore_bg" format="color"/>
+        <attr name="circle_inside_img" format="reference"/>
+        <attr name="circle_line_width" format="dimension"/>
+        <attr name="circle_total_value" format="integer"/>
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="MoreTextView">
+        <attr name="minLine" format="integer"/>
+        <attr name="moreTextColor" format="color"/>
+        <attr name="moreSwitchTextColor" format="color"/>
+        <attr name="moreTextSize" format="dimension"/>
+        <attr name="moreSwitchTextSize" format="dimension"/>
+        <attr name="moreSwitchDrawable" format="reference"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="zxing_view">
+        <attr format="reference" name="zxing_scanner_layout"/>
+    </declare-styleable>
+    <declare-styleable name="zxing_finder">
+        <attr format="color" name="zxing_possible_result_points"/>
+        <attr format="color" name="zxing_result_view"/>
+        <attr name="zxing_viewfinder_laser_visibility" format="boolean"/>
+        <attr format="color" name="zxing_viewfinder_laser"/>
+        <attr format="color" name="zxing_viewfinder_mask"/>
+    </declare-styleable>
+</resources>

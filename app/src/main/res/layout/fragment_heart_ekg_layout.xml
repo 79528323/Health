@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <com.gzhealthy.health.widget.HealthDateChoiceView-->
+<!--        android:id="@+id/healthChoiceView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--    </com.gzhealthy.health.widget.HealthDateChoiceView>-->
+
+    <View
+        android:id="@+id/viewline"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/white"/>
+
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<!--        <com.scwang.smartrefresh.layout.header.ClassicsHeader-->
+<!--            android:id="@+id/header"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/check_state_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/common_margin_10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="统计概览"
+                        android:layout_weight="1"
+                        android:textColor="@color/global_333333"
+                        android:textSize="@dimen/txt_middle_16"/>
+
+                    <TextView
+                        android:id="@+id/check_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="立即查看"
+                        android:background="@drawable/bg_check_state"
+                        android:paddingStart="@dimen/common_margin_8"
+                        android:paddingEnd="@dimen/common_margin_8"
+                        android:paddingTop="@dimen/common_margin_3"
+                        android:paddingBottom="@dimen/common_margin_3"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_normal_14"/>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@mipmap/icon_no_data"
+                        android:text="没有心电数据"
+                        android:drawablePadding="@dimen/common_margin_10"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/txt_middle_16"
+                        android:layout_marginBottom="100dp"
+                        android:textColor="@color/global_999999"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/line_reclyer"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F8F8F8"
+                        android:overScrollMode="never"/>
+                </FrameLayout>
+
+
+            </LinearLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>
+

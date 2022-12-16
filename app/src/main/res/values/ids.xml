@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="iv_image_show_picker_del" type="id" />
+    <item name="iv_image_show_picker_pic" type="id" />
+    <item name="tag_first" type="id"></item>
+    <item name="tag_second" type="id"></item>
+    <item name="tag_third" type="id"></item>
+
+
+    <item type="id" name="health_file_tag_first"></item>
+    <item type="id" name="health_file_tag_second"></item>
+    
+    <item name="tag_fencerange_location" type="id"/>
+    <item name="tag_fencerange_radius_option" type="id"/>
+</resources>

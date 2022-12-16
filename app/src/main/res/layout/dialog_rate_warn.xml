@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="42dp"
+        android:background="@drawable/shape_ffffffff_8"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="5dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/dialog_rate_warn"
+            android:drawablePadding="4dp"
+            android:text="心率多次过快，非运动时请警惕！"
+            android:textColor="#ff333333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvHelp"
+            android:layout_width="160dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/shape_ffd93f3f_20"
+            android:gravity="center"
+            android:text="求助"
+            android:textColor="#ffffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvCancle"
+            android:layout_width="160dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#ff999999"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

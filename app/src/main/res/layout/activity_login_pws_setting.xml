@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="@dimen/common_margin_25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重置密码"
+        android:textColor="@color/global_333333"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/rl_name"
+        style="@style/re_userinfo"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="18dp">
+
+        <com.gzhealthy.health.widget.edittext.ClearableEditText
+            android:id="@+id/et_oldpws"
+            style="@style/tv_userinfo_value1"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="left|center"
+            android:hint="输入原密码"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:maxLines="1"
+            android:textColor="@color/global_333333"
+            android:textColorHint="#CCCCCC" />
+    </RelativeLayout>
+
+    <View
+        style="@style/div_style"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp" />
+
+    <RelativeLayout
+        style="@style/re_userinfo"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="18dp">
+
+        <com.gzhealthy.health.widget.edittext.ClearableEditText
+            android:id="@+id/et_newpws"
+            style="@style/tv_userinfo_value1"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="left|center"
+            android:hint="请设置新密码（7-16位大小写字母或数字）"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:maxLines="1"
+            android:textColor="@color/global_333333"
+            android:textColorHint="#CCCCCC" />
+    </RelativeLayout>
+
+    <View
+        style="@style/div_style"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp" />
+
+    <RelativeLayout
+        style="@style/re_userinfo"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="18dp">
+
+        <com.gzhealthy.health.widget.edittext.ClearableEditText
+            android:id="@+id/et_againpws"
+            style="@style/tv_userinfo_value1"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="left|center"
+            android:hint="确认新密码"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:maxLines="1"
+            android:textColor="@color/global_333333"
+            android:textColorHint="#CCCCCC" />
+    </RelativeLayout>
+
+    <View
+        style="@style/div_style"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp" />
+
+    <TextView
+        android:id="@+id/tv_sure"
+        style="@style/menu_red"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="@dimen/common_margin_50"
+        android:background="@drawable/btn_commit"
+        android:enabled="false"
+        android:text="确定" />
+
+    <TextView
+        android:id="@+id/forget_pwd"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13sp"
+        android:text="忘记原密码"/>
+
+</LinearLayout>

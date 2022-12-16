@@ -1,0 +1,245 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'realm-android'
+apply plugin: 'com.huawei.agconnect'
+
+// 证书指纹:
+// MD5: 57:5C:55:3E:71:7B:13:D9:19:B3:82:1B:01:E6:41:E7
+// SHA1: 4D:E0:0C:2B:FE:FE:A6:9B:27:61:33:E5:DD:90:6C:3B:7F:35:A2:AC
+// SHA256: 7C:DC:22:8F:AA:9B:84:3E:F3:9A:0E:CB:36:DC:EE:63:BC:2C:F6:9E:BC:73:BC:8A:44:2F:40:EE:11:75:1A:78
+// 签名算法名称: SHA256withRSA
+// 版本: 3
+
+def releaseTime() {
+    return new Date().format("yyyy.MM.dd", TimeZone.getTimeZone("UTC"))
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.1"
+
+    defaultConfig {
+        applicationId "com.gzhealthy.health"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 17001
+        versionName "1.7.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+
+    }
+
+    signingConfigs {
+
+        signingConfig {
+            keyAlias 'health'
+            keyPassword 'fjyru_8932H_gdk'
+            storeFile file('/Users/admins/AndroidStudioProjects/gzhealthy_android/file/key.jks')
+            storePassword 'fjyru_8932H_gdk'
+        }
+    }
+
+    buildTypes {
+        release {
+            multiDexEnabled true
+            minifyEnabled false
+//            shrinkResources true //压缩资源
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //生成的apk命名start
+            android.applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        def fileName
+                        if (variant.buildType.name == "release") {
+                            fileName = "TIAN_v${defaultConfig.versionName}_release.apk"
+                        } else {
+                            fileName = "TIAN_v${defaultConfig.versionName}_${releaseTime()}_debug.apk"
+                        }
+                        outputFileName = fileName
+                    }
+                }
+            }
+            //生成的apk命名end
+            ndk {
+                abiFilters "armeabi"
+            }
+
+            signingConfig signingConfigs.signingConfig
+        }
+        debug {
+            minifyEnabled false
+            multiDexEnabled true
+            ndk {
+                abiFilters  "armeabi",'x86'
+            }
+            signingConfig signingConfigs.signingConfig
+            debuggable true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+        incremental = false
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    testImplementation 'junit:junit:4.13'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.android.support:design:23.3.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.multidex:multidex:2.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation files('libs/bugly_crash_release.jar')
+    implementation files('libs/AMap2DMap_6.0.0_AMapLocation_5.3.1_20210331.jar')
+    //侧滑控件
+    implementation project(':SwipeBackLayout')
+    //第三方封装RecyclerView
+    implementation project(':PacketRecyclerView')
+    //拆线图
+    implementation project(':MPChartLib')
+    // 应用版本升级模块
+    implementation project(':updateapp')
+    //极光module
+    implementation project(':jiguang')
+    //阿里云
+    implementation files('libs/aliyun-oss-sdk-android-2.3.0.jar')
+    //三级联动选择
+    implementation(name: 'yun_authorized_log', ext: 'aar')
+    implementation(name: 'yunpay-debug', ext: 'aar')
+
+
+
+
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.2.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+
+    // 用于链式调用
+    implementation "io.reactivex.rxjava2:rxjava:2.2.9"
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    implementation 'io.reactivex:rxjava:1.1.0'
+    implementation 'io.reactivex:rxandroid:1.2.1'
+
+    // APK文件下载网络封装库
+    implementation 'com.qianwen:okhttp-utils:3.8.0'
+    implementation 'com.facebook.stetho:stetho:1.3.1'
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.3.1'
+
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+//    implementation 'com.yanzhenjie:durban:1.0.1'
+//    implementation 'com.yanzhenjie:album:1.0.7'
+//    implementation 'top.zibin:Luban:1.1.3'
+//    implementation 'com.jude:rollviewpager:1.4.6'
+
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+
+    //沉浸状态栏控件
+    implementation 'com.gyf.barlibrary:barlibrary:2.3.0'
+
+    //侧滑列表
+    implementation 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0'
+
+    //SlidingTabLayout框架
+//    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+//    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'com.alibaba:fastjson:1.2.10'
+    implementation 'com.github.yxping:EasyPermissionUtil:v0.1.0'
+    implementation 'pub.devrel:easypermissions:0.4.2'
+    implementation 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.44'
+//    implementation 'com.github.delight-im:Android-AdvancedWebView:v3.0.0'
+    implementation 'org.litepal.android:core:1.5.1'
+    implementation 'com.contrarywind:Android-PickerView:3.2.7'
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
+//    implementation 'com.github.limxing:Android-PromptDialog:1.1.3'
+//    implementation 'com.google.zxing:core:3.3.0'
+
+
+//    implementation 'androidx.vectordrawable:vectordrawable-animated:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+    // Toast样式
+    implementation 'me.drakeet.support:toastcompat:1.1.0'
+
+    // 视频播放器 https://github.com/CarGuo/GSYVideoPlayer
+    //    implementation 'com.shuyu:GSYVideoPlayer:7.1.0'
+//    implementation 'com.shuyu:gsyVideoPlayer-java:7.1.8'
+//    implementation 'com.shuyu:gsyVideoPlayer-armv5:7.1.8'
+//    implementation 'com.shuyu:gsyVideoPlayer-armv7a:7.1.8'
+//    implementation 'com.shuyu:gsyVideoPlayer-arm64:7.1.8'
+
+    // 查看大图
+//    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+
+
+    // 自定义对话框样式  https://github.com/limuyang2/LDialog
+    implementation 'com.github.limuyang2.LDialog:ldialog:1.0.2_androidx'
+    //3种自定义样式，不使用就不导入
+    implementation 'com.github.limuyang2.LDialog:custom_ldialog:1.0.2_androidx'
+
+    // https://github.com/yaozs/ImageShowPicker
+//    implementation 'com.github.yaozs:ImageShowPicker:1.0.1'
+
+    // 二维码  https://github.com/bingoogolapple/BGAQRCode-Android
+    implementation 'cn.bingoogolapple:bga-qrcode-zxing:1.3.7'
+
+    // 轮播视图Banner  https://github.com/youth5201314/banner
+    implementation 'com.youth.banner:banner:2.1.0'
+
+
+    //QR二维码
+//    implementation 'com.journeyapps:zxing-android-embedded:4.0.0'
+
+    implementation 'com.huawei.agconnect:agconnect-core:1.5.1.300'
+    implementation(name: 'com.heytap.msp-push-2.1.0', ext: 'aar')
+
+    //日历控件
+    implementation 'com.haibin:calendarview:3.6.4'
+
+    //侧滑
+    implementation 'com.github.AItsuki:SwipeMenuRecyclerView:1.1.4'
+
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+
+    //工具类集合库
+    implementation 'com.blankj:utilcodex:1.30.6'
+    //图片选择控件
+    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.6.1'
+
+    //友盟统计基础组件
+    implementation  'com.umeng.umsdk:common:9.4.4'// 必选
+    implementation  'com.umeng.umsdk:asms:1.4.1'// 必选
+
+    implementation 'com.github.Jasonchenlijian:FastBle:2.4.0'
+
+    //大图
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+}

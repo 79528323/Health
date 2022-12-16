@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_F6F6F6"
+    tools:context=".activity.WalkAndCalorieActivity"
+    tools:ignore="MissingDefaultResource">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_70"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扫描到体安手表，SN号为"
+            android:textSize="@dimen/txt_normal_14"
+            android:textColor="@color/global_333333"/>
+
+        <TextView
+            android:id="@+id/imei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_normal_14"
+            android:textColor="@color/global_333333"/>
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请在该手表上确认绑定"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+         android:layout_marginTop="@dimen/common_margin_20"
+        android:textSize="@dimen/txt_normal_14"
+        android:textColor="@color/global_333333"/>
+
+    <ImageView
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/common_margin_20"
+        android:background="@mipmap/icon_bind_loading"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_marginTop="22dp"
+        android:layout_width="227dp"
+        android:layout_height="227dp"
+        android:background="@drawable/img_watch"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

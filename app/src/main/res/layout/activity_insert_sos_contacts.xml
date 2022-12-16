@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="13dp"
+    android:paddingEnd="15dp"
+    android:paddingTop="10dp"
+    tools:context=".activity.InsertSosContactsActivity">
+
+
+    <LinearLayout
+        android:id="@+id/add_contract"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/bg_rect_radius">
+
+
+        <ImageView
+            android:layout_width="@dimen/common_margin_25"
+            android:layout_height="@dimen/common_margin_25"
+            android:background="@mipmap/icon_insert"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加紧急联系人"
+            android:textSize="@dimen/txt_middle_16"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginStart="@dimen/common_margin_5"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contract_recylcer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_contrac"
+        android:orientation="vertical"/>
+
+
+</LinearLayout>

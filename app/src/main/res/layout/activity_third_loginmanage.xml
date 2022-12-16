@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        style="@style/div_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_margin_10"
+        android:background="#f3f4f5">
+
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/rl_weixin_bind"
+        style="@style/re_userinfo">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_login_wechat_bg" />
+
+        <TextView
+            style="@style/tv_userinfo_key"
+            android:layout_marginLeft="34dp"
+            android:text="微信" />
+
+        <TextView
+            android:id="@+id/tv_weixin_bind"
+            style="@style/tv_userinfo_value"
+            android:layout_marginRight="20dp"
+            android:ellipsize="end"
+            android:maxLength="12"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            tools:text="立即绑定" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_general_level_bg" />
+    </RelativeLayout>
+
+    <View
+        style="@style/div_style"
+        android:layout_width="match_parent"
+        android:visibility="gone">
+
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/rl_qq_bind"
+        style="@style/re_userinfo"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_login_qq_bg" />
+
+        <TextView
+            style="@style/tv_userinfo_key"
+            android:layout_marginLeft="34dp"
+            android:text="腾讯QQ" />
+
+        <TextView
+            android:id="@+id/tv_qq_bing"
+            style="@style/tv_userinfo_value"
+            android:layout_marginRight="20dp"
+            android:ellipsize="end"
+            android:maxLength="12"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            tools:text="立即绑定" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_general_level_bg" />
+    </RelativeLayout>
+
+    <View
+        style="@style/div_style"
+        android:layout_width="match_parent"
+        android:visibility="gone">
+
+
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/rl_sina_bind"
+        style="@style/re_userinfo"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_login_weibo_bg" />
+
+        <TextView
+            style="@style/tv_userinfo_key"
+            android:layout_marginLeft="34dp"
+            android:text="新浪微博" />
+
+        <TextView
+            android:id="@+id/tv_sina_bind"
+            style="@style/tv_userinfo_value"
+            android:layout_marginRight="20dp"
+            android:ellipsize="end"
+            android:maxLength="12"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            tools:text="立即绑定" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_general_level_bg" />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AItsuki:SwipeMenuRecyclerView:1.1.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e58601b5b6bb9d035aeb6aa9155caf7/jetified-SwipeMenuRecyclerView-1.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e58601b5b6bb9d035aeb6aa9155caf7/jetified-SwipeMenuRecyclerView-1.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e58601b5b6bb9d035aeb6aa9155caf7/jetified-SwipeMenuRecyclerView-1.1.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.AItsuki/SwipeMenuRecyclerView/1.1.4/e426b9267518da9fc332275619fb22f05b447d46/SwipeMenuRecyclerView-1.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

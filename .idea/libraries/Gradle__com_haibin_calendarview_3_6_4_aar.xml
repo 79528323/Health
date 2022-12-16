@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haibin:calendarview:3.6.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5fa8da0c199041af2e66e7075e5a4d87/jetified-calendarview-3.6.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5fa8da0c199041af2e66e7075e5a4d87/jetified-calendarview-3.6.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5fa8da0c199041af2e66e7075e5a4d87/jetified-calendarview-3.6.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9cdc056d4c862b3b67c168562c54a1b1/jetified-calendarview-3.6.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9cdc056d4c862b3b67c168562c54a1b1/jetified-calendarview-3.6.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9cdc056d4c862b3b67c168562c54a1b1/jetified-calendarview-3.6.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1945144542fb819e273f74016063df1/jetified-calendarview-3.6.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1945144542fb819e273f74016063df1/jetified-calendarview-3.6.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1945144542fb819e273f74016063df1/jetified-calendarview-3.6.4/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dac27beb3a11370b03cb7b3a86ca6a18/jetified-calendarview-3.6.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dac27beb3a11370b03cb7b3a86ca6a18/jetified-calendarview-3.6.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dac27beb3a11370b03cb7b3a86ca6a18/jetified-calendarview-3.6.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88fe5ca92129721c65c37bf2bf04d28c/jetified-calendarview-3.6.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88fe5ca92129721c65c37bf2bf04d28c/jetified-calendarview-3.6.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88fe5ca92129721c65c37bf2bf04d28c/jetified-calendarview-3.6.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b24d083926d2dc58fb85dd0de4a449a3/jetified-calendarview-3.6.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b24d083926d2dc58fb85dd0de4a449a3/jetified-calendarview-3.6.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b24d083926d2dc58fb85dd0de4a449a3/jetified-calendarview-3.6.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c387f7776af73f0fd9156a8893060274/jetified-calendarview-3.6.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c387f7776af73f0fd9156a8893060274/jetified-calendarview-3.6.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c387f7776af73f0fd9156a8893060274/jetified-calendarview-3.6.4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.haibin/calendarview/3.6.4/4caa3a766177bdd5a4b4484870c1240d15c8ea97/calendarview-3.6.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.haibin/calendarview/3.6.4/917c0a99adc166c262182478854b58dfe35f1d44/calendarview-3.6.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

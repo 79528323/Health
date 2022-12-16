@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Health.iml" filepath="$PROJECT_DIR$/.idea/modules/Health.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPChartLib/Health.MPChartLib.iml" filepath="$PROJECT_DIR$/.idea/modules/MPChartLib/Health.MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPChartLib/Health.MPChartLib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/MPChartLib/Health.MPChartLib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPChartLib/Health.MPChartLib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MPChartLib/Health.MPChartLib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPChartLib/Health.MPChartLib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/MPChartLib/Health.MPChartLib.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PacketRecyclerView/Health.PacketRecyclerView.iml" filepath="$PROJECT_DIR$/.idea/modules/PacketRecyclerView/Health.PacketRecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PacketRecyclerView/Health.PacketRecyclerView.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PacketRecyclerView/Health.PacketRecyclerView.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PacketRecyclerView/Health.PacketRecyclerView.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PacketRecyclerView/Health.PacketRecyclerView.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PacketRecyclerView/Health.PacketRecyclerView.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PacketRecyclerView/Health.PacketRecyclerView.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SwipeBackLayout/Health.SwipeBackLayout.iml" filepath="$PROJECT_DIR$/.idea/modules/SwipeBackLayout/Health.SwipeBackLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SwipeBackLayout/Health.SwipeBackLayout.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SwipeBackLayout/Health.SwipeBackLayout.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SwipeBackLayout/Health.SwipeBackLayout.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SwipeBackLayout/Health.SwipeBackLayout.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SwipeBackLayout/Health.SwipeBackLayout.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SwipeBackLayout/Health.SwipeBackLayout.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Health.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Health.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Health.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Health.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Health.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Health.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Health.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Health.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jiguang/Health.jiguang.iml" filepath="$PROJECT_DIR$/.idea/modules/jiguang/Health.jiguang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jiguang/Health.jiguang.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/jiguang/Health.jiguang.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jiguang/Health.jiguang.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jiguang/Health.jiguang.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jiguang/Health.jiguang.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/jiguang/Health.jiguang.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/updateapp/Health.updateapp.iml" filepath="$PROJECT_DIR$/.idea/modules/updateapp/Health.updateapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/updateapp/Health.updateapp.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/updateapp/Health.updateapp.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/updateapp/Health.updateapp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/updateapp/Health.updateapp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/updateapp/Health.updateapp.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/updateapp/Health.updateapp.unitTest.iml" />
+    </modules>
+  </component>
+</project>

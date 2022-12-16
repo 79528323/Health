@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_f3fffe_ffffff_0"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="#ff333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="复方" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:lines="1"
+                android:textColor="#ff999999"
+                android:textSize="12sp"
+                tools:text="复方盐酸伪麻黄碱缓释胶囊" />
+
+            <ImageView
+                android:id="@+id/ivEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/common_margin_10"
+                android:padding="18dp"
+                android:src="@mipmap/icon_merdication_edit"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/tvDiagnosis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_marginStart="18dp"
+            android:lines="1"
+            android:textColor="#ff333333"
+            android:textSize="14sp"
+            tools:text="复方盐酸伪麻黄碱缓释胶囊" />
+
+
+
+        <TextView
+            android:id="@+id/tvHospital"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_marginStart="18dp"
+            android:layout_marginBottom="@dimen/common_margin_20"
+            android:lines="1"
+            android:textColor="#ff333333"
+            android:textSize="14sp"
+            tools:text="复方盐酸伪麻黄碱缓释胶囊" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

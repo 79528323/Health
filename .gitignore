@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/SwipeBackLayout/build/
+/SwipeBackLayout/build/intermediates/javac/debug/classes/

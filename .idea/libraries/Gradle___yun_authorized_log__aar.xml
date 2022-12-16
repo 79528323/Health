@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="Gradle: :yun_authorized_log:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2984854557e97756f16e6999d3e7b22/jetified-yun_authorized_log/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2984854557e97756f16e6999d3e7b22/jetified-yun_authorized_log/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2984854557e97756f16e6999d3e7b22/jetified-yun_authorized_log/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d199d0ee7a0f4df6b5fa194201f27c6d/jetified-yun_authorized_log/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d199d0ee7a0f4df6b5fa194201f27c6d/jetified-yun_authorized_log/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d199d0ee7a0f4df6b5fa194201f27c6d/jetified-yun_authorized_log/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc9c4eed33f3944f675977c2ff7b6b76/jetified-yun_authorized_log/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc9c4eed33f3944f675977c2ff7b6b76/jetified-yun_authorized_log/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc9c4eed33f3944f675977c2ff7b6b76/jetified-yun_authorized_log/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4db78279f1d9c08a55d38aa363719d79/jetified-yun_authorized_log/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4db78279f1d9c08a55d38aa363719d79/jetified-yun_authorized_log/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4db78279f1d9c08a55d38aa363719d79/jetified-yun_authorized_log/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4434cfea077f5b45d57a601ca6570561/jetified-yun_authorized_log/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4434cfea077f5b45d57a601ca6570561/jetified-yun_authorized_log/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4434cfea077f5b45d57a601ca6570561/jetified-yun_authorized_log/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ff045689376efe78f80988d03478315/jetified-yun_authorized_log/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ff045689376efe78f80988d03478315/jetified-yun_authorized_log/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ff045689376efe78f80988d03478315/jetified-yun_authorized_log/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4297f0d7bf3cb5971fe2c33ecb54415a/jetified-yun_authorized_log/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4297f0d7bf3cb5971fe2c33ecb54415a/jetified-yun_authorized_log/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4297f0d7bf3cb5971fe2c33ecb54415a/jetified-yun_authorized_log/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

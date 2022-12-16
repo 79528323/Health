@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/viewline"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F8F8F8"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_rect_radius">
+
+
+<!--                <com.gzhealthy.health.widget.HealthDateChoiceView-->
+<!--                    android:id="@+id/healthChoiceView"-->
+<!--                    android:visibility="gone"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                </com.gzhealthy.health.widget.HealthDateChoiceView>-->
+
+
+                <TextView
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="@dimen/common_margin_20"
+                    android:id="@+id/min_rates"
+                    android:drawablePadding="@dimen/common_margin_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="心率  次/分"
+                    android:textStyle="bold"
+                    android:drawableStart="@drawable/icon_rate1"
+                    android:textColor="#333333"
+                    android:textSize="@dimen/txt_title_et"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/start_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/global_html_txt"/>
+
+
+                    <TextView
+                        android:id="@+id/end_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/global_html_txt"/>
+
+                </LinearLayout>
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/linechart"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
+                </com.github.mikephil.charting.charts.LineChart>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/bg_rect_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:drawableStart="@drawable/icon_rate2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="今日概览"
+                        android:textStyle="bold"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_marginTop="35dp"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="平均心率"
+                            android:layout_weight="1"
+                            android:textSize="@dimen/txt_normal"/>
+
+                        <TextView
+                            android:id="@+id/rate_avgs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="次/分"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal"/>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="@dimen/common_margin_20"
+                        android:background="@color/gray_bg"/>
+
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/common_margin_25"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="最高心率"
+                            android:layout_weight="1"
+                            android:textSize="@dimen/txt_normal"/>
+
+                        <TextView
+                            android:id="@+id/rate_hight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="次/分"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal"/>
+
+
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="@dimen/common_margin_20"
+                        android:background="@color/gray_bg"/>
+
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/common_margin_25"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="最低心率"
+                            android:layout_weight="1"
+                            android:textSize="@dimen/txt_normal"/>
+
+                        <TextView
+                            android:id="@+id/rate_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="次/分"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal"/>
+
+
+                    </LinearLayout>
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="@dimen/common_margin_20"
+                        android:background="@color/gray_bg"/>
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="心率"
+                    android:drawablePadding="@dimen/common_margin_5"
+                    android:drawableStart="@drawable/circle_high_legend_red"
+                    android:textSize="@dimen/txt_middle_16"
+                    android:textColor="@color/global_333333"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_margin_20"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="@dimen/common_margin_10"
+                    android:lineSpacingExtra="2.5dp"
+                    android:text="心率是指正常人安静状态下每分钟心跳的次数，也叫安静心率，一般为60～100次/分，可因年龄、性别或其他生理因素产生个体差异。"
+                    android:textSize="@dimen/txt_normal_14"
+                    android:textColor="@color/global_666666"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
+

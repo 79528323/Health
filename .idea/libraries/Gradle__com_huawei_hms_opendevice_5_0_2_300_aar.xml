@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:opendevice:5.0.2.300@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/644529ad577a26b3346e7364a1b2c4fc/jetified-opendevice-5.0.2.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/644529ad577a26b3346e7364a1b2c4fc/jetified-opendevice-5.0.2.300/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/644529ad577a26b3346e7364a1b2c4fc/jetified-opendevice-5.0.2.300/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d40e8ffe29d1fa21ca34ab1535af8b1c/jetified-opendevice-5.0.2.300/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d40e8ffe29d1fa21ca34ab1535af8b1c/jetified-opendevice-5.0.2.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d40e8ffe29d1fa21ca34ab1535af8b1c/jetified-opendevice-5.0.2.300/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b4716c26e5f0c6eaaf6328ef83969463/jetified-opendevice-5.0.2.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b4716c26e5f0c6eaaf6328ef83969463/jetified-opendevice-5.0.2.300/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b4716c26e5f0c6eaaf6328ef83969463/jetified-opendevice-5.0.2.300/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4673ccb0add719f7e898a2c29047ec77/jetified-opendevice-5.0.2.300/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4673ccb0add719f7e898a2c29047ec77/jetified-opendevice-5.0.2.300/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4673ccb0add719f7e898a2c29047ec77/jetified-opendevice-5.0.2.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/556c10570d81130b003ded9b32a61c51/jetified-opendevice-5.0.2.300/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/556c10570d81130b003ded9b32a61c51/jetified-opendevice-5.0.2.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/556c10570d81130b003ded9b32a61c51/jetified-opendevice-5.0.2.300/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aabaf2948932b4671143632cb307e581/jetified-opendevice-5.0.2.300/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aabaf2948932b4671143632cb307e581/jetified-opendevice-5.0.2.300/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aabaf2948932b4671143632cb307e581/jetified-opendevice-5.0.2.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1504dee4b823543e3fb777ebb400708a/jetified-opendevice-5.0.2.300/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1504dee4b823543e3fb777ebb400708a/jetified-opendevice-5.0.2.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1504dee4b823543e3fb777ebb400708a/jetified-opendevice-5.0.2.300/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.hms/opendevice/5.0.2.300/da39a3ee5e6b4b0d3255bfef95601890afd80709/opendevice-5.0.2.300-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.hms/opendevice/5.0.2.300/da39a3ee5e6b4b0d3255bfef95601890afd80709/opendevice-5.0.2.300-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

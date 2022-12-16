@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9EEF1"
+    android:orientation="vertical">
+    <!--android:background="@mipmap/bg_share_comred"-->
+    <RelativeLayout
+        android:id="@+id/rl_share"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img_share"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_12"
+            android:layout_marginRight="12dp"
+            android:scaleType="fitXY" />
+
+        <!--        android:background="@mipmap/bg_share_comred"-->
+
+        <ImageView
+            android:id="@+id/imgere"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="25.5dp"
+            android:layout_marginBottom="28.5dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="102dp"
+            android:layout_marginBottom="60dp"
+            android:gravity="center"
+            android:text="邀请码"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_comend"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="102dp"
+            android:layout_marginBottom="45dp"
+            android:background="@drawable/iten_share_img"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#343434"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="扫描或长按加入我们"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/ll_cancell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#F6F9FB">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:text="取消分享"
+            android:textSize="@dimen/sp_14" />
+
+    </RelativeLayout>
+</LinearLayout>

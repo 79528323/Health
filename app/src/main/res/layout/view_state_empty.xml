@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_empty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/global_x">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/des_no_data_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:drawableTop="@mipmap/ic_guide_order_bg"
+            android:drawablePadding="@dimen/common_margin_10"
+            android:gravity="center"
+            android:text="暂无数据"
+            android:textColor="@color/txt_normal_color"
+            android:textSize="@dimen/txt_normal_14" />
+
+        <TextView
+            android:id="@+id/refresh_iv"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="随便逛逛"
+            android:textColor="@color/colorPrimary"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

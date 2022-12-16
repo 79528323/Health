@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rect_radius"
+    android:id="@+id/clicker"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingStart="15dp"
+        android:paddingTop="@dimen/common_margin_18"
+        android:paddingEnd="@dimen/common_margin_10"
+        android:paddingBottom="@dimen/common_margin_18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="@dimen/common_margin_30"
+                    android:layout_height="@dimen/common_margin_30"
+                    android:background="@mipmap/icon_item_ecg"/>
+
+
+                <TextView
+                    android:id="@+id/avg"
+                    android:text="adsadasd"
+                    android:layout_marginStart="@dimen/common_margin_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/global_333333"
+                    android:textSize="@dimen/txt_xlarge"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:textColor="#999999"
+                android:textSize="@dimen/txt_normal"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/icon_arrow_gray"/>
+
+
+    </LinearLayout>
+
+
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/rate_linechart"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+</LinearLayout>

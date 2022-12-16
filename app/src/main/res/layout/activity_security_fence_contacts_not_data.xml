@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/default_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="142dp"
+        android:drawableTop="@mipmap/health_file_not_data"
+        android:drawablePadding="14dp"
+        android:gravity="center"
+        android:text="暂无任何家庭成员哦！"
+        android:textColor="#ff999999"
+        android:textSize="14sp" />
+</LinearLayout>

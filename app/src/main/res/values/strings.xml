@@ -1,0 +1,134 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="app_name" translatable="false">体安</string>
+    <string name="quit_app" translatable="false">再按一次退出程序</string>
+    <string name="net_error_check" translatable="false">网络出现连接错误，请检测网络</string>
+    <string name="native_net_error" translatable="false">你连接的网络有问题，请检查路由器</string>
+    <string name="server_net_error" translatable="false">获取数据失败</string>
+    <string name="server_net_exception" translatable="false">网络异常</string>
+    <string name="title_activity_login" translatable="false">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password (optional)</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="error_invalid_email" translatable="false">This email address is invalid</string>
+    <string name="error_invalid_password" translatable="false">This password is too short</string>
+    <string name="error_incorrect_password" translatable="false">This password is incorrect</string>
+    <string name="error_field_required" translatable="false">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="network_unavailable" translatable="false">当前网络不可用，请检查您的网络设置</string>
+
+    <!-- 用户登录 -->
+    <string name="login_name" translatable="false">账号</string>
+    <string name="login_name_hint" translatable="false">请输入手机号</string>
+    <string name="login_psw" translatable="false">请输入密码</string>
+    <string name="login_psw_hint" translatable="false">请输入密码</string>
+    <string name="login_psw_remember" translatable="false">记住密码</string>
+    <string name="login_psw_forget" translatable="false">忘记密码？</string>
+    <string name="login" translatable="false">登录</string>
+    <string name="login_regist" translatable="false">注册新用户</string>
+    <string name="login_conflict" translatable="false">该账号已在别的设备登录</string>
+    <string name="login_safe" translatable="false">密码错误，请重新登录</string>
+    <string name="login_tip_input_psw" translatable="false">请输入账号密码！</string>
+    <string name="login_tip_input_name" translatable="false">请输入账号名称！</string>
+    <string name="login_typebyniubai" translatable="false">非豆账号登录</string>
+    <string name="login_typebyphone" translatable="false">动态密码登录</string>
+
+    <!-- 用户注册 -->
+    <string name="title_regist" translatable="false">用户注册</string>
+    <string name="login_sendpwd" translatable="false">发送动态密码</string>
+    <string name="regist_name" translatable="false">账号名称</string>
+    <string name="regist_name_hint" translatable="false">请输入5-13位数字账号</string>
+    <string name="regist_phone_hint" translatable="false">请输入手机号码</string>
+    <string name="regist_psw" translatable="false">账号密码</string>
+    <string name="regist_psw_hint" translatable="false">请输入至少6位数（数字+字母）密码</string>
+    <string name="regist_phone_psw_hint" translatable="false">请输入验证码</string>
+    <string name="regist_psw_2" translatable="false">确认密码</string>
+    <string name="regist_psw_hint_2" translatable="false">请再次输入密码</string>
+    <string name="regist_sure" translatable="false">注册并登录</string>
+
+    <string name="main_my_setting" translatable="false">设置</string>
+    <string name="main_my_setting_exit" translatable="false">安全退出</string>
+
+    <string name="common_cancel" translatable="false">取消</string>
+    <string name="common_num_unit" translatable="false">个</string>
+    <string name="common_confirm" translatable="false">确定</string>
+    <string name="aggrement" translatable="false">初次注册需绑定您的手机号码，若未注册过，绑定成功即使注册成功 </string>
+
+    <string name="title_activity_setsecret" translatable="false">设置密码</string>
+    <string name="title_activity_verify" translatable="false">输入手势</string>
+    <string name="title_activity_other" translatable="false">我是一个需要手势密码打开的activity</string>
+    <string name="title_traval_tip" translatable="false">*为保障你的出行顺利，请确保旅行结束日期至少证件有效期早6个月，并准确填写真实信息</string>
+
+    <!-- 日历用到的typeface -->
+    <string name="sans_serif" translatable="false">sans-serif</string>
+    <string name="monday" translatable="false">一</string>
+    <string name="tuesday" translatable="false">二</string>
+    <string name="wednesday" translatable="false">三</string>
+    <string name="thursday" translatable="false">四</string>
+    <string name="friday" translatable="false">五</string>
+    <string name="saturday" translatable="false">六</string>
+    <string name="sunday" translatable="false">日</string>
+
+
+    <string name="go_where" translatable="false">要去哪儿</string>
+    <string name="go_time" translatable="false">什么时候出行</string>
+    <string name="go_passengers" translatable="false">几位出行</string>
+    <string name="service_phone" translatable="false">4009314545</string>
+
+
+    <string name="health_data_title" translatable="false">健康数据</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="rings_desc" translatable="false">当前步数</string>
+    <string name="rings_cal_desc" translatable="false">消耗热量</string>
+    <string name="rings_kilo_desc" translatable="false">总距离</string>
+
+    <string name="times" translatable="false">%s时</string>
+
+    <string name="highmmHg" translatable="false">最高%1$d/%2$d</string>
+    <string name="lowmmHg" translatable="false">最低%1$d/%2$d</string>
+
+    <string name="swipe_desc" translatable="false">设备ID：%s</string>
+
+    <string name="seconds" translatable="false">%d次</string>
+
+    <string name="healthy_report_desc" translatable="false" formatted="true">
+        你有一份健康报告待查收，由于数据收集需要\n请在<b>30</b>天后来查收
+    </string>
+
+    <string name="avtar_tips" formatted="false" translatable="false">请登录</string>
+
+    <string name="wechat_not_installed" translatable="false">您还未安装微信，请前往商店安装</string>
+
+    <string name="bindinfo_toast" translatable="false">你还没有绑定个人信息</string>
+    <string name="watch_refuse_toast" translatable="false">该设备拒绝绑定</string>
+    <string name="watch_bind_ok_toast" translatable="false">手表绑定成功</string>
+
+    <string name="custom_numb" formatted="false" translatable="false">客服热线：%s</string>
+
+    <string name="big_data_title" formatted="false" translatable="false">体安为你的健康持续护航已有%d天...</string>
+
+    <string name="big_data_rate" formatted="false" translatable="false">%d次/分</string>
+
+    <string name="big_data_blood" formatted="false" translatable="false">%1$d/%2$dmmHg</string>
+
+    <string name="score_desc" translatable="false">健康评分</string>
+
+    <string name="bmi_ranges" translatable="false">标准值:%1$s-%2$s</string>
+
+    <string name="org_forget_pwd" translatable="false">请输入你的绑定手机%s收到的短信验证码</string>
+
+    <string name="no_reads"  translatable="false">未读%s</string>
+
+    <string name="blood_sugar_has"  translatable="false">为提供更准备的数值，建议每周更新一下血糖记录哦!</string>
+
+    <string name="sugar_attention"  translatable="false">此功能为内测版阶段，数值结果为趋势化管理参考，不作为医疗依据。注意：特殊人群请根据真实检测数值填写餐前餐后数值。</string>
+    <string name="pressure_attention"  translatable="false">此功能为趋势化管理参考，不作为医疗依据。注意：请根据真实血压检测数值填写血压值。</string>
+
+
+</resources>

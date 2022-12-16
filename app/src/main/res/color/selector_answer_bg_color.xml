@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/app_btn_parimary" android:state_selected="true" />
+    <item android:color="@color/global_999999" android:state_selected="false" />
+    <item android:color="@color/global_999999" />
+
+</selector>

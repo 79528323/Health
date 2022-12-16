@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="84dp"
+    android:layout_height="84dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvAdd"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_centerInParent="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardBackgroundColor="#F6F6F6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/feed_back_detail_add" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvImage"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_centerInParent="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/ivDel"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:src="@mipmap/feed_back_detail_del" />
+
+
+</RelativeLayout>

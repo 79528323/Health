@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_rect_radius">
+
+
+    <com.gzhealthy.health.widget.CircleImageView
+        android:id="@+id/user_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:src="@mipmap/ic_details_map_bg" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/txt_normal_14"
+        android:layout_weight="1"
+        android:textColor="@color/global_333333"
+        tools:text="巴拉巴拉小魔仙"
+        android:layout_marginStart="@dimen/common_margin_10"
+        android:textStyle="bold"/>
+
+
+    <CheckBox
+        android:id="@+id/checked"
+        style="@style/secrity_hook_style"
+        android:checked="false"
+        android:duplicateParentState="true"
+        android:layout_marginEnd="15dp"
+        android:button="@null" />
+
+</LinearLayout>

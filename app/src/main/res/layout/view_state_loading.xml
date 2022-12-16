@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_progress_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--加载中..-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_progress"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/wait_dialog" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="努力加载中..."
+            android:textColor="@color/txt_normal_color"
+            android:textSize="@dimen/txt_normal" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingEnd="@dimen/common_margin_20"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="安全围栏"
+                android:textColor="@color/global_333333"
+                android:textSize="15sp" />
+
+
+
+            <TextView
+                android:id="@+id/fence_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_toggle"
+                android:button="@null" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingEnd="@dimen/common_margin_20"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#EEEEEE"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="安全围栏生效时间"
+                android:textColor="@color/global_333333"
+                android:textSize="15sp" />
+
+
+
+            <TextView
+                android:id="@+id/tx_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全天"
+                android:drawablePadding="@dimen/common_margin_5"
+                android:drawableEnd="@mipmap/icon_right"
+                android:button="@null" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#EEEEEE"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="设置围栏范围"
+                android:textColor="@color/global_333333"
+                android:textSize="15sp" />
+
+
+
+            <TextView
+                android:id="@+id/tx_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="当前定位1km半径"
+                android:drawablePadding="@dimen/common_margin_5"
+                android:drawableEnd="@mipmap/icon_right"
+                android:button="@null" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#EEEEEE"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="设置提醒人"
+                android:textColor="@color/global_333333"
+                android:textSize="15sp" />
+
+
+
+            <TextView
+                android:id="@+id/tx_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                tools:text="姐姐"
+                android:drawablePadding="@dimen/common_margin_5"
+                android:drawableEnd="@mipmap/icon_right"
+                android:button="@null" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#EEEEEE"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

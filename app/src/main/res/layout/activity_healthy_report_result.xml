@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#F8FFFE">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/title_a_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/icon_report_result_a" />
+
+
+        <FrameLayout
+            android:layout_alignBottom="@id/title_a_bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_margin_50"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/back"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/common_margin_10"
+                android:layout_marginStart="@dimen/common_margin_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_white_back" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/app_bar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        android:background="#F8FFFE">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/icon_report_result_b"/>
+
+
+            <TextView
+                android:id="@+id/bttom_desc"
+                android:layout_below="@id/scroll_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="@dimen/common_margin_20"
+                android:text="根据你当前身体及问卷结果生成"
+                android:textSize="@dimen/sp_12"
+                android:textColor="@color/global_999999"/>
+
+            <LinearLayout
+                android:id="@+id/scroll_linear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/common_margin_20"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <com.gzhealthy.health.widget.HealthyReportScoreView
+                        android:id="@+id/score_view"
+                        android:visibility="gone"
+                        tools:visibility="gone"
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"/>
+
+                    <LinearLayout
+                        android:layout_marginStart="@dimen/common_margin_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            tools:text="吴彩妮的健康周报12123"/>
+
+
+                        <TextView
+                            android:id="@+id/date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/sp_12"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="@dimen/common_margin_6"
+                            tools:text="2021.06.18 14:30"/>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/reAnalysis"
+                        android:layout_width="95dp"
+                        android:layout_height="35dp"
+                        android:textSize="@dimen/txt_normal_14"
+                        android:gravity="center"
+                        android:layout_marginEnd="14dp"
+                        android:background="@drawable/bg_rect_radiu"
+                        android:text="重新评估"
+                        android:textColor="#12D0C4"/>
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/title_bg"
+                    android:layout_marginTop="@dimen/common_margin_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_margin_20"
+                    android:layout_marginStart="@dimen/common_margin_5"
+                    android:layout_marginEnd="@dimen/common_margin_5"
+                    android:background="@mipmap/icon_report_result_title"/>
+
+                <LinearLayout
+                    tools:visibility="visible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="-10dp"
+                    android:layout_marginStart="@dimen/common_margin_5"
+                    android:layout_marginEnd="@dimen/common_margin_5"
+                    android:layout_marginBottom="@dimen/common_margin_5"
+                    android:background="@drawable/layer_half_white_bg">
+
+
+                    <TextView
+                        android:id="@+id/desc_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="根据你当前身体及问卷结果生成"
+                        android:textColor="@color/global_999999"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:layout_marginTop="15dp"
+                        android:textSize="@dimen/sp_12"/>
+
+
+                    <FrameLayout
+                        android:layout_marginTop="@dimen/common_margin_18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:background="@mipmap/icon_report_rect"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="中医体质类型"
+                            android:layout_gravity="center"
+                            android:textColor="@color/global_333333"
+                            android:textStyle="bold"
+                            android:textSize="18sp"/>
+                    </FrameLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dp_10"
+                        android:layout_marginEnd="@dimen/common_margin_10"
+                        android:layout_marginBottom="@dimen/common_margin_25"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_marginTop="@dimen/common_margin_25"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="结果分析你属于："
+                            android:gravity="center"
+                            android:textColor="@color/global_999999"
+                            android:textSize="@dimen/sp_12"/>
+
+
+
+
+                        <LinearLayout
+                            android:layout_marginTop="@dimen/dp_12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/protype_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:text="痰湿质"
+                                android:background="@drawable/bg_health_report_title"
+                                android:gravity="center_vertical"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp"
+                                android:paddingTop="@dimen/common_margin_5"
+                                android:paddingBottom="@dimen/common_margin_5"
+                                android:drawablePadding="@dimen/common_margin_5"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                android:textSize="@dimen/sp_16"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/protype_note"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="痰湿质是由于机体水液内停而痰湿凝聚，以粘痰湿质是由于机体水液内停而痰湿凝聚，以粘"
+                            android:textColor="@color/global_333333"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/dp_12"
+                            android:layout_marginStart="@dimen/dp_10"
+                            android:textSize="@dimen/sp_14"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        tools:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.github.mikephil.charting.charts.RadarChart
+                            android:id="@+id/radarChart"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/health_data_linear"
+                    tools:visibility="visible"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="-10dp"
+                    android:layout_marginStart="@dimen/common_margin_5"
+                    android:layout_marginEnd="@dimen/common_margin_5"
+                    android:background="@drawable/layer_white_bg">
+
+
+                    <FrameLayout
+                        android:layout_marginTop="@dimen/common_margin_18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:background="@mipmap/icon_report_rect"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="健康状态分析"
+                            android:layout_gravity="center"
+                            android:textColor="@color/global_333333"
+                            android:textStyle="bold"
+                            android:textSize="18sp"/>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/health_status_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:layout_marginTop="@dimen/common_margin_30"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/health_status_img"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:src="@mipmap/icon_report_heal_status_heath" />
+
+                            <TextView
+                                android:id="@+id/health_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                tools:text="健康低风险" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:id="@+id/health_desc1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal_14"
+                            android:textStyle="bold"
+                            tools:text="建议你关注动脉硬化的风险：" />
+
+                        <TextView
+                            android:id="@+id/health_desc2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:layout_marginTop="@dimen/common_margin_5"
+                            android:textColor="@color/global_666666"
+                            android:textSize="@dimen/txt_normal_14"
+                            android:lineSpacingExtra="1.5dp"
+                            tools:text="动脉硬化是动脉的一种非炎症性病变，可使动脉管壁增厚、变硬，失去弹性、管腔狭窄。动脉硬化是随着年龄增长而出现的血管疾病。" />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bmi_linear"
+                        android:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin_20"
+                        android:layout_marginStart="@dimen/common_margin_5"
+                        android:layout_marginEnd="@dimen/common_margin_5"
+                        android:layout_marginBottom="@dimen/common_margin_10"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingStart="@dimen/dp_12"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:background="@mipmap/icon_report_result_bmi"
+                            android:orientation="vertical">
+
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical|top"
+                                android:layout_weight="1"
+                                android:paddingEnd="@dimen/dp_12"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textStyle="bold"
+                                        android:text="BMI值"
+                                        android:textColor="@color/global_333333"
+                                        android:textSize="@dimen/txt_middle_16"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="身高体重比"
+                                        android:textColor="@color/global_999999"
+                                        android:textSize="@dimen/sp_12"/>
+
+
+                                </LinearLayout>
+
+
+                                <TextView
+                                    android:id="@+id/bmi_score"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text="18"
+                                    android:textColor="#01D0B9"
+                                    android:textSize="20sp"/>
+
+
+                            </RelativeLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="bottom"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/bmi_type"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    tools:text="你属于偏瘦身材1232123123123"
+                                    android:layout_marginBottom="@dimen/common_margin_5"
+                                    android:textColor="@color/global_333333"
+                                    android:textSize="@dimen/txt_normal_14"/>
+
+                                <TextView
+                                    android:id="@+id/bmi_score_range"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    tools:text="标准值:18.5-24.9"
+                                    android:textColor="@color/global_999999"
+                                    android:textSize="11sp"/>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingStart="15dp"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:background="@mipmap/icon_report_result_waist"
+                            android:orientation="vertical">
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingEnd="@dimen/dp_12"
+                                android:gravity="center_vertical|top"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text="腰围"
+                                    android:textColor="@color/global_333333"
+                                    android:textSize="@dimen/txt_middle_16"/>
+
+                                <TextView
+                                    android:id="@+id/waist_size"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text="80"
+                                    android:textColor="#4983F4"
+                                    android:textSize="20sp"/>
+
+
+                            </RelativeLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="bottom"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/waist_type"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    tools:text="你的腰围属于正常123123"
+                                    android:layout_marginBottom="@dimen/common_margin_5"
+                                    android:textColor="@color/global_333333"
+                                    android:textSize="@dimen/txt_normal_14"/>
+
+                                <TextView
+                                    android:id="@+id/waist_over"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    tools:text="正常值 女性小于80cm"
+                                    android:textColor="@color/global_999999"
+                                    android:textSize="11sp"/>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:visibility="gone"
+                    tools:visibility="gone"
+                    android:id="@+id/tips_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layer_white_bg"
+                    android:layout_marginStart="@dimen/common_margin_5"
+                    android:layout_marginEnd="@dimen/common_margin_5"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_marginTop="@dimen/common_margin_18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:background="@mipmap/icon_report_rect"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="本周温馨建议"
+                            android:layout_gravity="center"
+                            android:textColor="@color/global_333333"
+                            android:textStyle="bold"
+                            android:textSize="18sp"/>
+                    </FrameLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/common_margin_20"
+                        android:layout_marginEnd="@dimen/common_margin_10"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="饮食调养"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical"
+                            android:drawablePadding="@dimen/common_margin_10"
+                            android:drawableLeft="@mipmap/icon_report_result_diet"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_middle_16"/>
+
+
+
+                        <TextView
+                            android:id="@+id/food"
+                            android:layout_marginTop="@dimen/common_margin_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:lineSpacingExtra="2dp"
+                            android:textColor="@color/global_666666"
+                            android:gravity="start"
+                            android:textSize="@dimen/txt_normal_14"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin_30"
+                        android:layout_marginStart="@dimen/common_margin_20"
+                        android:layout_marginEnd="@dimen/common_margin_10"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="起居调养"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical"
+                            android:drawablePadding="@dimen/common_margin_10"
+                            android:drawableLeft="@mipmap/icon_report_result_dailylife"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_middle_16"/>
+
+
+
+                        <TextView
+                            android:id="@+id/living"
+                            android:layout_marginTop="@dimen/common_margin_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12121212"
+                            android:lineSpacingExtra="2dp"
+                            android:textColor="@color/global_666666"
+                            android:gravity="start"
+                            android:textSize="@dimen/txt_normal_14"/>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin_30"
+                        android:layout_marginStart="@dimen/common_margin_20"
+                        android:layout_marginEnd="@dimen/common_margin_10"
+                        android:layout_marginBottom="@dimen/common_margin_10"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="运动调养"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical"
+                            android:drawablePadding="@dimen/common_margin_10"
+                            android:drawableLeft="@mipmap/icon_report_result_sport"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_middle_16"/>
+
+
+
+                        <TextView
+                            android:id="@+id/sport"
+                            android:layout_marginTop="@dimen/common_margin_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:lineSpacingExtra="2dp"
+                            android:textColor="@color/global_666666"
+                            android:gravity="start"
+                            android:textSize="@dimen/txt_normal_14"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/health_weeked"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layer_white_bg"
+                    android:orientation="vertical"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginStart="@dimen/common_margin_5"
+                    android:layout_marginEnd="@dimen/common_margin_5"
+                    android:layout_marginBottom="@dimen/common_margin_5">
+
+
+                    <FrameLayout
+                        android:layout_marginTop="@dimen/common_margin_18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:background="@mipmap/icon_report_rect"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="本周数据分析"
+                            android:textColor="@color/global_333333"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="18sp"/>
+                    </FrameLayout>
+
+
+                    <LinearLayout
+                        tools:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin_5"
+                        android:background="@drawable/layer_white_bg"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            tools:visibility="visible"
+                            android:visibility="gone"
+                            android:id="@+id/kcal_linear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/common_margin_30"
+                            android:paddingTop="@dimen/common_margin_30"
+                            android:orientation="horizontal">
+
+
+
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="@dimen/common_margin_20"
+                                    android:layout_height="@dimen/common_margin_20"
+                                    android:background="@mipmap/icon_report_result_walk"/>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+
+                                    <TextView
+                                        android:id="@+id/sport_step"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textStyle="bold"
+                                        android:text="14990"
+                                        android:layout_marginStart="@dimen/common_margin_5"
+                                        android:textColor="@color/global_333333"
+                                        android:textSize="22sp"/>
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="步"
+                                        android:textColor="@color/global_333333"
+                                        android:textSize="@dimen/txt_normal_14"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="@dimen/common_margin_20"
+                                    android:layout_height="@dimen/common_margin_20"
+                                    android:background="@mipmap/icon_report_result_kalorie"/>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/sport_kcal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textStyle="bold"
+                                        android:layout_marginStart="@dimen/common_margin_5"
+                                        android:text="9940"
+                                        android:textColor="@color/global_333333"
+                                        android:textSize="22sp"/>
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="卡"
+                                        android:textColor="@color/global_333333"
+                                        android:textSize="@dimen/txt_normal_14"/>
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <com.github.mikephil.charting.charts.BarChart
+                            android:id="@+id/walk_lineChart"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        tools:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layer_white_bg"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_margin_5"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="血压："
+                                android:textColor="@color/global_333333"
+                                android:gravity="center"
+                                android:textSize="@dimen/txt_normal_14"/>
+
+                            <TextView
+                                android:id="@+id/pressure_status"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="正常"
+                                android:textColor="#30C99A"
+                                android:gravity="center_vertical"
+                                android:textSize="18sp"/>
+
+
+                            <CheckBox
+                                android:id="@+id/bloodpressure_toggle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@null"
+                                android:background="@drawable/selector_health_report_toggle"/>
+                        </LinearLayout>
+
+
+                        <com.gzhealthy.health.widget.MoreTextView
+                            android:id="@+id/bloodpressure_more"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            android:background="@drawable/bg_rect_moretext"
+                            app:moreTextSize="@dimen/sp_12"
+                            app:moreSwitchTextColor="@color/colorAccent"
+                            app:moreTextColor="@color/global_666666"/>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:layout_marginTop="@dimen/common_margin_20"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/circle_high_legend"/>
+
+                                    <TextView
+                                        android:id="@+id/last_week_pressure"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:layout_marginStart="@dimen/common_margin_5"
+                                        android:text="0/0"
+                                        android:textColor="@color/global_333333"
+                                        android:textSize="13sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="mmHg"
+                                        android:textColor="@color/global_333333"
+                                        android:textSize="13sp" />
+                                </LinearLayout>
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="上周均值"
+                                    android:layout_marginStart="@dimen/common_margin_20"
+                                    android:textColor="@color/global_999999"
+                                    android:textSize="@dimen/sp_12" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:paddingStart="@dimen/common_margin_10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/circle_low_legend"/>
+
+
+                                    <TextView
+                                        android:id="@+id/routine_pressure"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="0/0"
+                                        android:layout_marginStart="@dimen/common_margin_5"
+                                        android:textColor="@color/global_333333"
+                                        android:gravity="center"
+                                        android:textSize="@dimen/txt_normal_14"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="mmHg"
+                                        android:textColor="@color/global_333333"
+                                        android:gravity="center"
+                                        android:textSize="@dimen/txt_normal_14"/>
+                                </LinearLayout>
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="常规值"
+                                    android:layout_marginStart="@dimen/common_margin_20"
+                                    android:textColor="@color/global_999999"
+                                    android:gravity="center"
+                                    android:textSize="@dimen/sp_12"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="@dimen/common_margin_20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="mmHg"
+                                android:layout_marginStart="@dimen/common_margin_5"
+                                android:textColor="@color/global_999999"
+                                android:textSize="@dimen/sp_12"/>
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingEnd="@dimen/common_margin_10"
+                                android:gravity="center_vertical|end"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="收缩压"
+                                    android:drawablePadding="@dimen/common_margin_5"
+                                    android:layout_marginEnd="15dp"
+                                    android:textColor="@color/global_999999"
+                                    android:drawableLeft="@drawable/pressure_high_legend"
+                                    android:textSize="@dimen/sp_12"/>
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="舒张压"
+                                    android:textColor="@color/global_999999"
+                                    android:drawablePadding="@dimen/common_margin_5"
+                                    android:drawableLeft="@drawable/pressure_low_legend"
+                                    android:textSize="@dimen/sp_12"/>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/report_lineChart"
+                            android:layout_width="match_parent"
+                            android:layout_marginBottom="@dimen/common_margin_20"
+                            android:layout_height="190dp"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        tools:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layer_white_bg"
+                        android:paddingBottom="@dimen/common_margin_10"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_margin_5"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="心率："
+                                android:textColor="@color/global_333333"
+                                android:gravity="center"
+                                android:textSize="@dimen/txt_normal_14"/>
+
+                            <TextView
+                                android:id="@+id/rate_status"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="正常"
+                                android:textColor="#30C99A"
+                                android:gravity="center_vertical"
+                                android:textSize="18sp"/>
+
+                            <CheckBox
+                                android:id="@+id/rate_toggle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@null"
+                                android:background="@drawable/selector_health_report_toggle"/>
+                        </LinearLayout>
+
+
+                        <com.gzhealthy.health.widget.MoreTextView
+                            android:id="@+id/rate_more"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            android:background="@drawable/bg_rect_moretext"
+                            app:moreTextSize="@dimen/sp_12"
+                            app:moreSwitchTextColor="@color/colorAccent"
+                            app:moreTextColor="@color/global_666666"/>
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:layout_marginTop="@dimen/common_margin_20"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/circle_high_legend"/>
+
+                                    <TextView
+                                        android:layout_marginStart="@dimen/common_margin_10"
+                                        android:id="@+id/last_week_rate"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="0/0"
+                                        android:textColor="@color/global_333333"
+                                        android:gravity="center"
+                                        android:textSize="@dimen/txt_normal_14"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" 次/分"
+                                        android:textColor="@color/global_333333"
+                                        android:gravity="center"
+                                        android:textSize="@dimen/txt_normal_14"/>
+                                </LinearLayout>
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="上周均值"
+                                    android:layout_marginStart="@dimen/common_margin_20"
+                                    android:textColor="@color/global_999999"
+                                    android:gravity="center"
+                                    android:textSize="@dimen/sp_12"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/circle_low_legend"/>
+
+
+                                    <TextView
+                                        android:id="@+id/routine_rate"
+                                        android:layout_marginStart="@dimen/common_margin_10"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="0/0"
+                                        android:textColor="@color/global_333333"
+                                        android:gravity="center"
+                                        android:textSize="@dimen/txt_normal_14"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" 次/分"
+                                        android:textColor="@color/global_333333"
+                                        android:gravity="center"
+                                        android:textSize="@dimen/txt_normal_14"/>
+                                </LinearLayout>
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="常规值"
+                                    android:layout_marginStart="@dimen/common_margin_20"
+                                    android:textColor="@color/global_999999"
+                                    android:gravity="center"
+                                    android:textSize="@dimen/sp_12"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/rateChart"
+                            android:layout_marginTop="@dimen/common_margin_20"
+                            android:layout_marginBottom="@dimen/common_margin_20"
+                            android:layout_width="match_parent"
+                            android:layout_height="190dp"/>
+
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        tools:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layer_white_bg"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_margin_5"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="血氧："
+                                android:textColor="@color/global_333333"
+                                android:gravity="center"
+                                android:textSize="@dimen/txt_normal_14"/>
+
+                            <TextView
+                                android:id="@+id/spo2_status"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="正常"
+                                android:textColor="#30C99A"
+                                android:gravity="center_vertical"
+                                android:textSize="18sp"/>
+
+
+                            <CheckBox
+                                android:id="@+id/spo2_toggle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@null"
+                                android:background="@drawable/selector_health_report_toggle"/>
+                        </LinearLayout>
+
+
+
+                        <com.gzhealthy.health.widget.MoreTextView
+                            android:id="@+id/spo2_more"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            android:background="@drawable/bg_rect_moretext"
+                            app:moreTextSize="@dimen/sp_12"
+                            app:moreSwitchTextColor="@color/colorAccent"
+                            app:moreTextColor="@color/global_666666"/>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:layout_marginTop="@dimen/common_margin_20"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/circle_high_legend"/>
+
+
+                                    <TextView
+                                        android:id="@+id/last_week_spo2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=""
+                                        android:layout_marginStart="@dimen/common_margin_10"
+                                        android:textColor="@color/global_333333"
+                                        android:gravity="center"
+                                        android:textSize="@dimen/txt_normal_14"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=""
+                                        android:textColor="@color/global_333333"
+                                        android:gravity="center"
+                                        android:textSize="@dimen/txt_normal_14"/>
+                                </LinearLayout>
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="上周均值"
+                                    android:layout_marginStart="@dimen/common_margin_20"
+                                    android:textColor="@color/global_999999"
+                                    android:gravity="center"
+                                    android:textSize="@dimen/sp_12"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/circle_low_legend"/>
+
+
+                                    <TextView
+                                        android:id="@+id/routine_spo2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=""
+                                        android:layout_marginStart="@dimen/common_margin_10"
+                                        android:textColor="@color/global_333333"
+                                        android:gravity="center"
+                                        android:textSize="@dimen/txt_normal_14"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=""
+                                        android:textColor="@color/global_333333"
+                                        android:gravity="center"
+                                        android:textSize="@dimen/txt_normal_14"/>
+                                </LinearLayout>
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="常规值"
+                                    android:layout_marginStart="@dimen/common_margin_20"
+                                    android:textColor="@color/global_999999"
+                                    android:gravity="center"
+                                    android:textSize="@dimen/sp_12"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/spo2Chart"
+                            android:layout_marginTop="@dimen/common_margin_20"
+                            android:layout_marginBottom="@dimen/common_margin_20"
+                            android:layout_width="match_parent"
+                            android:layout_height="190dp"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        tools:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layer_white_bg"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:layout_marginTop="@dimen/common_margin_5"
+                            android:layout_marginEnd="@dimen/common_margin_5"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="心电："
+                                android:textColor="@color/global_333333"
+                                android:gravity="center"
+                                android:textSize="@dimen/txt_normal_14"/>
+
+                            <TextView
+                                android:id="@+id/ecg_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="正常"
+                                android:textColor="#30C99A"
+                                android:gravity="center"
+                                android:textSize="18sp"/>
+
+                            <LinearLayout
+                                android:id="@+id/ecg_tips_dialog"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:paddingStart="@dimen/common_margin_5"
+                                android:paddingEnd="@dimen/common_margin_5"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@mipmap/icon_report_ecg_tips"/>
+
+                            </LinearLayout>
+
+
+
+
+                            <TextView
+                                android:id="@+id/ecg_times"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="上周共测量0次"
+                                android:textColor="@color/global_999999"
+                                android:gravity="end"
+                                android:textSize="@dimen/txt_normal_14"/>
+                        </LinearLayout>
+
+
+                        <com.google.android.flexbox.FlexboxLayout
+                            android:id="@+id/ecg_result_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:flexWrap="wrap"
+                            tools:visibility="gone"
+                            android:layout_marginStart="@dimen/common_margin_5"
+                            android:layout_marginEnd="@dimen/common_margin_5"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="@dimen/common_margin_25"
+                            android:orientation="horizontal"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+<!--                <com.github.mikephil.charting.charts.BarChart-->
+<!--                    android:id="@+id/barChart"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="250dp" />-->
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
+

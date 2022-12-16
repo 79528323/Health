@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:openxu="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <View
+            style="@style/div_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_margin_10" />
+
+        <!--头像-->
+        <RelativeLayout
+            android:id="@+id/rl_head"
+            style="@style/re_userinfo"
+            android:layout_height="70dp">
+
+            <TextView
+                style="@style/tv_userinfo_key"
+                android:text="头像" />
+
+
+            <ImageView
+                android:id="@+id/img_userhead_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_general_level_bg" />
+
+            <com.gzhealthy.health.widget.CircleImageView
+                android:id="@+id/img_userhead"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@id/img_userhead_go"
+                android:src="@mipmap/ic_details_map_bg"
+                openxu:border_color="@android:color/white"
+                openxu:border_width="2dp" />
+        </RelativeLayout>
+
+        <View style="@style/margin_div"></View>
+        <!--昵称-->
+        <RelativeLayout
+            android:id="@+id/rl_nick_name"
+            style="@style/re_userinfo"
+            android:layout_height="70dp">
+
+            <TextView
+                style="@style/tv_userinfo_key"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/tv_nickname"
+                android:text="昵称" />
+
+            <ImageView
+                android:id="@+id/tv_nickname_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_general_level_bg" />
+
+            <TextView
+                android:id="@+id/tv_nickname"
+                style="@style/tv_userinfo_value"
+                android:layout_alignParentRight="false"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@id/tv_nickname_go"
+                android:ellipsize="end"
+                android:maxLength="12"
+                android:maxLines="1"
+                tools:text="xxxxxx" />
+        </RelativeLayout>
+
+        <View style="@style/margin_div"></View>
+        <!--用户名-->
+        <RelativeLayout
+            android:id="@+id/rl_user_name"
+            style="@style/re_userinfo"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/tv_userinfo_key"
+                android:layout_alignParentLeft="true"
+                android:text="用户名" />
+
+            <TextView
+                android:id="@+id/tv_username"
+                style="@style/tv_userinfo_value" />
+        </RelativeLayout>
+
+        <View
+            style="@style/margin_div"
+            android:visibility="gone" />
+        <!--用户名-->
+        <RelativeLayout
+            android:id="@+id/rl_realname"
+            style="@style/re_userinfo"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/tv_userinfo_key"
+                android:text="实名认证" />
+
+            <TextView
+                android:id="@+id/tv_real_name"
+                style="@style/tv_userinfo_value"
+                android:ellipsize="end"
+                android:maxLength="12"
+                android:maxLines="1"
+                android:text="未认证" />
+
+            <ImageView
+                android:id="@+id/iv_verified"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_general_level_bg" />
+        </RelativeLayout>
+
+        <View
+            style="@style/div_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_margin_10"
+            android:visibility="gone" />
+        <!--姓名-->
+        <RelativeLayout
+            android:id="@+id/rl_name"
+            style="@style/re_userinfo"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/tv_userinfo_key"
+                android:text="姓名" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/tv_userinfo_value"
+                android:ellipsize="end"
+                android:maxLength="12"
+                android:maxLines="1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_general_level_bg"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            style="@style/margin_div"
+            android:visibility="gone" />
+        <!--手机号码-->
+        <RelativeLayout
+            android:id="@+id/rl_user_phone"
+            style="@style/re_userinfo"
+            android:layout_height="70dp">
+
+            <TextView
+                style="@style/tv_userinfo_key"
+                android:ellipsize="end"
+                android:maxLength="12"
+                android:maxLines="1"
+                android:text="手机号码" />
+
+
+            <ImageView
+                android:id="@+id/tv_phone_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_general_level_bg"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                style="@style/tv_userinfo_value"
+                android:layout_alignParentRight="false"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@id/tv_phone_go"
+                tools:text="xxxxxx" />
+        </RelativeLayout>
+
+        <View style="@style/margin_div"></View>
+        <!--生日-->
+        <RelativeLayout
+            android:id="@+id/rl_user_birday"
+            style="@style/re_userinfo"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/tv_userinfo_key"
+                android:text="生日" />
+
+            <TextView
+                android:id="@+id/tv_birthday"
+                style="@style/tv_userinfo_value" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_general_level_bg" />
+        </RelativeLayout>
+
+        <!--        <View style="@style/margin_div"-->
+        <!--            android:visibility="gone"/>-->
+        <!--        &lt;!&ndash;性别&ndash;&gt;-->
+        <!--        <RelativeLayout-->
+        <!--            android:id="@+id/rl_user_sex"-->
+        <!--            style="@style/re_userinfo">-->
+
+        <!--            <TextView-->
+        <!--                style="@style/tv_userinfo_key"-->
+        <!--                android:text="性别" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_sex"-->
+        <!--                style="@style/tv_userinfo_value"-->
+        <!--                tools:text="未知" />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_alignParentRight="true"-->
+        <!--                android:layout_centerInParent="true"-->
+        <!--                android:src="@mipmap/ic_general_level_bg" />-->
+        <!--        </RelativeLayout>-->
+
+        <!--        <View-->
+        <!--            style="@style/div_style"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="@dimen/album_dp_10"></View>-->
+        <!--        &lt;!&ndash;邮箱&ndash;&gt;-->
+        <!--        <RelativeLayout-->
+        <!--            android:id="@+id/rl_email"-->
+        <!--            style="@style/re_userinfo">-->
+
+        <!--            <TextView-->
+        <!--                style="@style/tv_userinfo_key"-->
+        <!--                android:text="邮箱" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_email"-->
+        <!--                style="@style/tv_userinfo_value" />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_alignParentRight="true"-->
+        <!--                android:layout_centerInParent="true"-->
+        <!--                android:src="@mipmap/ic_general_level_bg" />-->
+        <!--        </RelativeLayout>-->
+
+        <!--        <View style="@style/margin_div"></View>-->
+        <!--        &lt;!&ndash;常住城市&ndash;&gt;-->
+        <!--        <RelativeLayout-->
+        <!--            android:id="@+id/rl_city"-->
+        <!--            style="@style/re_userinfo">-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_key_place"-->
+        <!--                style="@style/tv_userinfo_key"-->
+        <!--                android:layout_alignParentLeft="true"-->
+        <!--                android:text="常住城市" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_city"-->
+        <!--                style="@style/tv_userinfo_value"-->
+        <!--                android:layout_toRightOf="@+id/tv_key_place"-->
+        <!--                android:ellipsize="end"-->
+        <!--                android:gravity="right|center_vertical"-->
+        <!--                android:singleLine="true" />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_alignParentRight="true"-->
+        <!--                android:layout_centerInParent="true"-->
+        <!--                android:src="@mipmap/ic_general_level_bg" />-->
+        <!--        </RelativeLayout>-->
+
+        <!--        <View style="@style/margin_div"></View>-->
+        <!--        &lt;!&ndash;详细地址&ndash;&gt;-->
+        <!--        <RelativeLayout-->
+        <!--            android:id="@+id/rl_detail_place"-->
+        <!--            style="@style/re_userinfo">-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_key_place_detail"-->
+        <!--                style="@style/tv_userinfo_key"-->
+        <!--                android:text="详细地址" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_detail_palce"-->
+        <!--                style="@style/tv_userinfo_value"-->
+        <!--                android:layout_toRightOf="@+id/tv_key_place_detail"-->
+        <!--                android:ellipsize="end"-->
+        <!--                android:gravity="center_vertical|right"-->
+        <!--                android:maxLength="64"-->
+        <!--                android:maxLines="1" />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_alignParentRight="true"-->
+        <!--                android:layout_centerInParent="true"-->
+        <!--                android:src="@mipmap/ic_general_level_bg" />-->
+        <!--        </RelativeLayout>-->
+
+        <!--        <View style="@style/margin_div"></View>-->
+        <!--        &lt;!&ndash;婚姻&ndash;&gt;-->
+        <!--        <RelativeLayout-->
+        <!--            android:id="@+id/rl_marryed"-->
+        <!--            style="@style/re_userinfo">-->
+
+        <!--            <TextView-->
+        <!--                style="@style/tv_userinfo_key"-->
+        <!--                android:text="婚姻" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_marrayed"-->
+        <!--                style="@style/tv_userinfo_value" />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_alignParentRight="true"-->
+        <!--                android:layout_centerInParent="true"-->
+        <!--                android:src="@mipmap/ic_general_level_bg" />-->
+        <!--        </RelativeLayout>-->
+
+        <!--        <View style="@style/margin_div"/>-->
+        <!--        &lt;!&ndash;学历&ndash;&gt;-->
+        <!--        <RelativeLayout-->
+        <!--            android:visibility="gone"-->
+        <!--            android:id="@+id/lr_education"-->
+        <!--            style="@style/re_userinfo">-->
+
+        <!--            <TextView-->
+        <!--                style="@style/tv_userinfo_key"-->
+        <!--                android:text="学历" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_education"-->
+        <!--                style="@style/tv_userinfo_value" />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_alignParentRight="true"-->
+        <!--                android:layout_centerInParent="true"-->
+        <!--                android:src="@mipmap/ic_general_level_bg" />-->
+        <!--        </RelativeLayout>-->
+
+        <!--        <View style="@style/margin_div"-->
+        <!--            android:visibility="gone"/>-->
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

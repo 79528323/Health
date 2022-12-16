@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_global_margin">8dip</dimen>
+    <dimen name="app_global_txt_space">3dip</dimen>
+    <dimen name="app_global_divider_height">1dip</dimen>
+    <dimen name="app_global_padding">8dip</dimen>
+    <dimen name="app_global_module_space">6dp</dimen>
+    <dimen name="btn_corner">6dp</dimen>
+    <dimen name="btn_border">2dp</dimen>
+
+    <!--text size-->
+    <dimen name="txt_normal">14sp</dimen>
+    <dimen name="txt_normal_14">14sp</dimen>
+    <dimen name="txt_middle_16">16sp</dimen>
+    <dimen name="txt_small">12sp</dimen>
+    <dimen name="txt_large">18sp</dimen>
+    <dimen name="txt_xlarge">20sp</dimen>
+    <dimen name="txt_micro">10sp</dimen>
+    <dimen name="txt_xmicro">8sp</dimen>
+    <dimen name="txt_size_40">40sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_bar_height">48.0dip</dimen>
+
+    <!--分割线-->
+    <dimen name="global_line_divide_height">1dp</dimen>
+    <dimen name="tab_height_main">170px</dimen>
+
+
+    <dimen name="tab_txt_size">38px</dimen>
+    <dimen name="item_set_height">45dp</dimen>
+
+    <!--栏目  如设置里各个栏目 字体大小-->
+    <dimen name="txt_title_pop">16sp</dimen>
+    <dimen name="txt_title_set">16sp</dimen>
+
+    <dimen name="txt_title_et">16sp</dimen>
+    <dimen name="txt_title_menu">18sp</dimen>
+    <!-- html字体 -->
+    <dimen name="global_html_txt">16sp</dimen>
+
+
+    <!-- 间隙. -->
+    <dimen name="global_space">12dp</dimen>
+
+    <!--按钮-->
+    <dimen name="menu_height">45dp</dimen>
+    <dimen name="menu_magin_lr">25dp</dimen>
+    <dimen name="menu_magin_tb">30dp</dimen>
+
+    <!-- 分割线左边距 -->
+    <dimen name="global_magin_x">42px</dimen>
+    <dimen name="global_magin">12dp</dimen>
+    <!-- 分割线左边距 -->
+    <dimen name="tab_top">20px</dimen>
+    <dimen name="common_margin_6">6dp</dimen>
+    <dimen name="common_margin_1">1dp</dimen>
+    <dimen name="common_margin_2">2dp</dimen>
+    <dimen name="common_margin_3">3dp</dimen>
+    <dimen name="common_margin_4">4dp</dimen>
+    <dimen name="common_margin_5">5dp</dimen>
+    <dimen name="common_margin_10">10dp</dimen>
+    <dimen name="common_margin_8">8dp</dimen>
+    <dimen name="common_margin_18">18dp</dimen>
+    <dimen name="common_margin_12">12dp</dimen>
+    <dimen name="common_margin_16sp">16sp</dimen>
+    <dimen name="common_margin_27">27dp</dimen>
+    <dimen name="common_margin">15dp</dimen>
+    <dimen name="common_margin_20">20dp</dimen>
+    <dimen name="common_margin_30">30dp</dimen>
+    <dimen name="common_margin_24">24dp</dimen>
+    <dimen name="common_margin_25">25dp</dimen>
+    <dimen name="common_margin_40">40dp</dimen>
+    <dimen name="common_margin_45">45dp</dimen>
+    <dimen name="common_margin_50">50dp</dimen>
+    <dimen name="common_margin_60">60dp</dimen>
+    <dimen name="common_margin_80">80dp</dimen>
+    <dimen name="common_margin_210">210dp</dimen>
+    <dimen name="common_margin_200">200dp</dimen>
+    <dimen name="common_text_size">14sp</dimen>
+    <dimen name="global_magin_left_small">12dp</dimen>
+    <dimen name="divider_height">0.5dp</dimen>
+    <dimen name="input_method_spacing">1dp</dimen>
+
+    <!--尺寸规范-->
+    <dimen name="global_title_height">72dp</dimen>
+    <dimen name="global_title_view_width">90px</dimen>
+    <dimen name="global_title_view_height">90px</dimen>
+    <dimen name="global_title_view_width_left_ib">150px</dimen>
+    <dimen name="global_title_view_magin">40px</dimen>
+    <dimen name="global_title_view_magin_tv">60px</dimen>
+
+    <dimen name="dp_70">70dp</dimen><!--保单列表删除控件的宽度-->
+    <dimen name="dp_27">27dp</dimen><!--个人中心页头像下边距-->
+
+    <dimen name="dp_16">16sp</dimen><!--个人中心页云返兌换积分上字体大小-->
+    <dimen name="dp_12">12sp</dimen><!--个人中心页云返兌换积分上字体大小-->
+    <dimen name="dp_11">12sp</dimen><!--个人中心页云返兌换积分上字体大小-->
+    <dimen name="dp_45">45dp</dimen><!--个人中心页选项高度-->
+    <dimen name="dp_120">120dp</dimen><!--个人中心页我的积分内容高度-->
+
+    <!--车型配置页面内容高度-->
+    <dimen name="dimen_size_3dp">3dp</dimen>
+    <dimen name="dimen_size_50dp">50dp</dimen>
+    <dimen name="dimen_size_75dp">75dp</dimen>
+    <dimen name="dimen_size_95dp">95dp</dimen>
+    <dimen name="dimen_size_60dp">60dp</dimen>
+
+    <dimen name="default_corner_radius">4dp</dimen>
+    <dimen name="default_shadow_radius">4dp</dimen>
+
+    <!-- 日历定义的一些尺寸 -->
+    <dimen name="text_size_day">12sp</dimen>
+    <dimen name="text_size_tag">8sp</dimen>
+    <dimen name="text_size_month">16sp</dimen>
+    <dimen name="text_size_day_name">20sp</dimen>
+    <dimen name="header_month_height">50dip</dimen>
+    <dimen name="selected_day_radius">25dip</dimen>
+    <dimen name="calendar_height">400dip</dimen>
+
+
+    <dimen name="health_file_select_padding">@dimen/common_margin_20</dimen>
+    <dimen name="health_file_select_textsize">@dimen/sp_16</dimen>
+
+    <dimen name="mine_setting_lay_padding">20dp</dimen>
+
+    <dimen name="layer_padding">2dp</dimen>
+
+    <dimen name="cardView_margin">5dp</dimen>
+</resources>

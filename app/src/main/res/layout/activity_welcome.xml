@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.youth.banner.Banner xmlns:banner="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/banner"
+            banner:banner_indicator_normal_color="@color/colorPrimary"
+            banner:banner_indicator_selected_color="@color/global_999999"
+            banner:banner_indicator_normal_width="@dimen/dp_10"
+            banner:banner_indicator_selected_width="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/btn_banner_into"
+            android:layout_gravity="center_horizontal|bottom"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:layout_marginBottom="@dimen/dp_120"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_lauch_bg"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="开启体安生活"
+            android:textSize="16sp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_welocom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:visibility="gone"
+        android:background="@drawable/shape_welcome_bg">
+
+        <ImageView
+            android:layout_marginTop="-100dp"
+            android:layout_width="115dp"
+            android:layout_height="47dp"
+            android:background="@mipmap/icon_wel_1" />
+
+
+        <ImageView
+            android:layout_marginTop="@dimen/common_margin_20"
+            android:layout_width="179dp"
+            android:layout_height="21dp"
+            android:background="@mipmap/icon_wel_2" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 边 -->
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/layer_padding"
+                android:left="@dimen/layer_padding"
+                android:right="@dimen/layer_padding"
+                android:top="@dimen/layer_padding" />
+            <solid android:color="#00CCCCCC" />
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/layer_padding"
+                android:left="@dimen/layer_padding"
+                android:right="@dimen/layer_padding"
+                android:top="@dimen/layer_padding" />
+            <solid android:color="#03CCCCCC" />
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/layer_padding"
+                android:left="@dimen/layer_padding"
+                android:right="@dimen/layer_padding"
+                android:top="@dimen/layer_padding" />
+            <solid android:color="#06CCCCCC" />
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/layer_padding"
+                android:left="@dimen/layer_padding"
+                android:right="@dimen/layer_padding"
+                android:top="@dimen/layer_padding" />
+            <solid android:color="#09CCCCCC" />
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/layer_padding"
+                android:left="@dimen/layer_padding"
+                android:right="@dimen/layer_padding"
+                android:top="@dimen/layer_padding" />
+            <solid android:color="#12CCCCCC" />
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+
+    <!-- 中心背景 -->
+    <item>
+        <shape android:shape="rectangle"
+            android:useLevel="false">
+            <!-- 实心 -->
+            <solid android:color="#ffffff" />
+            <corners android:radius="@dimen/common_margin_10" />
+            <padding android:left="@dimen/common_margin_10"
+                android:right="@dimen/common_margin_10"
+                android:top="@dimen/common_margin_10"
+                android:bottom="@dimen/common_margin_10"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.qianwen:okhttp-utils:3.8.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a205e7081be63dea83511971fdb1f9d0/jetified-okhttp-utils-3.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a205e7081be63dea83511971fdb1f9d0/jetified-okhttp-utils-3.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a205e7081be63dea83511971fdb1f9d0/jetified-okhttp-utils-3.8.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qianwen/okhttp-utils/3.8.0/b028367934c62e676f00c0cfb77d68798eb1a0ae/okhttp-utils-3.8.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qianwen/okhttp-utils/3.8.0/348c36442f3fa6c3d966c39586f55476e1e4464a/okhttp-utils-3.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

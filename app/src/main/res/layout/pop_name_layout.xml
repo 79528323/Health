@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/global_bg_list"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/ll_style_normal">
+
+            <com.gzhealthy.health.widget.edittext.ClearableEditText
+                android:id="@+id/et_name"
+                style="@style/tv_regist_hint"
+                android:hint="请输入姓名"
+                android:inputType="text"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:singleLine="true"
+                android:textColor="@color/text_color_1"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/global_eeeeee" />
+
+        <TextView
+            android:id="@+id/tv_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/global_999999" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#eeeeee" />
+
+        <TextView
+            android:id="@+id/tv_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/global_999999" />
+    </LinearLayout>
+
+</LinearLayout>

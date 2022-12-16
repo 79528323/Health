@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./jiguang/libs/push_sdk_v3.0.0.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jiguang/libs/push_sdk_v3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

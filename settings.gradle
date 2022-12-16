@@ -1,0 +1,7 @@
+include ':jiguang'
+include ':MPChartLib'
+include ':updateapp'
+include ':SwipeBackLayout'
+include ':PacketRecyclerView'
+include ':app'
+rootProject.name = "Health"

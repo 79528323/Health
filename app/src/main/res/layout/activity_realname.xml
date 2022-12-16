@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View style="@style/div_style">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="@dimen/common_margin_30"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@dimen/common_margin_30"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:textColor="@color/text_color_2"
+            android:textSize="@dimen/sp_16" />
+
+        <com.gzhealthy.health.widget.edittext.ClearableEditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="请输入姓名"
+            android:textColor="@color/text_color_1"
+            android:textSize="@dimen/sp_16" />
+    </LinearLayout>
+
+    <View
+        style="@style/div_style"
+        android:layout_marginLeft="@dimen/common_margin_30"
+        android:layout_marginRight="@dimen/common_margin_30">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="@dimen/common_margin_30"
+        android:layout_marginRight="@dimen/common_margin_30"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="身份证号"
+            android:textColor="@color/text_color_2"
+            android:textSize="@dimen/sp_16" />
+
+        <com.gzhealthy.health.widget.edittext.ClearableEditText
+            android:id="@+id/et_cardno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="请输入身份证号码"
+            android:textColor="@color/text_color_1"
+            android:textSize="@dimen/sp_16" />
+    </LinearLayout>
+
+    <View
+        style="@style/div_style"
+        android:layout_marginLeft="@dimen/common_margin_30"
+        android:layout_marginRight="@dimen/common_margin_30">
+
+    </View>
+
+    <TextView
+        android:id="@+id/tv_commit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="@dimen/common_margin_30"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="@dimen/common_margin_30"
+        android:background="@drawable/btn_commit"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

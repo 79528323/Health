@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="Gradle: :yunpay-debug:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/375576d4549247072808f1f3442e9d07/jetified-yunpay-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/375576d4549247072808f1f3442e9d07/jetified-yunpay-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/375576d4549247072808f1f3442e9d07/jetified-yunpay-debug/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/41b3b37537a7553c6607298b10320d7c/jetified-yunpay-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/41b3b37537a7553c6607298b10320d7c/jetified-yunpay-debug/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/41b3b37537a7553c6607298b10320d7c/jetified-yunpay-debug/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c37de680990bec6ebd3683e827009093/jetified-yunpay-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c37de680990bec6ebd3683e827009093/jetified-yunpay-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c37de680990bec6ebd3683e827009093/jetified-yunpay-debug/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abb29b5d6e3611409e147530881ae5b7/jetified-yunpay-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abb29b5d6e3611409e147530881ae5b7/jetified-yunpay-debug/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abb29b5d6e3611409e147530881ae5b7/jetified-yunpay-debug/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9bc26d67c76e64e178cd6b42ff7dec68/jetified-yunpay-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9bc26d67c76e64e178cd6b42ff7dec68/jetified-yunpay-debug/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9bc26d67c76e64e178cd6b42ff7dec68/jetified-yunpay-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/84e7f54cd9dd64eee103a4c2b3cd09ca/jetified-yunpay-debug/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/84e7f54cd9dd64eee103a4c2b3cd09ca/jetified-yunpay-debug/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/84e7f54cd9dd64eee103a4c2b3cd09ca/jetified-yunpay-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1c95039dab46ad0597dfc6a138fb0610/jetified-yunpay-debug/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1c95039dab46ad0597dfc6a138fb0610/jetified-yunpay-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1c95039dab46ad0597dfc6a138fb0610/jetified-yunpay-debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

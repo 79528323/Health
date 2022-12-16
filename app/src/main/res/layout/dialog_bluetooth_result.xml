@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="270dp"
+    android:layout_height="415dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@mipmap/bg_bluetooth_result"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_margin_25"
+            android:background="@mipmap/icon_bluetooth_logo"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="消毒完成"
+            android:layout_marginTop="9dp"
+            android:textColor="#00C9B4"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="27dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:text="本次餐具消毒耗时 8分21秒，成功消除"
+                android:textSize="12sp"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/global_333333"/>
+
+
+            <TextView
+                android:id="@+id/tx_rate1_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:text="大肠杆茵98%的危害"
+                android:textSize="12sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/global_333333"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/parbar1"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_weight="1"
+                    android:progress="58"
+                    android:max="100"
+                    android:layout_marginEnd="8dp"
+                    android:progressDrawable="@drawable/layer_progress_horizontal"
+                    style="?android:attr/progressBarStyleHorizontal"/>
+
+                <TextView
+                    android:id="@+id/tv_ra1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:textSize="10sp"
+                    android:textColor="#29D9C7"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tx_rate2_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:text="农药残留98%的危害"
+                android:textSize="12sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/global_333333"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/parbar2"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:progressDrawable="@drawable/layer_progress_horizontal"/>
+
+                <TextView
+                    android:id="@+id/tv_ra2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:textSize="10sp"
+                    android:textColor="#29D9C7"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tx_rate3_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:text="激素残留98%的危害"
+                android:textSize="12sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/global_333333"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/parbar3"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_weight="1"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_marginEnd="8dp"
+                    android:progressDrawable="@drawable/layer_progress_horizontal"/>
+
+                <TextView
+                    android:id="@+id/tv_ra3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:textSize="10sp"
+                    android:textColor="#29D9C7"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体安优品，尽享健康新生活"
+            android:textSize="12sp"
+            android:layout_marginTop="16dp"
+            android:textColor="#1DC0AF"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginHorizontal="@dimen/common_margin_20"
+            android:layout_marginTop="@dimen/common_margin_10"
+            android:layerType="software"
+            android:background="@drawable/bg_dash_line"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分享我的消毒成果"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/global_333333"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_weixin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_share_wechat"
+                    android:gravity="center"
+                    android:textSize="@dimen/sp_12"
+                    android:textColor="@color/global_666666" />
+
+                <TextView
+                    android:id="@+id/tv_friends"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_share_wechat_friend"
+                    android:gravity="center"
+                    android:textSize="@dimen/sp_12"
+                    android:textColor="@color/global_666666" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/common_margin_30"
+        android:padding="@dimen/common_margin_10"
+        android:src="@mipmap/icon_dialog_qr_close"/>
+
+</LinearLayout>

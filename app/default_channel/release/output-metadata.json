@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.gzhealthy.health",
+  "variantName": "default_channelRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "enabled": true,
+      "outputFile": "health_v1.0.0_default_channel_2021.01.22_release.apk"
+    }
+  ]
+}

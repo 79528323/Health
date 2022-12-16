@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fl_base_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/ll_wait_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:gravity="center"
+            android:background="@drawable/shape_dialog_waiting_bg"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+
+            <ImageView
+                android:id="@+id/loadingIv"
+                android:layout_width="@dimen/common_margin_50"
+                android:layout_height="@dimen/common_margin_50"
+                tools:background="@drawable/icon_gif_loading"/>
+
+            <TextView
+                android:id="@+id/loadingTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="加载中..."
+                tools:text="正在登录..."
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_normal_14" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

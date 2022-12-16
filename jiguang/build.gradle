@@ -1,0 +1,65 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        consumerProguardFiles 'consumer-rules.pro'
+
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : "com.gzhealthy.health",
+                JPUSH_APPKEY : "8745d16aaeb46bf7b8c64c15", //JPush 上注册的包名对应的 Appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+
+                // 设置manifest.xml中的变量
+                XIAOMI_APPKEY : "MI-5581990691317", // 小米平台注册的appkey,注意不要将前缀去掉 MI-appkey
+                XIAOMI_APPID : "MI-2882303761519906317", // 小米平台注册的appid，注意不要将前缀去掉 MI-appid
+
+                OPPO_APPKEY   : "OP-92b8a660d15a42f3888d927df2f0f6ba",
+                OPPO_APPID    : "OP-30520145",
+                OPPO_APPSECRET: "OP-7893f558af4544d1a21540eab455bf29",
+
+                VIVO_APPKEY   : "5e434d6f59406a1be99261ca994c4e14",
+                VIVO_APPID    : "105478982",
+        ]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    compileOnly fileTree(dir: 'libs', include: ["*.aar"])
+
+    //huawei_dependencies_start
+    //华为请按照厂商文档配置主 gradle 华为镜像依赖和添加 agconnect-services.json 后再打开此依赖
+    implementation 'com.huawei.hms:push:5.0.2.300'
+    //huawei_dependencies_end
+
+
+}
+

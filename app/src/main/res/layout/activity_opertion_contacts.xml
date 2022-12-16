@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="1dp"
+    android:background="@color/gray_bg"
+    tools:context=".activity.InsertSosContactsActivity">
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:paddingStart="@dimen/common_margin_20"
+        android:paddingEnd="@dimen/common_margin_20"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:src="@drawable/bg_mine_white">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="添加紧急联系人"
+            android:layout_weight="1"
+            android:textSize="@dimen/txt_middle_16"
+            android:textColor="#333333"
+            android:gravity="start"/>
+
+        <com.gzhealthy.health.widget.edittext.ClearableEditText
+            android:id="@+id/name"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/tv_regist_hint"
+            android:text=""
+            android:hint="请填写紧急联系人姓名"
+            android:paddingStart="@dimen/common_margin_10"
+            android:background="@null"
+            android:textSize="@dimen/txt_middle_16"
+            android:textColor="#333333"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:background="#e9e9e9"/>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="20sp"
+        android:src="@drawable/bg_mine_white">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="联系电话"
+            android:layout_weight="1"
+            android:textSize="@dimen/txt_middle_16"
+            android:textColor="#333333"
+            android:gravity="start"/>
+
+        <com.gzhealthy.health.widget.edittext.ClearableEditText
+            android:id="@+id/phone"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            style="@style/tv_regist_hint"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="number"
+            android:hint="请填写紧急联系人电话"
+            android:paddingStart="@dimen/common_margin_10"
+            android:background="@null"
+            android:textSize="@dimen/txt_middle_16"
+            android:textColor="#333333"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:text="删除联系人"
+        android:textSize="18sp"
+        android:background="@color/white"
+        android:textColor="#13D1AE"
+        android:gravity="center"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/common_margin_10"
+            android:text=""
+            android:layout_marginStart="@dimen/common_margin_40"
+            android:layout_marginEnd="@dimen/common_margin_40"
+            android:textSize="18sp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/common_margin_40"
+            android:background="@drawable/button_nomal"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+    </FrameLayout>
+
+</LinearLayout>

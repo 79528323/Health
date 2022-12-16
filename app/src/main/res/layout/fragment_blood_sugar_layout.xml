@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/viewline"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F8F8F8"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/common_margin_1"
+                android:background="@drawable/bg_rect_radius">
+
+
+<!--                <com.gzhealthy.health.widget.HealthDateChoiceView-->
+<!--                    android:id="@+id/healthChoiceView"-->
+<!--                    android:visibility="gone"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                </com.gzhealthy.health.widget.HealthDateChoiceView>-->
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/common_margin_20"
+                    android:id="@+id/avg_sugar"
+                    android:drawablePadding="@dimen/common_margin_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="血糖  mmol/L"
+                    android:textStyle="bold"
+                    android:layout_marginStart="15dp"
+                    android:drawableStart="@mipmap/icon_sugar"
+                    android:textColor="#333333"
+                    android:textSize="@dimen/txt_title_et"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/start_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/global_html_txt"/>
+
+
+                    <TextView
+                        android:id="@+id/end_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/global_html_txt"/>
+
+                </LinearLayout>
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/linechart"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
+                </com.github.mikephil.charting.charts.LineChart>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/common_margin_20"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/global_666666"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:drawableLeft="@drawable/shape_indicator_hunger"
+                        android:text="餐前"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/global_666666"
+                        android:layout_marginStart="15dp"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:drawableLeft="@drawable/shape_indicator_meal"
+                        android:text="餐后"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/global_666666"
+                        android:layout_marginStart="15dp"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:drawableLeft="@drawable/shape_indicator_sugar"
+                        android:text="糖尿病史"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/common_margin_18"
+                    android:paddingEnd="@dimen/common_margin_25"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin_2"
+                        android:background="@drawable/icon_attention"/>
+
+                    <TextView
+                        android:text="@string/sugar_attention"
+                        android:gravity="top"
+                        android:layout_marginStart="@dimen/common_margin_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/global_999999"
+                        android:lineSpacingExtra="1.3dp"
+                        android:layout_marginBottom="@dimen/common_margin_20"
+                        android:textSize="@dimen/sp_12"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="22dp"
+                android:layout_marginVertical="@dimen/common_margin_10"
+                android:background="@drawable/bg_rect_radius"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/rercord_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_sugar_rec_add"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/common_margin_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="建议每周更新一下血糖记录"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:background="@drawable/bg_rect_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:drawableStart="@drawable/icon_rate2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="今日概览"
+                        android:textStyle="bold"
+                        android:drawablePadding="@dimen/common_margin_5"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_marginTop="35dp"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="最高血糖值"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:textSize="@dimen/txt_normal"/>-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/rate_avgs"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text=""-->
+<!--                            android:textColor="@color/global_333333"-->
+<!--                            android:textSize="@dimen/txt_normal"/>-->
+
+
+<!--                    </LinearLayout>-->
+
+<!--                    <View-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="1px"-->
+<!--                        android:layout_marginTop="@dimen/common_margin_20"-->
+<!--                        android:background="@color/gray_bg"/>-->
+
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/common_margin_25"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="最高血糖值"
+                            android:layout_weight="1"
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal"/>
+
+                        <TextView
+                            android:id="@+id/sugar_hight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal"/>
+
+
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="@dimen/common_margin_20"
+                        android:background="@color/gray_bg"/>
+
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/common_margin_25"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="最低血糖值"
+                            android:textColor="@color/global_333333"
+                            android:layout_weight="1"
+                            android:textSize="@dimen/txt_normal"/>
+
+                        <TextView
+                            android:id="@+id/sugar_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/global_333333"
+                            android:textSize="@dimen/txt_normal"/>
+
+
+                    </LinearLayout>
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="@dimen/common_margin_20"
+                        android:background="@color/gray_bg"/>
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="血糖"
+                    android:drawablePadding="@dimen/common_margin_5"
+                    android:drawableStart="@drawable/circle_sugar_legend"
+                    android:textSize="@dimen/txt_middle_16"
+                    android:textColor="@color/global_333333"/>
+
+
+                <TextView
+                    android:id="@+id/sugar_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="@dimen/common_margin_10"
+                    android:lineSpacingExtra="2.5dp"
+                    tools:text="血液中的葡萄糖称为血糖。葡萄糖是人体的重要组成成分，也是能量的重要来源。正常人体每天需要很多的糖来提供能量，为各种组织、脏器的正常动作提供动力"
+                    android:textSize="@dimen/txt_normal_14"
+                    android:textColor="@color/global_666666"/>
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/common_margin_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一般正常血糖参考值："
+                    android:layout_marginStart="15dp"
+                    android:textSize="@dimen/txt_normal_14"
+                    android:textColor="@color/global_333333"/>
+
+
+
+                <TextView
+                    android:id="@+id/sugar_reference"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一般空腹：3.92-6.16mmol/L"
+                    android:background="@drawable/bg_rect_health2"
+                    android:textSize="@dimen/sp_12"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="@dimen/common_margin_10"
+                    android:padding="@dimen/common_margin_10"
+                    android:textColor="#FF9330"/>
+            </LinearLayout>
+
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/glu_flag_lay"-->
+<!--                android:visibility="gone"-->
+<!--                tools:visibility="visible"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/bg_bloodsugar_has"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:paddingStart="19dp"-->
+<!--                android:paddingTop="15dp"-->
+<!--                android:paddingEnd="@dimen/common_margin_24"-->
+<!--                android:layout_marginBottom="@dimen/album_dp_100"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:layout_marginEnd="@dimen/common_margin_30"-->
+<!--                    android:layout_marginBottom="@dimen/common_margin_20"-->
+<!--                    android:textSize="@dimen/album_sp_14"-->
+<!--                    android:text="@string/blood_sugar_has"/>-->
+
+
+<!--                <TextView-->
+<!--                    android:id="@+id/glu_flag"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="#FF9E44"-->
+<!--                    android:text="去记录"-->
+<!--                    android:gravity="center"-->
+<!--                    android:background="@drawable/bg_bloodsugar_radius"-->
+<!--                    android:textSize="@dimen/album_sp_14"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
+
